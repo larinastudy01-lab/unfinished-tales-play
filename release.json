@@ -1,0 +1,547 @@
+{
+  "game": "Candy House Adventure",
+  "gameCommit": "a6df1ef0d6e6c5d433f76b09046a048f46299b9b",
+  "builtAt": "2026-11-21T17:53:58.616Z",
+  "files": [
+    {
+      "file": "assets/01-qs-2_TRh.webp",
+      "bytes": 3247078,
+      "sha256": "32ed4ee9b9fac49f4388bb470ec2d899b45d8724202235ab0799f3bfdf2417a7"
+    },
+    {
+      "file": "assets/02-N2qPYUMF.webp",
+      "bytes": 3325248,
+      "sha256": "b39267721cb4ec4f2f91d89c9c50fa2075a8966a3f0e50aecb0007a0ac56852b"
+    },
+    {
+      "file": "assets/03-CjWNqa6l.webp",
+      "bytes": 3191321,
+      "sha256": "6154a2ab924ad97533ed670bcce0409f8a7feac3080752e6c5812adb9bfcbe86"
+    },
+    {
+      "file": "assets/04-C0o2JB5l.webp",
+      "bytes": 3189941,
+      "sha256": "fd2a6ab653aa1bc9c50ccb329ce069c83aa589edcf52c730c670fce87c699bed"
+    },
+    {
+      "file": "assets/05-tl67djo9.webp",
+      "bytes": 3048249,
+      "sha256": "750bcf69f4fc63160a439f3fcc9f4fdd4bd7204608736fb4d887629401af5b03"
+    },
+    {
+      "file": "assets/06-BIBrVqVF.webp",
+      "bytes": 2875839,
+      "sha256": "7e179d7d3fc6d038e3912838edbbc0e120452c00e8d05bb55660b8638040a1a3"
+    },
+    {
+      "file": "assets/07-DTzRyetv.webp",
+      "bytes": 2993274,
+      "sha256": "5d8fabadae180bf7e9979725ae0155f418f19e28d8164269b9628991d9920494"
+    },
+    {
+      "file": "assets/08-CcdC4M2g.webp",
+      "bytes": 3031870,
+      "sha256": "408b74114bb6d2400885fc816e5468a75c3c9f237f8d2fba923aaeb6c3674285"
+    },
+    {
+      "file": "assets/09-CdDKJUHA.webp",
+      "bytes": 3070750,
+      "sha256": "21905731806548cf42085a3c53bd0e068194dec08c99f57dd776d0f1b1541f38"
+    },
+    {
+      "file": "assets/1-CQkgKtEL.webp",
+      "bytes": 2074321,
+      "sha256": "073aa4b9edc5d43c0b944a41cde29fe2c1f091dd113535a02124c3c1e8c58e2c"
+    },
+    {
+      "file": "assets/1-D5u9CSjW.webp",
+      "bytes": 1130662,
+      "sha256": "fa6605d83f4610c310371d3027bd35cf1ea867dcf9f7626235a1cca66f707247"
+    },
+    {
+      "file": "assets/1-FZ9CIfth.webp",
+      "bytes": 1203484,
+      "sha256": "2c0085d939f98cce8aba33d808a0eb9265a25b52738651bc87d93cd5453967e0"
+    },
+    {
+      "file": "assets/10-DVxTG5t7.webp",
+      "bytes": 2997297,
+      "sha256": "92a518bea7e2ffa71cd1fb376201ed4a4bb6d50ea0eb96009d36890d248dd2f0"
+    },
+    {
+      "file": "assets/10-MdFfVAqf.webp",
+      "bytes": 1769561,
+      "sha256": "1aea4444c304d26d1bd396b521218a1ece0b6ad478888374466f38216d6d82e5"
+    },
+    {
+      "file": "assets/11-woR455y7.webp",
+      "bytes": 3242066,
+      "sha256": "04905cad240e8317a09e734fa2face4008fc92f3048caaa8cbd3cd845c5a0986"
+    },
+    {
+      "file": "assets/12-BM4Dwj5U.webp",
+      "bytes": 3203759,
+      "sha256": "e302126fbea6cb08401211b98bd5b8523694240c688350d293a91aa097b560dc"
+    },
+    {
+      "file": "assets/2-DP9Hz80E.webp",
+      "bytes": 849135,
+      "sha256": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369"
+    },
+    {
+      "file": "assets/2-DTEE7DcR.webp",
+      "bytes": 1029455,
+      "sha256": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1"
+    },
+    {
+      "file": "assets/2-rfYAxxsE.webp",
+      "bytes": 1885394,
+      "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
+    },
+    {
+      "file": "assets/2_01-tFFhtBsP.webp",
+      "bytes": 103094,
+      "sha256": "c0caada1ed1e5c80bd92f4604bdcbc1f22ee503e78f80a0f63cd31bc9506b125"
+    },
+    {
+      "file": "assets/2_02-Dc_7VNIx.webp",
+      "bytes": 66382,
+      "sha256": "7568ed2bba2353352f79b9d78af9ecc3d3e727f50005ba3ec743efab1009e5bb"
+    },
+    {
+      "file": "assets/2_03-C_KnJTgD.webp",
+      "bytes": 63668,
+      "sha256": "64a22a662a2dab36df1972b7035d000694425e5bc03c464d5cbf81100c7d1e59"
+    },
+    {
+      "file": "assets/2_04-BaLU1Y6c.webp",
+      "bytes": 114796,
+      "sha256": "006a8d5c13a29b0a4d4e9c28604fd5e06b899440e01caa89732280d721e4b0ee"
+    },
+    {
+      "file": "assets/2_05-C5BOb5W2.webp",
+      "bytes": 55415,
+      "sha256": "b2e0e8fe9122b0c9e7acff5806f48d1eab241312d6eeb33f188c72c55a2ce8b1"
+    },
+    {
+      "file": "assets/2_06-DSW_gHT2.webp",
+      "bytes": 34268,
+      "sha256": "3de490a2b7cd872fc13242a209c33fde388add9448c5de0d707d7543df4b9e4c"
+    },
+    {
+      "file": "assets/2_07-BHZOYHU2.webp",
+      "bytes": 33320,
+      "sha256": "8c639bc72b2716e01e501c30605c5548debf32bec4d4b3035efa904ecfd9bad0"
+    },
+    {
+      "file": "assets/2_08-DKZL--Je.webp",
+      "bytes": 28225,
+      "sha256": "e3e1fdf09bc873805fc826ef8b8e83d967c71b63f5132b5347b855af14a77947"
+    },
+    {
+      "file": "assets/2_09-DmBxkRIP.webp",
+      "bytes": 28642,
+      "sha256": "37ef3b0fb50aafc66464a7dafcf721832e8b77fe2e08b3d7904195930f964b88"
+    },
+    {
+      "file": "assets/2_10-D6TwSzev.webp",
+      "bytes": 22575,
+      "sha256": "219ba6b047a5a9e4fac1325aa568057d32762c4baaefc4492dfa2521e2a1ea4f"
+    },
+    {
+      "file": "assets/2_11-Cp6y51xo.webp",
+      "bytes": 23995,
+      "sha256": "ce99aa4176bafda3e05aab901634d9df05e4f01e2f3ff21854860687b6a5d4d0"
+    },
+    {
+      "file": "assets/2_12-9O67QP0E.webp",
+      "bytes": 36175,
+      "sha256": "d9e5bfff57ace456c2ad138d454370958d2cfe2c2015491f89d91306f25d4182"
+    },
+    {
+      "file": "assets/2_13-Bo9z5PzC.webp",
+      "bytes": 26841,
+      "sha256": "a691fa98eb1797fe6c16e8194ba80c5a105bc89898d9b6c35f6f66f07ada248d"
+    },
+    {
+      "file": "assets/2_14-C1W5n6x2.webp",
+      "bytes": 25665,
+      "sha256": "80c5b6d09f28cac6cc770bc554e7988d94deb1b40286c457a6d789ee92bbe7c0"
+    },
+    {
+      "file": "assets/2_15-CakMCfcF.webp",
+      "bytes": 51773,
+      "sha256": "ce2865c62cdc332691e2d0442ce3c8a6421c8216d663e650495268d187d999cb"
+    },
+    {
+      "file": "assets/2_16-DlwEa6kH.webp",
+      "bytes": 36445,
+      "sha256": "5a72fc7ba84200b10a9917a79f79abdb65d09a1a41051e6d29cfbde2c7d43b30"
+    },
+    {
+      "file": "assets/2_background-DNTdyxki.png",
+      "bytes": 802036,
+      "sha256": "dc0842d04f058c791fd87ab0ec91d9b4c9b5dc4010fb6bed84241482552bc448"
+    },
+    {
+      "file": "assets/3-BfKBfm29.webp",
+      "bytes": 1496119,
+      "sha256": "e4c32456344c77aa8e394d1c6ff8f9d835ef0cc1d1e8dc84e6388c8cfbefab40"
+    },
+    {
+      "file": "assets/3-CYz6-Q9P.webp",
+      "bytes": 1052173,
+      "sha256": "21da4d4f5bab809a552f087a485005efafccb07d60bcb6734b0c12635da68b18"
+    },
+    {
+      "file": "assets/3-DvopH4Oa.webp",
+      "bytes": 1451983,
+      "sha256": "ca35054389c9dd29c31b9578ef19a2be17b5c442a76d64d7cf5ceb2c75478c49"
+    },
+    {
+      "file": "assets/4-C7_4BIPN.webp",
+      "bytes": 1415444,
+      "sha256": "2e6b90c854a029ea24ea1187104e7070a40964a56baf461472a1586dabfb205d"
+    },
+    {
+      "file": "assets/4-CTObI88h.webp",
+      "bytes": 818866,
+      "sha256": "b548905017a3741e077a5f3dee921670a02f2f6bbeb908dd939f1edda1db75f6"
+    },
+    {
+      "file": "assets/5-CcNGb7G-.webp",
+      "bytes": 1069857,
+      "sha256": "7ceec9de51e292db304c299ac34df9448c521175e5623e7eb8e598d385069d67"
+    },
+    {
+      "file": "assets/5-CHGqNlUg.webp",
+      "bytes": 1510963,
+      "sha256": "f2f2c25852d341dc76166cf3fd193d8a4ca0b206fb9920131699cb958fe1b02c"
+    },
+    {
+      "file": "assets/6-Cjx4CfT3.webp",
+      "bytes": 1717698,
+      "sha256": "47084a7cf3bd3863f9b1bbb067e632e120663eb2f96ee3727d94ca2195aeba71"
+    },
+    {
+      "file": "assets/6-DKwjXTAf.webp",
+      "bytes": 996181,
+      "sha256": "6aa179902331854eb9e16a89124ba159f01efe132b0296828ed169f9bc532235"
+    },
+    {
+      "file": "assets/7-DhpMaHlg.webp",
+      "bytes": 1321461,
+      "sha256": "ca39f897aef6d7e237cac5bec964cb2f79e54cf0dcf132bcd6b33cae66e033b4"
+    },
+    {
+      "file": "assets/8-BlkLR3Q2.webp",
+      "bytes": 1301850,
+      "sha256": "d7d9bfed4966bad161321d1cca0e85c4f445bc268f8ce57e6c589662a70c64a8"
+    },
+    {
+      "file": "assets/9-CD0Lw-RD.webp",
+      "bytes": 1194810,
+      "sha256": "6fd12cd2f62b838bd83aea84fd1a36a4ff4e8a3ddf1b49439796a9ca9e939e25"
+    },
+    {
+      "file": "assets/audio/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/background-BP0JnsSM.webp",
+      "bytes": 1145847,
+      "sha256": "b61709050b9e8a70cceabfdbeab85f4ad30717d009a4d2ce967d114c59c6bd33"
+    },
+    {
+      "file": "assets/background-DKJnw8Hb.webp",
+      "bytes": 1199905,
+      "sha256": "16818554f2d7e23506b0c77ab5622de7cd9adeb706be8b6d05380ecd3f0a9dda"
+    },
+    {
+      "file": "assets/background-erd1XJcF.webp",
+      "bytes": 946373,
+      "sha256": "b0cbe41ab39dc1c67b364bfbc049d50dc18e69a5f6626953569f84e4361022d9"
+    },
+    {
+      "file": "assets/backgrounds/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/biscuit_block-DE3K-bre.webp",
+      "bytes": 1726737,
+      "sha256": "101ccd64730e84235e2d84be6e95ec9630739f7318ce7684a5629f42e07311b1"
+    },
+    {
+      "file": "assets/biscuit_shield-BrKivIqx.webp",
+      "bytes": 1802887,
+      "sha256": "5054231926e7c19f6a6f5e9b527d14815071ebe5749d0b7e78b7cefd4364acfc"
+    },
+    {
+      "file": "assets/block-65hPaslC.webp",
+      "bytes": 16132,
+      "sha256": "a782d97d076e101d891544a9309ae1902c80b8bce8b36d526157ae9fa79c4cec"
+    },
+    {
+      "file": "assets/bounce-DLjJs2qf.webp",
+      "bytes": 13020,
+      "sha256": "0d6f0d70cfa65a82dba05e171f3d47c30c14fd5cef4d018e78a4a9b79af24fea"
+    },
+    {
+      "file": "assets/boy-failure-r29hR9Ri.webp",
+      "bytes": 2129061,
+      "sha256": "a60c4852d83646dca00358465dd1fec4629101426658bdbb2b3fc5eda7257a76"
+    },
+    {
+      "file": "assets/boy-goal-Bv-P3joU.webp",
+      "bytes": 1412641,
+      "sha256": "72e67f3acbec78bd4f5ca9409ce7ad6e89e05d7dd4dc68ad86887001bd1df377"
+    },
+    {
+      "file": "assets/boy-hurt-BXumzvGE.webp",
+      "bytes": 1313660,
+      "sha256": "6b1c0ec520773cf19381296214fadaa94f540296034acb34c1e9497dc43572dd"
+    },
+    {
+      "file": "assets/boy-idle-BP0j856z.webp",
+      "bytes": 1599650,
+      "sha256": "0c5f3e94176cd41edcbbf5c40567cb9a5ab691870075315806e0b8049f654394"
+    },
+    {
+      "file": "assets/boy-jump-BPuFJyLh.gif",
+      "bytes": 466933,
+      "sha256": "2980d264576c8fda619554ef0a8af2f0d02e3017aa49099c0522dfe5124d015e"
+    },
+    {
+      "file": "assets/boy-portrait-DH3GfQOV.webp",
+      "bytes": 8666,
+      "sha256": "0a9da683a97825c21e1b5b21561e087ad9998d7e039b7dfffc89afb2414cc4ff"
+    },
+    {
+      "file": "assets/boy-run-B3yK2tyj.gif",
+      "bytes": 507321,
+      "sha256": "8ffb0e1497f137f5ab42b5890e1d749de3792b74a444392a8fd626f75fb6a03f"
+    },
+    {
+      "file": "assets/boy-run-Bvpz9mcd.webp",
+      "bytes": 1331743,
+      "sha256": "8e5b7a29160a4ddcd9d8cc9d32cdbff51165b522056f6772254975a56f7f76b0"
+    },
+    {
+      "file": "assets/candy_hammer-fxPcjx-p.webp",
+      "bytes": 1118329,
+      "sha256": "99b60b6b95c327852f6e9039ea0e98863bb707bba755cbb65ed4fd1cd8d0fcd1"
+    },
+    {
+      "file": "assets/characters/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/cookie_background-BxMXsel8.webp",
+      "bytes": 2841625,
+      "sha256": "77f59dd769d45444ff8493717717696c707676c1d51c781634ab6b88b5d72d43"
+    },
+    {
+      "file": "assets/enemies/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/exit_key-BKNHAthH.webp",
+      "bytes": 977581,
+      "sha256": "6979eca19b83685af6203c72c256694a1ee8a8d5c24f9a0c6a0a23246e59e780"
+    },
+    {
+      "file": "assets/floor-B9duw0Bn.webp",
+      "bytes": 21850,
+      "sha256": "541b75dfb349ccd015cdaf269f182b83a0d3dac95727e3247a219c1edb35bd8f"
+    },
+    {
+      "file": "assets/gift_box-CWo8i4ST.webp",
+      "bytes": 1731203,
+      "sha256": "95ad4e6c2e125f64e8120880fafb175e0d8bb6fd94ae9188f7f69b0d1fa971b2"
+    },
+    {
+      "file": "assets/gingerbread_monster_sheet-PCuYJwAn.webp",
+      "bytes": 1486498,
+      "sha256": "1996fcf75988d761fa958a2f990b956255f7e5507338741edca5fa2020eb60cc"
+    },
+    {
+      "file": "assets/gingerbread_monster_sheet01-CdtWccr7.webp",
+      "bytes": 1631154,
+      "sha256": "72ab217f14dd715b469b11fb4ea5694ddf999cb5c97430595f3bea4bad77daa3"
+    },
+    {
+      "file": "assets/girl-failure-CP_gdY0J.webp",
+      "bytes": 20102,
+      "sha256": "3a264d0d9278322e97c50d5190f59f499082ce4d58a46ce9ba51184ffcec8c9f"
+    },
+    {
+      "file": "assets/girl-goal-BqxWBevb.webp",
+      "bytes": 17838,
+      "sha256": "c178fe4d059f534d2ee5bff14f5c2d22b12d096d05b5aafe592322b800979b90"
+    },
+    {
+      "file": "assets/girl-hurt-IZXXnb1W.webp",
+      "bytes": 18638,
+      "sha256": "f01aac6a5e70cad1492ccd51f4d785d26735f89881dfb4b0dd01508b153af579"
+    },
+    {
+      "file": "assets/girl-idle-C_reDc-n.webp",
+      "bytes": 14800,
+      "sha256": "f10766d16ab94db59e9eec44b96782c69d02c639a255abcd845450d994c68ab9"
+    },
+    {
+      "file": "assets/girl-jump-BeVeU5lk.webp",
+      "bytes": 19602,
+      "sha256": "8efaed46c02ef4d7a2c99fa42ca0bd01d69216688727014f8e0399c6753021be"
+    },
+    {
+      "file": "assets/girl-jump-D5BuniOJ.gif",
+      "bytes": 462658,
+      "sha256": "6233dfbe3fc613dafe8f35d2858e075fe1c32d616c2b380e21bee94183d2d574"
+    },
+    {
+      "file": "assets/girl-portrait-83SXwon6.webp",
+      "bytes": 11658,
+      "sha256": "8656d274f5ee07bf0c2f3d448e3fd95c7f753b596b25c29d8ba4063d01ec9935"
+    },
+    {
+      "file": "assets/girl-run-BgLL9h7a.webp",
+      "bytes": 17082,
+      "sha256": "f92e5a3d22b81dcc30333c9ede2ab9099b004bf9ff70d50676c6e5168c1362b8"
+    },
+    {
+      "file": "assets/girl-run-hEG_utwh.gif",
+      "bytes": 534438,
+      "sha256": "30ca9eb4cbff7c46dccd9e2d33411dd558a07168821eaf6fecf594b43b6d5074"
+    },
+    {
+      "file": "assets/girl_Headshot-DpntGRWD.webp",
+      "bytes": 1874597,
+      "sha256": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0"
+    },
+    {
+      "file": "assets/gummy-evL83gki.webp",
+      "bytes": 9164,
+      "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
+    },
+    {
+      "file": "assets/index-BY-skNif.css",
+      "bytes": 35413,
+      "sha256": "dc029d466d0294af9ba7c3170590cbf8c8c740b2e9336ab4f02088753da1a365"
+    },
+    {
+      "file": "assets/index-CaoVN0fS.js",
+      "bytes": 99609,
+      "sha256": "f9afc2089ff3555ca8826243796a4723bc3a4490c2cdd604338a5111d1fc328c"
+    },
+    {
+      "file": "assets/jelly--AIdMU5m.webp",
+      "bytes": 1164589,
+      "sha256": "b9e8ee306941cc9cc50de7cb6ea7753fd90b3ce4b36ec76bc9b549d7e6ad4579"
+    },
+    {
+      "file": "assets/login-Dzsqkk25.webp",
+      "bytes": 2892880,
+      "sha256": "973a1715e13695c2b236d64f3e01ae6984e1ec40aebd8c5b0a43afa19a54d329"
+    },
+    {
+      "file": "assets/Lollipop-DtXd-9DM.webp",
+      "bytes": 748928,
+      "sha256": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19"
+    },
+    {
+      "file": "assets/lollipop-head-a2Q9Nbt-.webp",
+      "bytes": 14044,
+      "sha256": "742e7fbcd7921ff82f8c90fb84fa887299d70b9ec5d5bd0ca4744aca1e7f6e66"
+    },
+    {
+      "file": "assets/phaser-DFK5Ua9d.js",
+      "bytes": 1208056,
+      "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
+    },
+    {
+      "file": "assets/platform01-B1QKW03g.webp",
+      "bytes": 20438,
+      "sha256": "718a37477c053b67534142822720ccb627be3eb5e75aa868c3b256bcd599c5d5"
+    },
+    {
+      "file": "assets/prick01-DhZngR4L.webp",
+      "bytes": 83701,
+      "sha256": "67e308d953d59344f4b21c97a537e334afdefea1ccccbf58d09aeb06ef4551b6"
+    },
+    {
+      "file": "assets/README.md",
+      "bytes": 423,
+      "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
+    },
+    {
+      "file": "assets/second_jump-H8JcOzZg.webp",
+      "bytes": 99192,
+      "sha256": "d66f301ff45d6fed9d5ab85776060d26882f3f799c3849b58f301b9655970b5c"
+    },
+    {
+      "file": "assets/slide-CAm8Z61o.webp",
+      "bytes": 134111,
+      "sha256": "45bca5a7fe1e8f67dff2f9da657da8c54945d547db9c5fc477262e98eea573a4"
+    },
+    {
+      "file": "assets/speed_gummy-CBgKn1dJ.webp",
+      "bytes": 1172923,
+      "sha256": "3d3a64976c870dbcaf1dcf7345b5b51a8586c65e2e1771561a637932c7768229"
+    },
+    {
+      "file": "assets/speed_platform-BCGKaI7Y.webp",
+      "bytes": 83817,
+      "sha256": "1d9d51a5f88ad7e7f7f990028b2313436b952738fcfbd6f470c0bb0d85c4a509"
+    },
+    {
+      "file": "assets/start-41uEELUO.webp",
+      "bytes": 3679901,
+      "sha256": "26190a6cac4cc577ec1c6c2f5dd8f3b60fa7a5da560b37c0098fa6aed3fdf1f9"
+    },
+    {
+      "file": "assets/start_icon-BHVsFwOO.webp",
+      "bytes": 2607526,
+      "sha256": "042037ad6a37fc3d3986040dc5fa8a2fd27bf7fb4006d732596ced0d5d023daa"
+    },
+    {
+      "file": "assets/sticky_syrup-DHjIRJvS.webp",
+      "bytes": 1707151,
+      "sha256": "b83d2a1e79d4782404ddc9e3b6c44193ce14561ae2b0b48fa745d314ff1d14fd"
+    },
+    {
+      "file": "assets/The witch failed-Jn3oDXPe.gif",
+      "bytes": 392152,
+      "sha256": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69"
+    },
+    {
+      "file": "assets/ui/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/Wafer platform-C1gXrOFU.webp",
+      "bytes": 1419368,
+      "sha256": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3"
+    },
+    {
+      "file": "assets/wall-BvzSPU_4.webp",
+      "bytes": 159226,
+      "sha256": "9e40854e2ab62fc3ab64130848f01b87ecafdeaca44868f4780bf04b6afbc848"
+    },
+    {
+      "file": "assets/Witch Attack-D8NV7wxW.gif",
+      "bytes": 346758,
+      "sha256": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71"
+    },
+    {
+      "file": "assets/Witch Chase-CqpE2xLk.gif",
+      "bytes": 419172,
+      "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
+    }
+  ]
+}
