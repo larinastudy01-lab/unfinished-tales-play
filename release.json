@@ -1,30 +1,49 @@
 {
   "game": "Candy House Adventure",
-  "version": "0.12.0",
-  "gameCommit": "f18e77eb78022c1bed2f229e232fdb1e8ab88634",
-  "builtAt": "2026-11-23T16:03:14.043Z",
+  "version": "0.13.0",
+  "gameCommit": "c02c26acf5794909328f0763680a1674bd541017",
+  "builtAt": "2026-11-23T16:36:17.632Z",
   "validation": {
+    "version": "0.13.0",
+    "verifiedAt": "2026-11-23T16:31:20.547Z",
     "core": {
-      "command": "npm test",
-      "startedAt": "2026-11-23T15:51:13.130Z",
-      "finishedAt": "2026-11-23T15:51:37.887Z",
-      "exitCode": 0,
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "--test",
+        "--test-reporter=tap",
+        "tests\\candy-knowledge.test.ts",
+        "tests\\candy-comics.test.ts",
+        "tests\\candy-coop.test.ts",
+        "tests\\candy-second-floor.test.ts",
+        "tests\\candy-gamepad.test.ts",
+        "tests\\candy-floor-support.test.ts",
+        "tests\\candy-floor-save.test.ts",
+        "tests\\candy-floor-puzzles.test.ts",
+        "tests\\candy-floor-causal.test.ts",
+        "tests\\candy-first-floor.test.ts",
+        "tests\\candy-room-platforms.test.ts",
+        "tests\\candy-recovery.test.ts",
+        "tests\\candy-second-causal.test.ts",
+        "tests\\candy-second-floor-controls.test.ts",
+        "tests\\candy-tutorial.test.ts",
+        "tests\\candy-third-relay.test.ts",
+        "tests\\candy-third-causal.test.ts",
+        "tests\\candy-two-cakes.test.ts",
+        "tests\\candy-unique-gifts.test.ts",
+        "tests\\candy-failure-retry.test.ts",
+        "tests\\candy-core.test.ts",
+        "tests\\candy-dev-tools.test.ts"
+      ],
+      "startedAt": "2026-11-23T16:25:21.683Z",
+      "finishedAt": "2026-11-23T16:25:39.913Z",
+      "code": 0,
       "signal": null,
-      "error": null,
-      "tests": 185,
-      "passed": 185,
-      "failed": 0,
-      "cancelled": 0,
-      "skipped": 0,
-      "todo": 0,
-      "sourceBeforeSHA256": "1a8e8c31d92dbf0a8d349494567281be65c7016aaee55ccf5a7a3f296e41e4d2",
-      "sourceAfterSHA256": "1a8e8c31d92dbf0a8d349494567281be65c7016aaee55ccf5a7a3f296e41e4d2",
-      "sourceFileCount": 169,
       "sourceUnchanged": true,
-      "changed": [],
-      "log": "artifacts/physical-lanes-core-final3.log",
-      "sourceBefore": "artifacts/physical-lanes-core-final3-source-before.json",
-      "sourceAfter": "artifacts/physical-lanes-core-final3-source-after.json"
+      "fileCount": 242,
+      "tests": 194,
+      "passed": 194,
+      "failed": 0,
+      "skipped": 0
     },
     "browser": {
       "command": [
@@ -40,240 +59,40 @@
         "second-floor.spec.js",
         "cooperative-adventure.spec.js",
         "wordless-ui.spec.js",
+        "dev-retry.spec.js",
         "--reporter=json",
-        "--output=test-results-physical-lanes-final2"
+        "--output=test-results-dev-retry-acceptance"
       ],
-      "startedAt": "2026-11-23T15:55:54.337Z",
-      "finishedAt": "2026-11-23T15:59:52.350Z",
+      "startedAt": "2026-11-23T16:25:22.990Z",
+      "finishedAt": "2026-11-23T16:30:16.460Z",
       "code": 0,
       "signal": null,
       "stats": {
-        "startTime": "2026-11-23T15:55:55.143Z",
-        "duration": 236959.06399999998,
-        "expected": 27,
+        "startTime": "2026-11-23T16:25:25.896Z",
+        "duration": 290247.705,
+        "expected": 34,
         "skipped": 0,
         "unexpected": 0,
         "flaky": 0
       },
       "errors": [],
       "sourceUnchanged": true,
-      "beforeFileCount": 235
+      "fileCount": 242
     },
-    "localProductionSmoke": {
-      "url": "http://127.0.0.1:4189/",
-      "verifiedAt": "2026-11-23T16:01:58.865Z",
-      "entries": [
-        {
-          "file": "index.html",
-          "sha256": "799d21fd17207ab5c212a89279a2e993834aa0010b2990d6ec395ad1a01cd1af"
-        },
-        {
-          "file": "./assets/index-BB5aWVII.js",
-          "sha256": "04b79a9b95432bf04453c26c73a05645aa97e451dd2729654d4712e3e5bd8951"
-        },
-        {
-          "file": "./assets/phaser-DFK5Ua9d.js",
-          "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
-        },
-        {
-          "file": "./assets/index-CPI47hG_.css",
-          "sha256": "a63118bd024b19d391fc8f6abac0971d74afd899419868287b441668c70e0167"
-        }
-      ],
-      "http1": false,
-      "contextCache": false,
-      "loadTimeout": 45000,
-      "results": [
-        {
-          "name": "desktop-A",
-          "viewport": {
-            "width": 1440,
-            "height": 900
-          },
-          "character": "hansel",
-          "lane": 0,
-          "touch": false,
-          "question": "q8",
-          "selected": "0",
-          "status": "correct",
-          "initialLoadMilliseconds": 3206,
-          "layout": [
-            {
-              "text": "程式中的「迴圈」主要用來做什麼？",
-              "font": 25.92,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "重複執行一段指令",
-              "font": 21,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "增加螢幕亮度",
-              "font": 21,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "移除鍵盤",
-              "font": 21,
-              "fits": true,
-              "inside": true
-            }
-          ],
-          "ordinaryKeyboard": true,
-          "noDevelopmentHook": true,
-          "directRuntimePositionEdits": false,
-          "errors": []
-        },
-        {
-          "name": "phone-B",
-          "viewport": {
-            "width": 390,
-            "height": 844
-          },
-          "character": "gretel",
-          "lane": 1,
-          "touch": true,
-          "question": "q2",
-          "selected": "1",
-          "status": "wrong",
-          "initialLoadMilliseconds": 3117,
-          "layout": [
-            {
-              "text": "收到陌生人寄來的可疑連結，應該怎麼做？",
-              "font": 17,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "先查證來源，不隨意點擊",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "立刻輸入帳號密碼",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "轉傳給所有朋友",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            }
-          ],
-          "ordinaryKeyboard": true,
-          "noDevelopmentHook": true,
-          "directRuntimePositionEdits": false,
-          "errors": []
-        },
-        {
-          "name": "landscape-C",
-          "viewport": {
-            "width": 844,
-            "height": 390
-          },
-          "character": "hansel",
-          "lane": 2,
-          "touch": true,
-          "question": "q7",
-          "selected": "2",
-          "status": "correct",
-          "initialLoadMilliseconds": 3156,
-          "layout": [
-            {
-              "text": "使用公共電腦登入帳號後，離開前應該？",
-              "font": 16,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "關掉螢幕就好",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "把密碼貼在桌上",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "登出帳號",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            }
-          ],
-          "ordinaryKeyboard": true,
-          "noDevelopmentHook": true,
-          "directRuntimePositionEdits": false,
-          "errors": []
-        },
-        {
-          "name": "smallphone-timeout",
-          "viewport": {
-            "width": 320,
-            "height": 568
-          },
-          "character": "gretel",
-          "lane": null,
-          "touch": true,
-          "question": "q1",
-          "selected": "none",
-          "status": "timeout",
-          "initialLoadMilliseconds": 3080,
-          "layout": [
-            {
-              "text": "哪一種密碼最不容易被猜到？",
-              "font": 17,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "123456",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "自己的生日",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            },
-            {
-              "text": "混合大小寫、數字與符號的長密碼",
-              "font": 14,
-              "fits": true,
-              "inside": true
-            }
-          ],
-          "ordinaryKeyboard": true,
-          "noDevelopmentHook": true,
-          "directRuntimePositionEdits": false,
-          "errors": []
-        }
-      ],
-      "scope": "Exact-build first-question A, B, C and timeout from a legitimate second-floor checkpoint with ordinary keyboard events on four viewports. Complete eight-question routes, touch presses and simulated PS polling are separate browser acceptance. No physical controller/motor test."
+    "production": {
+      "passed": 4,
+      "report": "dev-retry-build-smoke.json",
+      "noDevHook": true
     },
-    "typecheck": true,
-    "productionBuild": true
+    "physicalPS": false,
+    "physicalVibration": false,
+    "publicColdGameplayCompleted": false
   },
-  "validationScope": "Eight original knowledge questions now use actual upper/middle/lower platform entrances. Only a grounded rightward crossing commits an answer, with safe reading, three-second decisions, single settlement, shield/no-shield waves and a midpoint companion gate/bypass. Complete local keyboard/touch playthroughs and real Gamepad polling with a simulated standard PS pad cover both siblings, all three routes, wrong answers, timeout, third-error retry, corrective jumps, late gummy support timing and the original first-floor transition. Two full adventures retain third-floor and first-floor puzzle/gift/key/ending flow. Four anonymous exact-build production checks use ordinary keyboard events from a saved level boundary for A/B/C/timeout and responsive full text. Physical PS controllers and vibration motors were not tested. Public cold asset downloads may be slow on the tested connection.",
+  "validationScope": "Four distinct Space / PS cross / touch presses fill a frosting retry ring, with held-death and long-press suppression, preserved progress and automatic stage-local retry after flash. A loopback development-only ?dev=1 Ctrl+Shift+L menu offers six fresh stage/room entries, preserves character and isolates formal saves. The production build has neither development menu nor model hook even with ?dev=1. The existing eight physical answer lanes, both siblings, shield/gate/bypass, wrong/timeout/third-error reset and first-floor transition remain. The complete 34-case local browser batch includes two full adventures through first-floor gifts, key and ending. Four exact-production ring checks use keyboard, touch and simulated standard Gamepad polling from a valid saved entrance and actual hazard. Physical PS hardware and vibration motors were not tested. Public full cold asset loading has not completed in the latest 300-second check; deployment and file integrity are distinct from public gameplay verification.",
   "features": [
-    "actual high jump to A, short gap jump to B, drop to C; corrective jumps remain possible before entrance",
-    "all eight unchanged questions and full answers displayed with passive route labels, phone readable text and linked entrances",
-    "readable layout then original reading interval and three-second decision; continuous runner controls",
-    "single physical entrance result, correct speed/shield, wrong or timeout no-shield dodge, three errors retry",
-    "midpoint shield then player plate lifts companion gate, missed plate bypass and reunion; late gummy cannot deadlock helper",
-    "retained selected sibling, automatic partner, third-floor relays, first-floor rooms and unique gifts, badges, key, comics and ending"
+    "four-press frosting retry ring with device glyph, no countdown or progress decay",
+    "fresh local developer entries for third, second, hallway and all three exploration rooms; formal saves isolated",
+    "production keeps original opening, selected sibling, three-floor cooperation, physical answer lanes and ending"
   ],
   "files": [
     {
@@ -692,14 +511,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BB5aWVII.js",
-      "bytes": 217700,
-      "sha256": "04b79a9b95432bf04453c26c73a05645aa97e451dd2729654d4712e3e5bd8951"
+      "file": "assets/index-CTxuAgDR.js",
+      "bytes": 221720,
+      "sha256": "e7c446975156ad83a0aef783698b9c11c0d0c1618caa30e95052f055ba5ed5f0"
     },
     {
-      "file": "assets/index-CPI47hG_.css",
-      "bytes": 75045,
-      "sha256": "a63118bd024b19d391fc8f6abac0971d74afd899419868287b441668c70e0167"
+      "file": "assets/index-GNa38s_H.css",
+      "bytes": 78693,
+      "sha256": "663875d390a8dfaf33877b87e184e3d92236eab6ac1fe1fb52b8717f7a82ca2b"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -814,7 +633,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "799d21fd17207ab5c212a89279a2e993834aa0010b2990d6ec395ad1a01cd1af"
+      "sha256": "804f8d9aa973ba2aecc8378c5a0716dc96fda02847c71b94e65436e56bc76465"
     }
   ]
 }
