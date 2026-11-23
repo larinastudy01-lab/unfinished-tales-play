@@ -1,15 +1,15 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "fd4db678cad77ee840d62a83c487b1e18fef1d83",
-  "builtAt": "2026-11-23T01:57:01.886Z",
+  "gameCommit": "21bee4757905031bad627bb0520bbfae758c699b",
+  "builtAt": "2026-11-23T02:09:06.709Z",
   "version": "0.3.0",
   "validation": {
     "coreTests": 36,
-    "browserTests": 6,
-    "layoutChecks": 3,
+    "comicPortraitViewports": 3,
     "typecheck": true
   },
   "features": [
+    "supplied witch portrait in comic dialogue",
     "golden start-button glow",
     "berry-purple character setup",
     "floating third-floor pictorial tutorial with fifteen-second automatic start",
@@ -436,9 +436,9 @@
       "sha256": "103697784f3a7f9db0f26c8fed675540da57f65af103207a6d6ae49eee3edbf3"
     },
     {
-      "file": "assets/index-BmbtBZi5.js",
-      "bytes": 103196,
-      "sha256": "dca5ede5d512f31667a013be257315c782b15057c38401d67072a6272ea40ed9"
+      "file": "assets/index-Y_g0T7G0.js",
+      "bytes": 103230,
+      "sha256": "2cd8694a49e198aee7d62124fb1aefad143756d69b952163aae5f4b2723326b7"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -553,7 +553,7 @@
     {
       "file": "index.html",
       "bytes": 1516,
-      "sha256": "37a551fac76722739462f2ff40eb32d74fdb881b09f5e8251f75278f73e149b2"
+      "sha256": "75af2303ac4eb4a38544d2803ec3ce6c50ff3c7c4bee839cc1a94415c6160aad"
     }
   ]
 }
