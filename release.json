@@ -1,586 +1,279 @@
 {
   "game": "Candy House Adventure",
-  "version": "0.11.0",
-  "gameCommit": "6f565256e607a1b0e4e4b20ee6941fc2ada95406",
-  "builtAt": "2026-11-23T15:01:11.567Z",
+  "version": "0.12.0",
+  "gameCommit": "f18e77eb78022c1bed2f229e232fdb1e8ab88634",
+  "builtAt": "2026-11-23T16:03:14.043Z",
   "validation": {
-    "createdAt": "2026-11-23T15:01:10.127Z",
-    "version": "0.11.0",
-    "gameCommit": "6f565256e607a1b0e4e4b20ee6941fc2ada95406",
-    "status": "local acceptance complete",
-    "coreTests": 178,
-    "corePassed": 178,
-    "coreExitCode": 0,
-    "browserTests": 22,
-    "browserPassed": 22,
-    "browserExitCode": 0,
-    "browserTestFiles": 9,
-    "browserDurationMilliseconds": 276814.04199999996,
-    "fullFocusedBatchRepeated": true,
-    "typecheck": true,
-    "productionBuild": true,
-    "isolatedSourceRebuild": true,
-    "matchingBuildFiles": 108,
-    "productionChecks": 4,
-    "productionExitCode": 0,
-    "checks": [
-      {
-        "command": "npm test",
-        "exitCode": 0,
-        "total": 178,
-        "passed": 178,
-        "failed": 0,
-        "recordedAt": "2026-11-23T14:43:28.5164345+00:00",
-        "sourceLog": "artifacts/unique-gift-model-final.log",
-        "log": "artifacts/first-interaction-core.log",
-        "note": "Metadata recorded after the completed run; original execution start and finish timestamps were not captured."
-      },
-      {
-        "exitCode": 0,
-        "command": "CANDY_TEST_PORT=5182 npx playwright test --config playwright.candy.config.js cooperative-adventure.spec.js first-floor-support.spec.js floor-causal.spec.js gamepad-controls.spec.js interaction-gifts.spec.js room-platforms.spec.js wordless-ui.spec.js puzzle-art.spec.js touch-gesture.spec.js --workers=1 --reporter=line,json --global-timeout=1200000 --output=artifacts/first-interaction-accepted-results",
-        "report": "artifacts/first-interaction-report.json",
-        "startedAt": "2026-11-23T14:56:17.9188585Z",
-        "results": "artifacts/first-interaction-accepted-results",
-        "finishedAt": "2026-11-23T15:00:57.4450395Z",
-        "log": "artifacts/first-interaction-browser.log"
-      },
-      {
-        "exitCode": 0,
-        "finishedAt": "2026-11-23T14:43:31.6799060Z",
-        "command": "npm run build",
-        "startedAt": "2026-11-23T14:43:21.7698283Z",
-        "log": "artifacts/first-interaction-build.log"
-      },
-      {
-        "exitCode": 0,
-        "log": "artifacts/first-interaction-archive-build.log",
-        "command": "npm --prefix .site-publish/verified-first-interaction-final run build",
-        "sourceCommit": "6f565256e607a1b0e4e4b20ee6941fc2ada95406",
-        "finishedAt": "2026-11-23T14:57:37.6072067Z",
-        "startedAt": "2026-11-23T14:57:26.6622462Z"
-      },
-      {
-        "exitCode": 0,
-        "finishedAt": "2026-11-23T14:55:53.9997428Z",
-        "command": "node tests/production-room-platforms-smoke.mjs http://127.0.0.1:4188/ dist first-interaction-build",
-        "startedAt": "2026-11-23T14:54:57.7434105Z",
-        "log": "artifacts/first-interaction-production-build.log"
-      }
-    ],
-    "attempts": {
-      "preliminary": {
-        "passed": 3,
-        "exitCode": 0
-      },
-      "interrupted": {
-        "status": "interrupted",
-        "exitCode": 1,
-        "completedPassed": 3,
-        "observedFailed": 1,
-        "unfinished": 1,
-        "notStarted": 17,
-        "finalSummary": false
-      },
-      "second": {
-        "passed": 19,
-        "failed": 3,
-        "exitCode": 1
-      },
-      "final": {
-        "passed": 22,
-        "failed": 0,
+    "core": {
+      "command": "npm test",
+      "startedAt": "2026-11-23T15:51:13.130Z",
+      "finishedAt": "2026-11-23T15:51:37.887Z",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "tests": 185,
+      "passed": 185,
+      "failed": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "sourceBeforeSHA256": "1a8e8c31d92dbf0a8d349494567281be65c7016aaee55ccf5a7a3f296e41e4d2",
+      "sourceAfterSHA256": "1a8e8c31d92dbf0a8d349494567281be65c7016aaee55ccf5a7a3f296e41e4d2",
+      "sourceFileCount": 169,
+      "sourceUnchanged": true,
+      "changed": [],
+      "log": "artifacts/physical-lanes-core-final3.log",
+      "sourceBefore": "artifacts/physical-lanes-core-final3-source-before.json",
+      "sourceAfter": "artifacts/physical-lanes-core-final3-source-after.json"
+    },
+    "browser": {
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "node_modules/@playwright/test/cli.js",
+        "test",
+        "--config",
+        "playwright.candy.config.js",
+        "knowledge-chase.spec.js",
+        "knowledge-gamepad.spec.js",
+        "second-causal.spec.js",
+        "physical-lanes.spec.js",
+        "second-floor.spec.js",
+        "cooperative-adventure.spec.js",
+        "wordless-ui.spec.js",
+        "--reporter=json",
+        "--output=test-results-physical-lanes-final2"
+      ],
+      "startedAt": "2026-11-23T15:55:54.337Z",
+      "finishedAt": "2026-11-23T15:59:52.350Z",
+      "code": 0,
+      "signal": null,
+      "stats": {
+        "startTime": "2026-11-23T15:55:55.143Z",
+        "duration": 236959.06399999998,
+        "expected": 27,
         "skipped": 0,
-        "flaky": 0,
-        "exitCode": 0
+        "unexpected": 0,
+        "flaky": 0
       },
-      "fixtureChanges": "artifacts/first-interaction-fixture-changes.json"
+      "errors": [],
+      "sourceUnchanged": true,
+      "beforeFileCount": 235
     },
-    "controls": {
-      "keyboard": "actual browser key events",
-      "touch": "actual tap, drag and CDP touch events",
-      "ps": "simulated standard Gamepad API; complete first-floor routes and input-device switching",
-      "physicalPSController": false,
-      "physicalVibrationMotor": false
-    },
-    "scope": "The focused 22-case batch includes two full adventures, selected-sibling first-floor keyboard and simulated PS journeys, three entrance cooperation routes, both living merge boards, kitchen two-layer delivery, dual-goal slider, unique gifts, completed reentry, hallway badges/key/ending, input-device glyph switching, held-input isolation, touch gestures and visible-text audits. The four anonymous production checks use room checkpoints; they do not claim a full public new-game-to-ending journey.",
-    "evidence": {
-      "browserReport": "artifacts/first-interaction-report.json",
-      "browserValidation": "artifacts/first-interaction-browser-validation.json",
-      "coreLog": "artifacts/first-interaction-core.log",
-      "productionReport": "artifacts/first-interaction-build.json",
-      "rebuild": "artifacts/first-interaction-rebuild.json"
-    },
-    "productionViewportSmoke": {
-      "url": "http://127.0.0.1:4188/",
-      "verifiedAt": "2026-11-23T14:55:53.969Z",
+    "localProductionSmoke": {
+      "url": "http://127.0.0.1:4189/",
+      "verifiedAt": "2026-11-23T16:01:58.865Z",
       "entries": [
         {
           "file": "index.html",
-          "sha256": "5f753606980b99e51efc73fbe230fcf64d46f6523831e28b8cc82064491bec8b"
+          "sha256": "799d21fd17207ab5c212a89279a2e993834aa0010b2990d6ec395ad1a01cd1af"
         },
         {
-          "file": "./assets/index-CxeSCRHM.js",
-          "sha256": "7ae185f679780c0aea8159dbd6fd96fe10ffd44520bc1b1a77410631de54c422"
+          "file": "./assets/index-BB5aWVII.js",
+          "sha256": "04b79a9b95432bf04453c26c73a05645aa97e451dd2729654d4712e3e5bd8951"
         },
         {
           "file": "./assets/phaser-DFK5Ua9d.js",
           "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
         },
         {
-          "file": "./assets/index-D5rec1uz.css",
-          "sha256": "ca584399412b4700001be195b5579d5573b5b819aa70768eea215c3dbe97c69d"
+          "file": "./assets/index-CPI47hG_.css",
+          "sha256": "a63118bd024b19d391fc8f6abac0971d74afd899419868287b441668c70e0167"
         }
       ],
+      "http1": false,
+      "contextCache": false,
+      "loadTimeout": 45000,
       "results": [
         {
-          "name": "desktop-living",
+          "name": "desktop-A",
           "viewport": {
             "width": 1440,
             "height": 900
           },
           "character": "hansel",
-          "input": "ordinary keyboard events and simulated standard PS Gamepad API",
-          "checkpoint": "fresh room-entry checkpoint",
-          "noDevelopmentHook": true,
-          "noRuntimeActorOrMechanismEdits": true,
-          "actualCheckpointEvidence": true,
-          "openedTaskBoard": true,
-          "freshCooperationRoute": true,
-          "offlineInputPlanSeconds": 15.647999999999163,
-          "offlineInputPlan": [
+          "lane": 0,
+          "touch": false,
+          "question": "q8",
+          "selected": "0",
+          "status": "correct",
+          "initialLoadMilliseconds": 3206,
+          "layout": [
             {
-              "action": {
-                "kind": "push"
-              },
-              "frames": 458,
-              "predictedX": -460,
-              "predictedFeet": 530
+              "text": "程式中的「迴圈」主要用來做什麼？",
+              "font": 25.92,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "ready"
-              },
-              "frames": 213,
-              "predictedX": -460,
-              "predictedFeet": 530
+              "text": "重複執行一段指令",
+              "font": 21,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "jump",
-                "x": -390,
-                "feet": 472
-              },
-              "frames": 43,
-              "predictedX": -389.60000000000036,
-              "predictedFeet": 472
+              "text": "增加螢幕亮度",
+              "font": 21,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "walk",
-                "x": -370
-              },
-              "frames": 5,
-              "predictedX": -372.00000000000045,
-              "predictedFeet": 472
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -200,
-                "feet": 440
-              },
-              "frames": 46,
-              "predictedX": -210.0800000000013,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -125
-              },
-              "frames": 24,
-              "predictedX": -125.6000000000017,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": 25,
-                "feet": 350
-              },
-              "frames": 38,
-              "predictedX": 8.159999999998456,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 85
-              },
-              "frames": 21,
-              "predictedX": 82.07999999999849,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": 225,
-                "feet": 260
-              },
-              "frames": 38,
-              "predictedX": 215.83999999999818,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 420
-              },
-              "frames": 57,
-              "predictedX": 416.4799999999972,
-              "predictedFeet": 260
+              "text": "移除鍵盤",
+              "font": 21,
+              "fits": true,
+              "inside": true
             }
           ],
-          "interactionIcons": true,
-          "simulatedPadDeviceSwitch": true,
-          "stationConfirmedWithSimulatedPS": true,
-          "onlyLocalKeyGlyphVisible": true,
+          "ordinaryKeyboard": true,
+          "noDevelopmentHook": true,
+          "directRuntimePositionEdits": false,
           "errors": []
         },
         {
-          "name": "phone-kitchen",
+          "name": "phone-B",
           "viewport": {
             "width": 390,
             "height": 844
           },
           "character": "gretel",
-          "input": "ordinary keyboard events",
-          "checkpoint": "fresh room-entry checkpoint",
-          "noDevelopmentHook": true,
-          "noRuntimeActorOrMechanismEdits": true,
-          "actualCheckpointEvidence": true,
-          "openedTaskBoard": true,
-          "freshCooperationRoute": true,
-          "offlineInputPlanSeconds": 15.391999999999191,
-          "offlineInputPlan": [
+          "lane": 1,
+          "touch": true,
+          "question": "q2",
+          "selected": "1",
+          "status": "wrong",
+          "initialLoadMilliseconds": 3117,
+          "layout": [
             {
-              "action": {
-                "kind": "jump",
-                "x": -1050,
-                "feet": 470
-              },
-              "frames": 43,
-              "predictedX": -1049.7600000000007,
-              "predictedFeet": 470
+              "text": "收到陌生人寄來的可疑連結，應該怎麼做？",
+              "font": 17,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "walk",
-                "x": -1000
-              },
-              "frames": 14,
-              "predictedX": -1000.4800000000009,
-              "predictedFeet": 470
+              "text": "先查證來源，不隨意點擊",
+              "font": 14,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "jump",
-                "x": -850,
-                "feet": 450
-              },
-              "frames": 47,
-              "predictedX": -849.1200000000017,
-              "predictedFeet": 450
+              "text": "立刻輸入帳號密碼",
+              "font": 14,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "ready"
-              },
-              "frames": 460,
-              "predictedX": -849.1200000000017,
-              "predictedFeet": 450
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -780
-              },
-              "frames": 19,
-              "predictedX": -782.240000000002,
-              "predictedFeet": 450
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -610,
-                "feet": 440
-              },
-              "frames": 48,
-              "predictedX": -613.2800000000029,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -500
-              },
-              "frames": 32,
-              "predictedX": -500.6400000000035,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -350,
-                "feet": 350
-              },
-              "frames": 38,
-              "predictedX": -366.8800000000042,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -210
-              },
-              "frames": 44,
-              "predictedX": -212.000000000005,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -50,
-                "feet": 260
-              },
-              "frames": 38,
-              "predictedX": -78.24000000000528,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 190
-              },
-              "frames": 76,
-              "predictedX": 189.2799999999946,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": 380,
-                "feet": 260
-              },
-              "frames": 49,
-              "predictedX": 361.75999999999374,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 420
-              },
-              "frames": 16,
-              "predictedX": 418.07999999999345,
-              "predictedFeet": 260
+              "text": "轉傳給所有朋友",
+              "font": 14,
+              "fits": true,
+              "inside": true
             }
           ],
-          "interactionIcons": true,
-          "onlyLocalKeyGlyphVisible": true,
+          "ordinaryKeyboard": true,
+          "noDevelopmentHook": true,
+          "directRuntimePositionEdits": false,
           "errors": []
         },
         {
-          "name": "landscape-storage",
+          "name": "landscape-C",
           "viewport": {
             "width": 844,
             "height": 390
           },
           "character": "hansel",
-          "input": "ordinary keyboard events",
-          "checkpoint": "fresh room-entry checkpoint",
-          "noDevelopmentHook": true,
-          "noRuntimeActorOrMechanismEdits": true,
-          "actualCheckpointEvidence": true,
-          "openedTaskBoard": true,
-          "freshCooperationRoute": true,
-          "offlineInputPlanSeconds": 16.031999999999123,
-          "offlineInputPlan": [
+          "lane": 2,
+          "touch": true,
+          "question": "q7",
+          "selected": "2",
+          "status": "correct",
+          "initialLoadMilliseconds": 3156,
+          "layout": [
             {
-              "action": {
-                "kind": "jump",
-                "x": -1050,
-                "feet": 460
-              },
-              "frames": 41,
-              "predictedX": -1049.7600000000007,
-              "predictedFeet": 460
+              "text": "使用公共電腦登入帳號後，離開前應該？",
+              "font": 16,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "walk",
-                "x": -1000
-              },
-              "frames": 14,
-              "predictedX": -1000.4800000000009,
-              "predictedFeet": 460
+              "text": "關掉螢幕就好",
+              "font": 14,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "jump",
-                "x": -820,
-                "feet": 385
-              },
-              "frames": 41,
-              "predictedX": -856.1600000000017,
-              "predictedFeet": 385
+              "text": "把密碼貼在桌上",
+              "font": 14,
+              "fits": true,
+              "inside": true
             },
             {
-              "action": {
-                "kind": "ready"
-              },
-              "frames": 493,
-              "predictedX": -856.1600000000017,
-              "predictedFeet": 385
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -550
-              },
-              "frames": 86,
-              "predictedX": -553.4400000000032,
-              "predictedFeet": 530
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -390,
-                "feet": 440
-              },
-              "frames": 38,
-              "predictedX": -419.68000000000393,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -335
-              },
-              "frames": 24,
-              "predictedX": -335.20000000000437,
-              "predictedFeet": 440
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": -160,
-                "feet": 350
-              },
-              "frames": 38,
-              "predictedX": -201.44000000000506,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": -25
-              },
-              "frames": 50,
-              "predictedX": -25.44000000000527,
-              "predictedFeet": 350
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": 140,
-                "feet": 260
-              },
-              "frames": 38,
-              "predictedX": 108.31999999999485,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 215
-              },
-              "frames": 30,
-              "predictedX": 213.91999999999447,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "jump",
-                "x": 420,
-                "feet": 260
-              },
-              "frames": 49,
-              "predictedX": 386.3999999999936,
-              "predictedFeet": 260
-            },
-            {
-              "action": {
-                "kind": "walk",
-                "x": 420
-              },
-              "frames": 9,
-              "predictedX": 418.07999999999345,
-              "predictedFeet": 260
+              "text": "登出帳號",
+              "font": 14,
+              "fits": true,
+              "inside": true
             }
           ],
-          "interactionIcons": true,
-          "onlyLocalKeyGlyphVisible": true,
+          "ordinaryKeyboard": true,
+          "noDevelopmentHook": true,
+          "directRuntimePositionEdits": false,
           "errors": []
         },
         {
-          "name": "phone-deliveries",
+          "name": "smallphone-timeout",
           "viewport": {
-            "width": 390,
-            "height": 844
+            "width": 320,
+            "height": 568
           },
           "character": "gretel",
-          "input": "ordinary CDP touchscreen events",
-          "checkpoint": "legitimate first-recipe-complete kitchen room checkpoint",
-          "noDevelopmentHook": true,
-          "noRuntimeActorOrMechanismEdits": true,
-          "actualCheckpointEvidence": true,
-          "openedTaskBoard": true,
-          "actualWrappedSwaps": [
-            [
-              6,
-              10
-            ],
-            [
-              10,
-              11
-            ],
-            [
-              14,
-              15
-            ]
+          "lane": null,
+          "touch": true,
+          "question": "q1",
+          "selected": "none",
+          "status": "timeout",
+          "initialLoadMilliseconds": 3080,
+          "layout": [
+            {
+              "text": "哪一種密碼最不容易被猜到？",
+              "font": 17,
+              "fits": true,
+              "inside": true
+            },
+            {
+              "text": "123456",
+              "font": 14,
+              "fits": true,
+              "inside": true
+            },
+            {
+              "text": "自己的生日",
+              "font": 14,
+              "fits": true,
+              "inside": true
+            },
+            {
+              "text": "混合大小寫、數字與符號的長密碼",
+              "font": 14,
+              "fits": true,
+              "inside": true
+            }
           ],
-          "bothPackagesDelivered": true,
-          "playerCollectedUniqueGiftAndBadge": true,
-          "returnedByShortcut": true,
-          "completedReentryWithoutRespawn": true,
-          "interactionIcons": true,
-          "onlyLocalKeyGlyphVisible": true,
+          "ordinaryKeyboard": true,
+          "noDevelopmentHook": true,
+          "directRuntimePositionEdits": false,
           "errors": []
         }
       ],
-      "scope": "Anonymous exact-build smoke through three fresh room-entry checkpoints with real cooperation/platform controls and nearby task icons. Desktop also switches keyboard→simulated PS→keyboard→PS and confirms the station; idle pad polling must not steal the icon. A legitimate advanced kitchen checkpoint uses three touchscreen swaps, both wrapped deliveries, unique gift/badge pickup, shortcut return and completed reentry without respawn. Offline models only compile input timings. No development hook or runtime actor/progress edits. Full fresh-room puzzle-to-ending keyboard and simulated PS journeys are separate local browser acceptance tests. No physical PS controller or vibration motor was tested."
-    }
+      "scope": "Exact-build first-question A, B, C and timeout from a legitimate second-floor checkpoint with ordinary keyboard events on four viewports. Complete eight-question routes, touch presses and simulated PS polling are separate browser acceptance. No physical controller/motor test."
+    },
+    "typecheck": true,
+    "productionBuild": true
   },
-  "validationScope": "178 core tests passed. The focused first-floor Chrome acceptance batch passed all 22 cases (exit 0), including new keyboard Hansel and simulated standard PS Gretel journeys through three unique gift pickups, completed reentry, three badges, key and original ending; phone icon-device switching and touch confirmation; existing room exploration, causal support, puzzle gestures, controller controls, wordless screens and two full adventures. Only the first-floor boundary is a fixture in the new complete journeys: actor movement, cooperation, puzzle inputs, pickup and exit use live controls. Four no-development-hook exact-build production checks cover fresh living/kitchen/storage task routes and icons, keyboard/PS API switching, and advanced kitchen touchscreen delivery through unique pickup, shortcut and completed reentry. They do not claim a full public playthrough. Physical PS controllers and vibration motors were not tested.",
+  "validationScope": "Eight original knowledge questions now use actual upper/middle/lower platform entrances. Only a grounded rightward crossing commits an answer, with safe reading, three-second decisions, single settlement, shield/no-shield waves and a midpoint companion gate/bypass. Complete local keyboard/touch playthroughs and real Gamepad polling with a simulated standard PS pad cover both siblings, all three routes, wrong answers, timeout, third-error retry, corrective jumps, late gummy support timing and the original first-floor transition. Two full adventures retain third-floor and first-floor puzzle/gift/key/ending flow. Four anonymous exact-build production checks use ordinary keyboard events from a saved level boundary for A/B/C/timeout and responsive full text. Physical PS controllers and vibration motors were not tested. Public cold asset downloads may be slow on the tested connection.",
   "features": [
-    "nearby manual room objects show exactly one context-matched E, PS cross or touch-hand icon; locked, distant, moving or consumed objects hide it",
-    "last actual keyboard, mapped-controller or touch input selects the icon; idle controller polling does not steal the device",
-    "interaction press is consumed until release across puzzle transitions, cabinet motion and gift pickup, keeping it from becoming a jump or second action",
-    "exactly one collectible gift in each of three rooms; puzzleSolved opens the earned mechanism, while actual pickup atomically completes the room and grants its badge",
-    "completed reentry restores cabinet, oven, storage door and shortcut without respawning gifts or duplicating badges; save version 10 migrates legacy puzzle and reward progress",
-    "retained untimed first-floor platform cooperation, two merge boards, two kitchen layers with wrapped deliveries, dual-goal slider, three hallway badge slots, key and original ending",
-    "retained selected-sibling control, automatic companion, third-floor two-relay runner, second-floor eight knowledge questions, hand-painted assets, touch controls and optional guarded haptic requests"
+    "actual high jump to A, short gap jump to B, drop to C; corrective jumps remain possible before entrance",
+    "all eight unchanged questions and full answers displayed with passive route labels, phone readable text and linked entrances",
+    "readable layout then original reading interval and three-second decision; continuous runner controls",
+    "single physical entrance result, correct speed/shield, wrong or timeout no-shield dodge, three errors retry",
+    "midpoint shield then player plate lifts companion gate, missed plate bypass and reunion; late gummy cannot deadlock helper",
+    "retained selected sibling, automatic partner, third-floor relays, first-floor rooms and unique gifts, badges, key, comics and ending"
   ],
   "files": [
     {
@@ -999,14 +692,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-CxeSCRHM.js",
-      "bytes": 214904,
-      "sha256": "7ae185f679780c0aea8159dbd6fd96fe10ffd44520bc1b1a77410631de54c422"
+      "file": "assets/index-BB5aWVII.js",
+      "bytes": 217700,
+      "sha256": "04b79a9b95432bf04453c26c73a05645aa97e451dd2729654d4712e3e5bd8951"
     },
     {
-      "file": "assets/index-D5rec1uz.css",
-      "bytes": 78783,
-      "sha256": "ca584399412b4700001be195b5579d5573b5b819aa70768eea215c3dbe97c69d"
+      "file": "assets/index-CPI47hG_.css",
+      "bytes": 75045,
+      "sha256": "a63118bd024b19d391fc8f6abac0971d74afd899419868287b441668c70e0167"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -1121,7 +814,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "afc1998f9cdd33e7c4cdc7ec31c506259afbc7c3fef41b766d6d7a4b8b03b99e"
+      "sha256": "799d21fd17207ab5c212a89279a2e993834aa0010b2990d6ec395ad1a01cd1af"
     }
   ]
 }
