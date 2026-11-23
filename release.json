@@ -1,30 +1,23 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "f8d262dc848e7d109b2e3148de2a2f4917668857",
-  "builtAt": "2026-11-23T03:07:58.083Z",
+  "gameCommit": "d86c5c35bbdcb61144e00873653b7e4d1c5136ab",
+  "builtAt": "2026-11-23T04:43:50.979Z",
   "version": "0.3.0",
   "validation": {
-    "coreTests": 38,
-    "browserTests": 2,
-    "secondFloorGroundObstacles": 10,
-    "secondFloorObstacles": 16,
+    "coreTests": 44,
+    "browserTests": 13,
+    "completeRealInputAdventures": 2,
     "typecheck": true
   },
   "features": [
-    "second-floor distance HUD and floating-hazard support lines removed; ten ground obstacles flush with the floor",
-    "floating second-floor pictorial tutorial with fifteen-second automatic start",
-    "dark translucent RPG dialogue with gold nameplates and character portraits",
-    "click dialogue to advance one line",
-    "SKIP completes only the current story group with normal checkpoint saving",
-    "supplied witch portrait in comic dialogue",
-    "golden start-button glow",
-    "berry-purple character setup",
-    "floating third-floor pictorial tutorial with fifteen-second automatic start",
-    "pause-aware tutorial countdown and optional early start",
-    "sixteen lethal second-floor obstacles",
-    "text-free third-floor gameplay",
-    "full-screen comics with floating subtitles",
-    "supplied browser and Apple game icon"
+    "one selected playable sibling with an automatic, nonblocking companion throughout the adventure",
+    "variable jump height, 100 ms input buffer and coyote grace; transparent foot-aligned animation frames",
+    "optional third-floor upper wafer support route and independently passable lower route",
+    "continuous second-floor shield and upper bypass routes with physical pictorial gates and recoverable wrong turns",
+    "single-player two-cake, matching and slider puzzles with companion latch assistance",
+    "wordless gameplay, preflight controls, scene lamps, magic warning, local sound cues and pressure-paced broom audio",
+    "original hand-drawn artwork and opening / ending comics; current-group skip uses a double-arrow icon",
+    "desktop and touch controls, checkpoint saving and supplied browser icon"
   ],
   "files": [
     {
@@ -206,6 +199,11 @@
       "file": "assets/2-rfYAxxsE.webp",
       "bytes": 1885394,
       "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
+    },
+    {
+      "file": "assets/3_floor-DmtbeJYa.webp",
+      "bytes": 2258571,
+      "sha256": "835fb5daabb9619693cc1b9741980af7c41f2962956e7cd188298e40fd50559a"
     },
     {
       "file": "assets/3-BfKBfm29.webp",
@@ -438,14 +436,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-Cb82laby.js",
-      "bytes": 103738,
-      "sha256": "a295ae7dd7787e344dd5091a6d84ffca9943bb077bd31317b712dbc3f88ea916"
+      "file": "assets/index-CXNq6yKL.css",
+      "bytes": 61245,
+      "sha256": "d5c4737c16da9753e66198f259c2dcca2e60cbe2ff62425b61414a68f06f1591"
     },
     {
-      "file": "assets/index-DlaAE6ir.css",
-      "bytes": 48309,
-      "sha256": "d62762bd6477fd932557cd0f145fc246bbafadbc6452fa259531492e9f84cc09"
+      "file": "assets/index-D5Uyy9gO.js",
+      "bytes": 121156,
+      "sha256": "73e4223f25d41a8440d10bc1361c88ce2718885672472b6d0560cbdfbab104a2"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -559,8 +557,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 1516,
-      "sha256": "b5672eb1b4e4658c5f3e7c7dd3958a67a4c3644cb7ac84896ec646e7a7e0a297"
+      "bytes": 1862,
+      "sha256": "23b2ce748255ca60bf11cc0754db7c338a64085974946b72fc65f2fcb39f7d38"
     }
   ]
 }

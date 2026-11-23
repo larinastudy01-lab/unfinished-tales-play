@@ -1,11 +1,13 @@
-# Candy House Adventure
+# Candy House Adventure — Siblings Together
 
 Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
-Public playable build with keyboard and touch controls. This repository contains only the generated game and the artwork required to play it.
+Choose Hansel or Gretel once and control that sibling throughout the adventure. The other sibling follows, jumps and automatically supports wafer platforms, shields and puzzle latches. No character switching or second player is required.
 
-Latest update: removed the second-floor witch-distance panel and support lines above floating hazards. Ten ground obstacles now sit flush with the floor by cropping bottom white padding at runtime, preserving the original image files and collision geometry. Previous floating tutorials, RPG dialogue and SKIP are retained.
+Third floor: variable-height jumps, an optional upper support route, and a complete lower route. Second floor: uninterrupted pursuit, shield or upper bypass, pictorial route gates and recoverable wrong turns. First floor: two cakes, matching and sliding puzzles, three physical badges, key pickup and the original forest ending. Gameplay is wordless; controls are explained before play. Existing hand-drawn artwork is retained.
 
-Release source: f8d262dc848e7d109b2e3148de2a2f4917668857.
+Release source: d86c5c35bbdcb61144e00873653b7e4d1c5136ab.
 
-Validated before publishing: 38 core tests, two desktop/touch browser checks covering all sixteen obstacles, floor alignment, lethal contact, retry and eight safe quizzes, TypeScript checks, and a production build. Build provenance and file hashes are recorded in release.json.
+Validation: 44 core tests, 13 Chrome browser checks, two complete keyboard/touch adventures from normal selection to ending, TypeScript and production build. Original assets, build provenance and hashes are recorded in release.json. Physical mobile hardware, human blind-play readability and final sound mix remain to be assessed.
+
+This public repository contains only the generated game and the artwork required to play it.
