@@ -1,15 +1,16 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "d653f2015c8eff4c67612311717947d79de1c100",
-  "builtAt": "2026-11-23T02:33:50.456Z",
+  "gameCommit": "f58539e61ebe2f6396b9231fcca1535cb15a9913",
+  "builtAt": "2026-11-23T02:49:35.953Z",
   "version": "0.3.0",
   "validation": {
     "coreTests": 38,
-    "browserTests": 4,
-    "skipStoryGroups": 7,
+    "browserTests": 3,
+    "timedRunnerTutorials": 2,
     "typecheck": true
   },
   "features": [
+    "floating second-floor pictorial tutorial with fifteen-second automatic start",
     "dark translucent RPG dialogue with gold nameplates and character portraits",
     "click dialogue to advance one line",
     "SKIP completes only the current story group with normal checkpoint saving",
@@ -435,9 +436,9 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-C_Rqm0rF.js",
-      "bytes": 104022,
-      "sha256": "08676d92c4c49a45f88c76199042eb8379381ea7b448d0656885d92bd0c7f79b"
+      "file": "assets/index-B-pg1Zsh.js",
+      "bytes": 103878,
+      "sha256": "977a20e1c78302a357062f4807040a2d71a6083cfaa9fe8f044b0df876c9f489"
     },
     {
       "file": "assets/index-DlaAE6ir.css",
@@ -557,7 +558,7 @@
     {
       "file": "index.html",
       "bytes": 1516,
-      "sha256": "417dbfd3f64a4eefd9ed5cbe2d330b9c97ecc8148830e27498061c6614496c56"
+      "sha256": "6a02b54fad8eb9ccbb0dcdc6146ce9613aaf4247064e1bb18c7733ca39bea2f0"
     }
   ]
 }
