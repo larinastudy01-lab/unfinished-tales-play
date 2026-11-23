@@ -1,19 +1,21 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "de8a2bcb05d0093cf272429d2869ce3a232caa02",
-  "builtAt": "2026-11-22T16:53:54.813Z",
+  "gameCommit": "fd4db678cad77ee840d62a83c487b1e18fef1d83",
+  "builtAt": "2026-11-23T01:57:01.886Z",
   "version": "0.3.0",
   "validation": {
-    "coreTests": 34,
-    "browserTests": 8,
-    "completeKeyboardAndTouchEscape": true,
+    "coreTests": 36,
+    "browserTests": 6,
+    "layoutChecks": 3,
     "typecheck": true
   },
   "features": [
+    "golden start-button glow",
+    "berry-purple character setup",
+    "floating third-floor pictorial tutorial with fifteen-second automatic start",
+    "pause-aware tutorial countdown and optional early start",
     "sixteen lethal second-floor obstacles",
-    "moving ghost collisions",
-    "pictorial pre-level tutorials",
-    "text-free third-floor scene",
+    "text-free third-floor gameplay",
     "full-screen comics with floating subtitles",
     "supplied browser and Apple game icon"
   ],
@@ -97,21 +99,6 @@
       "file": "assets/12-BM4Dwj5U.webp",
       "bytes": 3203759,
       "sha256": "e302126fbea6cb08401211b98bd5b8523694240c688350d293a91aa097b560dc"
-    },
-    {
-      "file": "assets/2-DP9Hz80E.webp",
-      "bytes": 849135,
-      "sha256": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369"
-    },
-    {
-      "file": "assets/2-DTEE7DcR.webp",
-      "bytes": 1029455,
-      "sha256": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1"
-    },
-    {
-      "file": "assets/2-rfYAxxsE.webp",
-      "bytes": 1885394,
-      "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
     },
     {
       "file": "assets/2_01-tFFhtBsP.webp",
@@ -199,6 +186,21 @@
       "sha256": "dc0842d04f058c791fd87ab0ec91d9b4c9b5dc4010fb6bed84241482552bc448"
     },
     {
+      "file": "assets/2-DP9Hz80E.webp",
+      "bytes": 849135,
+      "sha256": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369"
+    },
+    {
+      "file": "assets/2-DTEE7DcR.webp",
+      "bytes": 1029455,
+      "sha256": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1"
+    },
+    {
+      "file": "assets/2-rfYAxxsE.webp",
+      "bytes": 1885394,
+      "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
+    },
+    {
       "file": "assets/3-BfKBfm29.webp",
       "bytes": 1496119,
       "sha256": "e4c32456344c77aa8e394d1c6ff8f9d835ef0cc1d1e8dc84e6388c8cfbefab40"
@@ -224,14 +226,14 @@
       "sha256": "b548905017a3741e077a5f3dee921670a02f2f6bbeb908dd939f1edda1db75f6"
     },
     {
-      "file": "assets/5-CHGqNlUg.webp",
-      "bytes": 1510963,
-      "sha256": "f2f2c25852d341dc76166cf3fd193d8a4ca0b206fb9920131699cb958fe1b02c"
-    },
-    {
       "file": "assets/5-CcNGb7G-.webp",
       "bytes": 1069857,
       "sha256": "7ceec9de51e292db304c299ac34df9448c521175e5623e7eb8e598d385069d67"
+    },
+    {
+      "file": "assets/5-CHGqNlUg.webp",
+      "bytes": 1510963,
+      "sha256": "f2f2c25852d341dc76166cf3fd193d8a4ca0b206fb9920131699cb958fe1b02c"
     },
     {
       "file": "assets/6-Cjx4CfT3.webp",
@@ -257,36 +259,6 @@
       "file": "assets/9-CD0Lw-RD.webp",
       "bytes": 1194810,
       "sha256": "6fd12cd2f62b838bd83aea84fd1a36a4ff4e8a3ddf1b49439796a9ca9e939e25"
-    },
-    {
-      "file": "assets/Lollipop-DtXd-9DM.webp",
-      "bytes": 748928,
-      "sha256": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19"
-    },
-    {
-      "file": "assets/README.md",
-      "bytes": 423,
-      "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
-    },
-    {
-      "file": "assets/The witch failed-Jn3oDXPe.gif",
-      "bytes": 392152,
-      "sha256": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69"
-    },
-    {
-      "file": "assets/Wafer platform-C1gXrOFU.webp",
-      "bytes": 1419368,
-      "sha256": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3"
-    },
-    {
-      "file": "assets/Witch Attack-D8NV7wxW.gif",
-      "bytes": 346758,
-      "sha256": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71"
-    },
-    {
-      "file": "assets/Witch Chase-CqpE2xLk.gif",
-      "bytes": 419172,
-      "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
     },
     {
       "file": "assets/audio/.gitkeep",
@@ -409,6 +381,11 @@
       "sha256": "72ab217f14dd715b469b11fb4ea5694ddf999cb5c97430595f3bea4bad77daa3"
     },
     {
+      "file": "assets/girl_Headshot-DpntGRWD.webp",
+      "bytes": 1874597,
+      "sha256": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0"
+    },
+    {
       "file": "assets/girl-failure-CP_gdY0J.webp",
       "bytes": 20102,
       "sha256": "3a264d0d9278322e97c50d5190f59f499082ce4d58a46ce9ba51184ffcec8c9f"
@@ -449,29 +426,29 @@
       "sha256": "30ca9eb4cbff7c46dccd9e2d33411dd558a07168821eaf6fecf594b43b6d5074"
     },
     {
-      "file": "assets/girl_Headshot-DpntGRWD.webp",
-      "bytes": 1874597,
-      "sha256": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0"
-    },
-    {
       "file": "assets/gummy-evL83gki.webp",
       "bytes": 9164,
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BMmHE9wu.css",
-      "bytes": 39858,
-      "sha256": "06ca4485c25fe5ab08dbf219e9ab45457cabb5c97ca91d9078c1a0f6f5aa0cbe"
+      "file": "assets/index-7dWlZQ_4.css",
+      "bytes": 44058,
+      "sha256": "103697784f3a7f9db0f26c8fed675540da57f65af103207a6d6ae49eee3edbf3"
     },
     {
-      "file": "assets/index-DypDjR0F.js",
-      "bytes": 102617,
-      "sha256": "0e6fd9755b22f9e5dd543ded5dffb8da1a2e5b810e65040f7f41d50e59716342"
+      "file": "assets/index-BmbtBZi5.js",
+      "bytes": 103196,
+      "sha256": "dca5ede5d512f31667a013be257315c782b15057c38401d67072a6272ea40ed9"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
       "bytes": 2892880,
       "sha256": "973a1715e13695c2b236d64f3e01ae6984e1ec40aebd8c5b0a43afa19a54d329"
+    },
+    {
+      "file": "assets/Lollipop-DtXd-9DM.webp",
+      "bytes": 748928,
+      "sha256": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19"
     },
     {
       "file": "assets/lollipop-head-a2Q9Nbt-.webp",
@@ -494,6 +471,11 @@
       "sha256": "67e308d953d59344f4b21c97a537e334afdefea1ccccbf58d09aeb06ef4551b6"
     },
     {
+      "file": "assets/README.md",
+      "bytes": 423,
+      "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
+    },
+    {
       "file": "assets/second_jump-H8JcOzZg.webp",
       "bytes": 99192,
       "sha256": "d66f301ff45d6fed9d5ab85776060d26882f3f799c3849b58f301b9655970b5c"
@@ -514,14 +496,14 @@
       "sha256": "1d9d51a5f88ad7e7f7f990028b2313436b952738fcfbd6f470c0bb0d85c4a509"
     },
     {
-      "file": "assets/start-41uEELUO.webp",
-      "bytes": 3679901,
-      "sha256": "26190a6cac4cc577ec1c6c2f5dd8f3b60fa7a5da560b37c0098fa6aed3fdf1f9"
-    },
-    {
       "file": "assets/start_icon-BHVsFwOO.webp",
       "bytes": 2607526,
       "sha256": "042037ad6a37fc3d3986040dc5fa8a2fd27bf7fb4006d732596ced0d5d023daa"
+    },
+    {
+      "file": "assets/start-41uEELUO.webp",
+      "bytes": 3679901,
+      "sha256": "26190a6cac4cc577ec1c6c2f5dd8f3b60fa7a5da560b37c0098fa6aed3fdf1f9"
     },
     {
       "file": "assets/sticky_syrup-DHjIRJvS.webp",
@@ -529,14 +511,34 @@
       "sha256": "b83d2a1e79d4782404ddc9e3b6c44193ce14561ae2b0b48fa745d314ff1d14fd"
     },
     {
+      "file": "assets/The witch failed-Jn3oDXPe.gif",
+      "bytes": 392152,
+      "sha256": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69"
+    },
+    {
       "file": "assets/ui/.gitkeep",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "file": "assets/Wafer platform-C1gXrOFU.webp",
+      "bytes": 1419368,
+      "sha256": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3"
+    },
+    {
       "file": "assets/wall-BvzSPU_4.webp",
       "bytes": 159226,
       "sha256": "9e40854e2ab62fc3ab64130848f01b87ecafdeaca44868f4780bf04b6afbc848"
+    },
+    {
+      "file": "assets/Witch Attack-D8NV7wxW.gif",
+      "bytes": 346758,
+      "sha256": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71"
+    },
+    {
+      "file": "assets/Witch Chase-CqpE2xLk.gif",
+      "bytes": 419172,
+      "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
     },
     {
       "file": "favicon.svg",
@@ -551,7 +553,7 @@
     {
       "file": "index.html",
       "bytes": 1516,
-      "sha256": "bbbfbb0e0646df92e7ba45187fed769e2ce24346dbd8d6564615ac7b449b50ca"
+      "sha256": "37a551fac76722739462f2ff40eb32d74fdb881b09f5e8251f75278f73e149b2"
     }
   ]
 }
