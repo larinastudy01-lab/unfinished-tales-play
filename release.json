@@ -1,15 +1,17 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "f58539e61ebe2f6396b9231fcca1535cb15a9913",
-  "builtAt": "2026-11-23T02:49:35.953Z",
+  "gameCommit": "f8d262dc848e7d109b2e3148de2a2f4917668857",
+  "builtAt": "2026-11-23T03:07:58.083Z",
   "version": "0.3.0",
   "validation": {
     "coreTests": 38,
-    "browserTests": 3,
-    "timedRunnerTutorials": 2,
+    "browserTests": 2,
+    "secondFloorGroundObstacles": 10,
+    "secondFloorObstacles": 16,
     "typecheck": true
   },
   "features": [
+    "second-floor distance HUD and floating-hazard support lines removed; ten ground obstacles flush with the floor",
     "floating second-floor pictorial tutorial with fifteen-second automatic start",
     "dark translucent RPG dialogue with gold nameplates and character portraits",
     "click dialogue to advance one line",
@@ -436,9 +438,9 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-B-pg1Zsh.js",
-      "bytes": 103878,
-      "sha256": "977a20e1c78302a357062f4807040a2d71a6083cfaa9fe8f044b0df876c9f489"
+      "file": "assets/index-Cb82laby.js",
+      "bytes": 103738,
+      "sha256": "a295ae7dd7787e344dd5091a6d84ffca9943bb077bd31317b712dbc3f88ea916"
     },
     {
       "file": "assets/index-DlaAE6ir.css",
@@ -558,7 +560,7 @@
     {
       "file": "index.html",
       "bytes": 1516,
-      "sha256": "6a02b54fad8eb9ccbb0dcdc6146ce9613aaf4247064e1bb18c7733ca39bea2f0"
+      "sha256": "b5672eb1b4e4658c5f3e7c7dd3958a67a4c3644cb7ac84896ec646e7a7e0a297"
     }
   ]
 }

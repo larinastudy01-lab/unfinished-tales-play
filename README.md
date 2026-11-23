@@ -4,8 +4,8 @@ Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
 Public playable build with keyboard and touch controls. This repository contains only the generated game and the artwork required to play it.
 
-Latest update: second-floor pictorial teaching now floats above its starting scene and automatically starts play after fifteen seconds, matching the third floor. Both support early start and pause-aware countdowns, with gameplay frozen during teaching. Previous RPG dialogue, SKIP, game features and original artwork are retained.
+Latest update: removed the second-floor witch-distance panel and support lines above floating hazards. Ten ground obstacles now sit flush with the floor by cropping bottom white padding at runtime, preserving the original image files and collision geometry. Previous floating tutorials, RPG dialogue and SKIP are retained.
 
-Release source: f58539e61ebe2f6396b9231fcca1535cb15a9913.
+Release source: f8d262dc848e7d109b2e3148de2a2f4917668857.
 
-Validated before publishing: 38 core tests, three browser checks covering both tutorials across desktop and portrait/landscape phones, TypeScript checks, and a production build. Build provenance and file hashes are recorded in release.json.
+Validated before publishing: 38 core tests, two desktop/touch browser checks covering all sixteen obstacles, floor alignment, lethal contact, retry and eight safe quizzes, TypeScript checks, and a production build. Build provenance and file hashes are recorded in release.json.
