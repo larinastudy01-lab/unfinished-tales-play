@@ -1,11 +1,14 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "5b2af90ea0453be77760ac03ecc4d5ca3715f5a4",
-  "builtAt": "2026-11-23T04:53:43.246Z",
-  "version": "0.3.0",
+  "gameCommit": "66ce29db1c6ba04df92bd3a3e3fd3b2df366c7d2",
+  "builtAt": "2026-11-23T07:20:06.642Z",
+  "version": "0.4.0",
   "validation": {
-    "coreTests": 44,
-    "browserTests": 14,
+    "coreTests": 63,
+    "browserTests": 17,
+    "firstFloorRealInputRoutes": 2,
+    "simulatedGamepad": true,
+    "physicalPSGamepad": false,
     "completeRealInputAdventures": 2,
     "assetReadinessGate": true,
     "typecheck": true
@@ -15,7 +18,9 @@
     "variable jump height, 100 ms input buffer and coyote grace; transparent foot-aligned animation frames",
     "optional third-floor upper wafer support route and independently passable lower route",
     "continuous second-floor shield and upper bypass routes with physical pictorial gates and recoverable wrong turns",
-    "single-player two-cake, matching and slider puzzles with companion latch assistance",
+    "first-cake companion latch, explicit dual-handle cabinet opening, nonblocking dessert catches and storage door bracing until the player returns outside",
+    "persistent partial puzzle boards and mechanisms, physical badge sockets, moonlight and both siblings running into the original ending",
+    "single standard gamepad first-floor controls and feature-detected optional mechanism rumble",
     "wordless gameplay, preflight controls, scene lamps, magic warning, local sound cues and pressure-paced broom audio",
     "original hand-drawn artwork and opening / ending comics; current-group skip uses a double-arrow icon",
     "desktop and touch controls, checkpoint saving, supplied browser icon and asset-ready startup"
@@ -437,14 +442,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BDj4tsAN.js",
-      "bytes": 121433,
-      "sha256": "7cebb2193886650d1136b3c1461c70335e19b099464e05137f645af13df371f8"
+      "file": "assets/index-Bh3ZpwiT.css",
+      "bytes": 64380,
+      "sha256": "7f46ab1ebb99c5139e445c288c46ae44b3b8a1d4042c3fb3dada9e20dc61af69"
     },
     {
-      "file": "assets/index-CX1IThYB.css",
-      "bytes": 61502,
-      "sha256": "85c261ffd1b05f79ac218202c79c75f65a13653fc88152a96250ac6f1a96456e"
+      "file": "assets/index-DkXL6NxM.js",
+      "bytes": 138251,
+      "sha256": "467489194a10b405be4d01df10abc8161e58c03b9393997fe25938b22b409178"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -559,7 +564,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "b28e3d08f7ca9d9ebc764464fff0ec961ac38c8b9518c531f2a6b883dfb5dff9"
+      "sha256": "b535d966bcde91a94eb3070ee80b16f69343740f7a0d3f737f66d3d180eadb85"
     }
   ]
 }
