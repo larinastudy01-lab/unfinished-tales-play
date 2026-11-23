@@ -1,14 +1,18 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "21bee4757905031bad627bb0520bbfae758c699b",
-  "builtAt": "2026-11-23T02:09:06.709Z",
+  "gameCommit": "d653f2015c8eff4c67612311717947d79de1c100",
+  "builtAt": "2026-11-23T02:33:50.456Z",
   "version": "0.3.0",
   "validation": {
-    "coreTests": 36,
-    "comicPortraitViewports": 3,
+    "coreTests": 38,
+    "browserTests": 4,
+    "skipStoryGroups": 7,
     "typecheck": true
   },
   "features": [
+    "dark translucent RPG dialogue with gold nameplates and character portraits",
+    "click dialogue to advance one line",
+    "SKIP completes only the current story group with normal checkpoint saving",
     "supplied witch portrait in comic dialogue",
     "golden start-button glow",
     "berry-purple character setup",
@@ -431,14 +435,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-7dWlZQ_4.css",
-      "bytes": 44058,
-      "sha256": "103697784f3a7f9db0f26c8fed675540da57f65af103207a6d6ae49eee3edbf3"
+      "file": "assets/index-C_Rqm0rF.js",
+      "bytes": 104022,
+      "sha256": "08676d92c4c49a45f88c76199042eb8379381ea7b448d0656885d92bd0c7f79b"
     },
     {
-      "file": "assets/index-Y_g0T7G0.js",
-      "bytes": 103230,
-      "sha256": "2cd8694a49e198aee7d62124fb1aefad143756d69b952163aae5f4b2723326b7"
+      "file": "assets/index-DlaAE6ir.css",
+      "bytes": 48309,
+      "sha256": "d62762bd6477fd932557cd0f145fc246bbafadbc6452fa259531492e9f84cc09"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -553,7 +557,7 @@
     {
       "file": "index.html",
       "bytes": 1516,
-      "sha256": "75af2303ac4eb4a38544d2803ec3ce6c50ff3c7c4bee839cc1a94415c6160aad"
+      "sha256": "417dbfd3f64a4eefd9ed5cbe2d330b9c97ecc8148830e27498061c6614496c56"
     }
   ]
 }
