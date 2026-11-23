@@ -1,25 +1,38 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "32a563fb1efa4435a5871192fed939c21d6fabdd",
-  "builtAt": "2026-11-23T10:54:05.243Z",
-  "version": "0.6.0",
+  "gameCommit": "1a979ee369fa5b7cd12285706ffcfde51e073581",
+  "builtAt": "2026-11-23T11:21:21.591Z",
+  "version": "0.7.0",
   "validation": {
-    "coreTests": 91,
-    "browserTests": 27,
-    "legacySecondFloorBrowserChecks": 2,
+    "coreTests": 107,
+    "integratedBrowserTests": 36,
+    "legacyArtworkDifficultyChecks": 4,
+    "browserBatch": {
+      "passed": 38,
+      "failed": 2,
+      "exitCode": 1
+    },
+    "isolatedReruns": {
+      "passed": 2,
+      "failed": 0,
+      "exitCode": 0
+    },
     "completeRealInputAdventures": 2,
+    "thirdFloorKeyboardUpperRoutes": 4,
+    "thirdFloorTouchLowerRoutes": 1,
+    "thirdFloorSimulatedPSRoutes": 2,
+    "normalThirdFloorSeconds": 37.02,
+    "gummyUpperThirdFloorSeconds": 34.25,
+    "causalSceneViewportChecks": 24,
+    "productionCompleteThirdFloorReplays": 3,
     "simulatedGamepad": true,
     "physicalPSGamepad": false,
     "physicalRumble": false,
-    "completePSFirstFloorRoutes": 2,
-    "allGiftsPerPSRoute": 15,
-    "productionFreshRoomChecks": 6,
-    "causalSceneViewportChecks": 33,
     "typecheck": true,
     "assetReadinessGate": true,
-    "partialDoorResetRegression": true
+    "closedGateReturnRegression": true
   },
-  "validationScope": "Local Chrome: both full adventures, two complete standard-PS-API first-floor routes taking all 15 gifts and the key/ending, keyboard/touch floor routes, causal gate/reentry/reset tests and the retained knowledge chase. Production: exact build and six fresh-room checkpoint → support/puzzles → gift → reentry routes. No physical PS controller or motor was tested.",
+  "validationScope": "Current source: 107 core tests; 40 distinct Chrome cases verified (batch 38 passed/2 failed; isolated reruns 2/2 passed after removing a development-page reload interference and settling a legacy camera fixture). Includes two complete adventures, both selected siblings on normal/Q upper routes, touch lower fallback, missed-wafer fallback, two complete simulated standard-PS third-floor routes, retry/pause and retained knowledge/first-floor flows; four legacy art/difficulty checks. Exact production build: three complete third-floor keyboard replays through the original comic into floor two. No physical PS controller or motor was tested.",
   "features": [
     "one selected playable sibling with an automatic nonblocking companion throughout the adventure",
     "eight original text knowledge questions and answers, three-second decision window after layout and reading lead, one settlement per question",
@@ -27,14 +40,23 @@
     "correct answers open distance and trigger a companion biscuit kick; wrong or timeout increases pressure; original three-mistake failure",
     "sixteen original lethal hazards between questions; telegraphed witch spell, companion biscuit shield and independently passable upper bypass",
     "variable jump height, 100 ms input buffer and coyote grace; transparent foot-aligned animation frames",
-    "optional third-floor upper wafer support route and independently passable lower route",
     "optional feature-detected haptics, local sound cues and pressure-paced broom audio",
     "original hand-drawn artwork and comics; preflight controls, wordless gameplay outside story and knowledge questions",
     "desktop and touch controls, checkpoint saving, supplied browser icon, asset-ready startup and frame-free wine red pause button",
     "living first cake extends stairs; physical companion high-latch hold unlocks the crowded chocolate board; the player separately opens the cabinet",
     "kitchen first recipe enables a companion lever and physical second-board swap; both three-dessert recipes are required before the oven gift opens",
     "storage short candy extends a bridge for the companion; red target raises the shutter and actual inside support gates entry until the player collects and returns",
-    "version-eight save migration and physical support reconstruction preserve earned mechanisms, gifts, badge sockets, manual key pickup and original ending"
+    "version-eight save migration and physical support reconstruction preserve earned mechanisms, gifts, badge sockets, manual key pickup and original ending",
+    "physical third-floor upper-plate contact opens the helper-only cookie gate; actual companion passage and lower-plate contact extend the upper wafer",
+    "wafer collision follows its drawn width; the full extension latches for at least 2.5 seconds and until the player reaches the safe landing; the helper rejoins below",
+    "missed-first-plate and missed-wafer lower routes remain independently passable within the original 60-second limit; retry and reentry rebuild every mechanism",
+    "wide cooperation camera, separate rear helper lane, visible linkages, preflight diagrams, three local mechanism cues and optional 85 ms bridge-position rumble",
+    "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors",
+    "physical third-floor upper-plate contact opens the helper-only cookie gate; actual companion passage and lower-plate contact extend the upper wafer",
+    "wafer collision follows its drawn width; the full extension latches for at least 2.5 seconds and until the player reaches the safe landing; the helper rejoins below",
+    "missed-first-plate and missed-wafer lower routes remain independently passable within the original 60-second limit; retry and reentry rebuild every mechanism",
+    "wide cooperation camera, separate rear helper lane, visible linkages, preflight diagrams, three local mechanism cues and optional 85 ms bridge-position rumble",
+    "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors"
   ],
   "files": [
     {
@@ -453,9 +475,9 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-COa752Lo.js",
-      "bytes": 156478,
-      "sha256": "a5ece67abaed5fb49c701edba3a2e759757f773e98721f41d16550ad780c4727"
+      "file": "assets/index-BJj2HJgd.js",
+      "bytes": 163019,
+      "sha256": "f1c360c53359debd9da7980d9355d25543485554d621cfbf75d13a087ea817b7"
     },
     {
       "file": "assets/index-CrU0McgB.css",
@@ -575,7 +597,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "b2697db760ae926660c1bcb6ce9f8c79f2c98c4d64f936bc19f0b17e68cad5ea"
+      "sha256": "20c297aa9d76fa31b2b43e7ecaa500a0c756e22b8b7205a8b2553ed391c28212"
     }
   ]
 }
