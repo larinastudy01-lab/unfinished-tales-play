@@ -1,254 +1,961 @@
 {
   "game": "Candy House Adventure",
-  "version": "0.9.0",
-  "gameCommit": "d901f1d2de0d851459e6ed323bba470172b35ca3",
-  "builtAt": "2026-11-23T12:48:48.204Z",
+  "version": "0.10.0",
+  "gameCommit": "20b91db3615a586c073d99b813cf8fa103b7c49e",
+  "builtAt": "2026-11-23T14:16:07.155Z",
   "validation": {
-    "createdAt": "2026-11-23T12:47:36.988Z",
-    "coreTests": 137,
-    "browserTests": 55,
-    "coreExitCode": 0,
-    "browserExitCode": 1,
-    "browserAcceptedTests": 55,
-    "targetedExitCode": 0,
+    "createdAt": "2026-11-23T13:13:35.683802+00:00",
+    "version": "0.10.0",
+    "status": "complete with explicitly scoped interrupted full batch and passing targeted rerun",
     "checks": [
       {
-        "name": "final complete core",
+        "name": "preliminary core before final camera and shoulder edge fixes",
         "command": "npm test",
-        "tests": 137,
-        "passed": 137,
+        "tests": 166,
+        "passed": 166,
         "failed": 0,
         "exitCode": 0,
-        "durationSeconds": 3.73,
-        "log": "artifacts/second-routes-core.log",
-        "scope": "Final frozen application source, including normal/Q at 30/60/144 Hz and nearby jump cues. The 11 new causal Node cases are included in 137."
+        "log": "artifacts/first-platforms-core-before-final-camera.log"
       },
       {
-        "name": "complete Chrome regression batch",
-        "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line",
-        "tests": 55,
-        "passed": 54,
-        "failed": 1,
+        "name": "preliminary core before final storage-entry bridge collision",
+        "exitCode": 0,
+        "finishedAt": "2026-11-23T13:21:19.9861556Z",
+        "command": "npm test",
+        "startedAt": "2026-11-23T13:21:15.9337106Z",
+        "log": "artifacts/first-platforms-core-pre-bridge.log",
+        "tests": 167,
+        "passed": 167,
+        "failed": 0
+      },
+      {
+        "name": "preliminary complete Chrome batch",
         "exitCode": 1,
-        "duration": "7.6m",
-        "log": "artifacts/second-routes-browser.log",
-        "scope": "Final frozen application source. The sole failure was an obsolete artwork fixture expecting all 16 catalog hazards to appear as live obstacles; the authored answer branches retain 9 live hazards."
+        "finishedAt": "2026-11-23T13:30:38.5419848Z",
+        "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line --output=artifacts/first-platforms-browser-results",
+        "startedAt": "2026-11-23T13:21:32.4376439Z",
+        "log": "artifacts/first-platforms-browser-pre-bridge.log",
+        "tests": 57,
+        "passed": 54,
+        "failed": 3,
+        "duration": "9.1m",
+        "scope": "Preliminary frozen application before the final storage-entry bridge collider. The three failures are obsolete tutorial-count fixtures: worker retained expected two while setup now contains two runner tutorials plus one first-floor tutorial. No other cases failed."
       },
       {
-        "name": "repaired catalog fixture and strengthened intended-choice verification",
-        "command": "npx playwright test --config playwright.candy.config.js third-art.spec.js second-causal.spec.js --grep 'all V2 artwork|chosen lanes, avoidable waves' --reporter=line",
-        "tests": 3,
-        "passed": 3,
+        "name": "root standalone phone diagnostic",
+        "sessionId": 64203,
+        "status": "completion not returned",
+        "exitCode": null,
+        "passed": null,
+        "countedInAcceptedTotals": false,
+        "scope": "The independent diagnostic reached returned bathroom but did not return a completed run. No pass is claimed. The same touch-Gretel scenario passed as case 22 of the complete preliminary 57-case batch."
+      },
+      {
+        "name": "final complete core",
+        "exitCode": 0,
+        "finishedAt": "2026-11-23T13:34:18.9507658Z",
+        "command": "npm test",
+        "startedAt": "2026-11-23T13:34:14.2110962Z",
+        "log": "artifacts/first-platforms-core.log",
+        "tests": 169,
+        "passed": 169,
+        "failed": 0
+      },
+      {
+        "name": "final frozen-source Chrome regression batch, interrupted",
+        "status": "interrupted",
+        "artifact": "artifacts/first-platforms-browser-run.json",
+        "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line --output=artifacts/first-platforms-final-browser-results",
+        "startedAfterCoreFinishedAt": "2026-11-23T13:34:18.9507658Z",
+        "terminatedAt": "2026-11-23T14:10:14.238868+00:00",
+        "exitCode": 1,
+        "termination": "Ctrl+C authorized by root after the final case did not return completion beyond its configured timeout",
+        "playwrightFinalSummaryReturned": false,
+        "tests": 57,
+        "passed": 53,
+        "knownFailed": 3,
+        "unfinished": 1,
+        "log": "artifacts/first-platforms-browser.log",
+        "failureReasons": [
+          "PS Hansel full first floor exceeded its 180000 ms test budget; context-destroyed was a secondary timeout shutdown error, not a diagnosed navigation bug.",
+          "Wordless phone and landscape entered a room through an isolated model fixture without refreshing the DOM, so the hallway DOM hid the room jump button."
+        ],
+        "unfinishedCase": "landscape rendered scene audit: Gretel never paints Canvas words",
+        "countedInAcceptedTotals": true,
+        "scope": "The single worker completed 53 passing cases and reported three failures; the final landscape Gretel Canvas audit did not return completion. The run was explicitly interrupted after prolonged worker shutdown. No natural Playwright final summary or pass is inferred for its last case."
+      },
+      {
+        "name": "anonymous exact-archive production smoke",
+        "tests": 4,
+        "passed": 4,
         "failed": 0,
         "exitCode": 0,
-        "duration": "29.0s",
-        "log": "artifacts/second-routes-targeted.log",
-        "scope": "After test-only fixes, verifies the current 9 live sprites and all 16 native catalog sprites, plus exact intended-option equality in keyboard wrong-one/wrong-two and touch timeout/wrong-two full eight-question journeys. These are three of the same 55 distinct scenarios, not three additional cases."
+        "executedBy": "root",
+        "artifact": "artifacts/first-platforms-build.json",
+        "scope": "Anonymous production smoke through three fresh room-entry checkpoints using real cooperation and platform controls to open the task board, plus a legitimate advanced kitchen room checkpoint with three actual swaps, both wrapped deliveries, player badge pickup and the opened shortcut. Offline models only compile input timings. The running page exposes no development hook and receives no actor/room-progress edits. Full fresh-room puzzle-to-ending journeys and simulated PS controls are covered by separate local browser acceptance tests. No physical PS controller or vibration motor was tested.",
+        "scenarioNames": [
+          "desktop-living",
+          "phone-kitchen",
+          "landscape-storage",
+          "phone-deliveries"
+        ]
+      },
+      {
+        "name": "targeted fresh-worker rerun of all four affected cases",
+        "status": "passed",
+        "exitCode": 0,
+        "finishedAt": "2026-11-23T14:12:43.5610118Z",
+        "command": "CANDY_TEST_PORT=5181 npx playwright test --config playwright.candy.config.js floor-causal.spec.js wordless-ui.spec.js --grep \"PS hansel|phone wordless interface|landscape wordless interface|landscape rendered scene audit.*gretel\" --workers=1 --reporter=line --global-timeout=600000 --output=artifacts/first-platforms-targeted-browser-results",
+        "startedAt": "2026-11-23T14:11:47.7531256Z",
+        "log": "artifacts/first-platforms-targeted.log",
+        "tests": 4,
+        "passed": 4,
+        "failed": 0,
+        "duration": "52.6s",
+        "artifact": "artifacts/first-platforms-targeted-run.json",
+        "scope": "One fresh worker reran PS Hansel full first-floor journey, phone and landscape wordless interfaces, and the unfinished landscape Gretel Canvas audit. Two authorized test-only changes refresh the DOM after direct enterRoom fixtures and raise the full PS test budget to 300 seconds; inputs and assertions are unchanged. The application source matches the final core and production build."
       }
     ],
-    "browserValidationScope": "The complete 55-case batch passed 54 cases and failed one obsolete catalog fixture (exit 1). After test-only corrections, the repaired case and two strengthened wrong-door journeys passed (exit 0). All 55 distinct scenarios have passing results. The complete 55-case batch was not repeated.",
     "sourceFrozen": true,
-    "sourceUnchangedDuringBrowserValidation": true,
-    "sourceChanges": [],
+    "sourceBeforeFile": "artifacts/first-platforms-source-before.json",
     "sourceSha256": {
-      "src/candy/game.ts": "2fb507c572b464c1bc4e2d03ee51f00928b656855f4d4bf17d0bb9c8d5c7db6a",
+      "index.html": "0f9e4a3d28f41984993db749a5f47ff4a898664a33200c7ab32545b0f0fbb87b",
+      "package-lock.json": "e9561afe24e9f37f3bc42a7a5c9c043b286dcc010add8cce169ed28df2b9236c",
+      "package.json": "09fa02f67840fdc321dadf0fd14f0a12ba001884fa80abceffc7c99594c8db28",
+      "src/art/draw.js": "7f5411819cf4f45caab7f2a8a2444b180ff285237afbd49540564fe7a6a5d108",
+      "src/art/props.js": "f216c6158960f3fa9d34750dca41439ab2fac8f44399231100d58cb6eb33b8da",
+      "src/art/textures.js": "d54c522d29602a3960b9f95c702e04ee481139bed9be58dd8d2b8f69de8e6b81",
+      "src/assest/1 floor/2048/1.webp": "073aa4b9edc5d43c0b944a41cde29fe2c1f091dd113535a02124c3c1e8c58e2c",
+      "src/assest/1 floor/2048/10.webp": "1aea4444c304d26d1bd396b521218a1ece0b6ad478888374466f38216d6d82e5",
+      "src/assest/1 floor/2048/2.webp": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56",
+      "src/assest/1 floor/2048/3.webp": "ca35054389c9dd29c31b9578ef19a2be17b5c442a76d64d7cf5ceb2c75478c49",
+      "src/assest/1 floor/2048/4.webp": "2e6b90c854a029ea24ea1187104e7070a40964a56baf461472a1586dabfb205d",
+      "src/assest/1 floor/2048/5.webp": "f2f2c25852d341dc76166cf3fd193d8a4ca0b206fb9920131699cb958fe1b02c",
+      "src/assest/1 floor/2048/6.webp": "47084a7cf3bd3863f9b1bbb067e632e120663eb2f96ee3727d94ca2195aeba71",
+      "src/assest/1 floor/2048/7.webp": "ca39f897aef6d7e237cac5bec964cb2f79e54cf0dcf132bcd6b33cae66e033b4",
+      "src/assest/1 floor/2048/8.webp": "d7d9bfed4966bad161321d1cca0e85c4f445bc268f8ce57e6c589662a70c64a8",
+      "src/assest/1 floor/2048/9.webp": "6fd12cd2f62b838bd83aea84fd1a36a4ff4e8a3ddf1b49439796a9ca9e939e25",
+      "src/assest/1 floor/2048/background.webp": "b0cbe41ab39dc1c67b364bfbc049d50dc18e69a5f6626953569f84e4361022d9",
+      "src/assest/1 floor/Klotski/1.webp": "2c0085d939f98cce8aba33d808a0eb9265a25b52738651bc87d93cd5453967e0",
+      "src/assest/1 floor/Klotski/2.webp": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369",
+      "src/assest/1 floor/Klotski/3.webp": "e4c32456344c77aa8e394d1c6ff8f9d835ef0cc1d1e8dc84e6388c8cfbefab40",
+      "src/assest/1 floor/Klotski/4.webp": "b548905017a3741e077a5f3dee921670a02f2f6bbeb908dd939f1edda1db75f6",
+      "src/assest/1 floor/Klotski/background.webp": "b61709050b9e8a70cceabfdbeab85f4ad30717d009a4d2ce967d114c59c6bd33",
+      "src/assest/1 floor/candy crush/1.webp": "fa6605d83f4610c310371d3027bd35cf1ea867dcf9f7626235a1cca66f707247",
+      "src/assest/1 floor/candy crush/2.webp": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1",
+      "src/assest/1 floor/candy crush/3.webp": "21da4d4f5bab809a552f087a485005efafccb07d60bcb6734b0c12635da68b18",
+      "src/assest/1 floor/candy crush/5.webp": "7ceec9de51e292db304c299ac34df9448c521175e5623e7eb8e598d385069d67",
+      "src/assest/1 floor/candy crush/6.webp": "6aa179902331854eb9e16a89124ba159f01efe132b0296828ed169f9bc532235",
+      "src/assest/1 floor/candy crush/background.webp": "16818554f2d7e23506b0c77ab5622de7cd9adeb706be8b6d05380ecd3f0a9dda",
+      "src/assest/1 floor/exit_key.webp": "6979eca19b83685af6203c72c256694a1ee8a8d5c24f9a0c6a0a23246e59e780",
+      "src/assest/1 floor/gift_box.webp": "95ad4e6c2e125f64e8120880fafb175e0d8bb6fd94ae9188f7f69b0d1fa971b2",
+      "src/assest/2 floor/2_background.png": "dc0842d04f058c791fd87ab0ec91d9b4c9b5dc4010fb6bed84241482552bc448",
+      "src/assest/2 floor/2_floor.webp": "0986305a3dceacdf1950bfd05281eaf6cb49238d79b501bb44e22bcbae549ba1",
+      "src/assest/2 floor/The witch failed.gif": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69",
+      "src/assest/2 floor/Witch Attack.gif": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71",
+      "src/assest/2 floor/Witch Chase.gif": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6",
+      "src/assest/2 floor/上方障礙/2_03.webp": "64a22a662a2dab36df1972b7035d000694425e5bc03c464d5cbf81100c7d1e59",
+      "src/assest/2 floor/上方障礙/2_05.webp": "b2e0e8fe9122b0c9e7acff5806f48d1eab241312d6eeb33f188c72c55a2ce8b1",
+      "src/assest/2 floor/上方障礙/2_08.webp": "e3e1fdf09bc873805fc826ef8b8e83d967c71b63f5132b5347b855af14a77947",
+      "src/assest/2 floor/上方障礙/2_11.webp": "ce99aa4176bafda3e05aab901634d9df05e4f01e2f3ff21854860687b6a5d4d0",
+      "src/assest/2 floor/上方障礙/2_12.webp": "d9e5bfff57ace456c2ad138d454370958d2cfe2c2015491f89d91306f25d4182",
+      "src/assest/2 floor/地面障礙/2_01.webp": "c0caada1ed1e5c80bd92f4604bdcbc1f22ee503e78f80a0f63cd31bc9506b125",
+      "src/assest/2 floor/地面障礙/2_02.webp": "7568ed2bba2353352f79b9d78af9ecc3d3e727f50005ba3ec743efab1009e5bb",
+      "src/assest/2 floor/地面障礙/2_04.webp": "006a8d5c13a29b0a4d4e9c28604fd5e06b899440e01caa89732280d721e4b0ee",
+      "src/assest/2 floor/地面障礙/2_06.webp": "3de490a2b7cd872fc13242a209c33fde388add9448c5de0d707d7543df4b9e4c",
+      "src/assest/2 floor/地面障礙/2_07.webp": "8c639bc72b2716e01e501c30605c5548debf32bec4d4b3035efa904ecfd9bad0",
+      "src/assest/2 floor/地面障礙/2_09.webp": "37ef3b0fb50aafc66464a7dafcf721832e8b77fe2e08b3d7904195930f964b88",
+      "src/assest/2 floor/地面障礙/2_10.webp": "219ba6b047a5a9e4fac1325aa568057d32762c4baaefc4492dfa2521e2a1ea4f",
+      "src/assest/2 floor/地面障礙/2_14.webp": "80c5b6d09f28cac6cc770bc554e7988d94deb1b40286c457a6d789ee92bbe7c0",
+      "src/assest/2 floor/地面障礙/2_15.webp": "ce2865c62cdc332691e2d0442ce3c8a6421c8216d663e650495268d187d999cb",
+      "src/assest/2 floor/地面障礙/2_16.webp": "5a72fc7ba84200b10a9917a79f79abdb65d09a1a41051e6d29cfbde2c7d43b30",
+      "src/assest/2 floor/移動障礙/2_13.webp": "a691fa98eb1797fe6c16e8194ba80c5a105bc89898d9b6c35f6f66f07ada248d",
+      "src/assest/3 floor/3_floor.webp": "835fb5daabb9619693cc1b9741980af7c41f2962956e7cd188298e40fd50559a",
+      "src/assest/Lollipop.webp": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19",
+      "src/assest/README.md": "a7a58133dc0bc86984fafaeeab6deddafbd9a37d1450597af9018095591c0658",
+      "src/assest/Wafer platform.webp": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3",
+      "src/assest/ball.webp": "7eb7276fccbe3886258ed30b653d060f5ca2233cb6b249bc65cd93bfe7049048",
+      "src/assest/biscuit_shield.webp": "5054231926e7c19f6a6f5e9b527d14815071ebe5749d0b7e78b7cefd4364acfc",
+      "src/assest/block.webp": "48961383430f57a34b39485b1f83dbd5b5922901f726a5461712f50df3dec6d8",
+      "src/assest/bounce.webp": "0d6f0d70cfa65a82dba05e171f3d47c30c14fd5cef4d018e78a4a9b79af24fea",
+      "src/assest/candy_hammer.webp": "99b60b6b95c327852f6e9039ea0e98863bb707bba755cbb65ed4fd1cd8d0fcd1",
+      "src/assest/comic/01.webp": "32ed4ee9b9fac49f4388bb470ec2d899b45d8724202235ab0799f3bfdf2417a7",
+      "src/assest/comic/02.webp": "b39267721cb4ec4f2f91d89c9c50fa2075a8966a3f0e50aecb0007a0ac56852b",
+      "src/assest/comic/03.webp": "6154a2ab924ad97533ed670bcce0409f8a7feac3080752e6c5812adb9bfcbe86",
+      "src/assest/comic/04.webp": "fd2a6ab653aa1bc9c50ccb329ce069c83aa589edcf52c730c670fce87c699bed",
+      "src/assest/comic/05.webp": "750bcf69f4fc63160a439f3fcc9f4fdd4bd7204608736fb4d887629401af5b03",
+      "src/assest/comic/06.webp": "7e179d7d3fc6d038e3912838edbbc0e120452c00e8d05bb55660b8638040a1a3",
+      "src/assest/comic/07.webp": "5d8fabadae180bf7e9979725ae0155f418f19e28d8164269b9628991d9920494",
+      "src/assest/comic/08.webp": "408b74114bb6d2400885fc816e5468a75c3c9f237f8d2fba923aaeb6c3674285",
+      "src/assest/comic/09.webp": "21905731806548cf42085a3c53bd0e068194dec08c99f57dd776d0f1b1541f38",
+      "src/assest/comic/10.webp": "92a518bea7e2ffa71cd1fb376201ed4a4bb6d50ea0eb96009d36890d248dd2f0",
+      "src/assest/comic/11.webp": "04905cad240e8317a09e734fa2face4008fc92f3048caaa8cbd3cd845c5a0986",
+      "src/assest/comic/12.webp": "e302126fbea6cb08401211b98bd5b8523694240c688350d293a91aa097b560dc",
+      "src/assest/cookie_background.webp": "77f59dd769d45444ff8493717717696c707676c1d51c781634ab6b88b5d72d43",
+      "src/assest/floor.webp": "541b75dfb349ccd015cdaf269f182b83a0d3dac95727e3247a219c1edb35bd8f",
+      "src/assest/gummy.webp": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0",
+      "src/assest/icon.webp": "59d0ec3ce977c16d94cda9816f7878c5224bcd884cc0b5b524d3c847f32fc976",
+      "src/assest/login.webp": "973a1715e13695c2b236d64f3e01ae6984e1ec40aebd8c5b0a43afa19a54d329",
+      "src/assest/lollipop-head.webp": "742e7fbcd7921ff82f8c90fb84fa887299d70b9ec5d5bd0ca4744aca1e7f6e66",
+      "src/assest/platform01.webp": "718a37477c053b67534142822720ccb627be3eb5e75aa868c3b256bcd599c5d5",
+      "src/assest/player/boy-failure.webp": "a60c4852d83646dca00358465dd1fec4629101426658bdbb2b3fc5eda7257a76",
+      "src/assest/player/boy-goal.webp": "72e67f3acbec78bd4f5ca9409ce7ad6e89e05d7dd4dc68ad86887001bd1df377",
+      "src/assest/player/boy-hurt.webp": "6b1c0ec520773cf19381296214fadaa94f540296034acb34c1e9497dc43572dd",
+      "src/assest/player/boy-idle.webp": "0c5f3e94176cd41edcbbf5c40567cb9a5ab691870075315806e0b8049f654394",
+      "src/assest/player/boy-jump.gif": "2980d264576c8fda619554ef0a8af2f0d02e3017aa49099c0522dfe5124d015e",
+      "src/assest/player/boy-portrait.webp": "0a9da683a97825c21e1b5b21561e087ad9998d7e039b7dfffc89afb2414cc4ff",
+      "src/assest/player/boy-run.gif": "8ffb0e1497f137f5ab42b5890e1d749de3792b74a444392a8fd626f75fb6a03f",
+      "src/assest/player/gingerbread_monster_sheet.webp": "1996fcf75988d761fa958a2f990b956255f7e5507338741edca5fa2020eb60cc",
+      "src/assest/player/gingerbread_monster_sheet01.webp": "72ab217f14dd715b469b11fb4ea5694ddf999cb5c97430595f3bea4bad77daa3",
+      "src/assest/player/girl-failure.webp": "3a264d0d9278322e97c50d5190f59f499082ce4d58a46ce9ba51184ffcec8c9f",
+      "src/assest/player/girl-goal.webp": "c178fe4d059f534d2ee5bff14f5c2d22b12d096d05b5aafe592322b800979b90",
+      "src/assest/player/girl-hurt.webp": "f01aac6a5e70cad1492ccd51f4d785d26735f89881dfb4b0dd01508b153af579",
+      "src/assest/player/girl-idle.webp": "f10766d16ab94db59e9eec44b96782c69d02c639a255abcd845450d994c68ab9",
+      "src/assest/player/girl-jump.gif": "6233dfbe3fc613dafe8f35d2858e075fe1c32d616c2b380e21bee94183d2d574",
+      "src/assest/player/girl-jump.webp": "8efaed46c02ef4d7a2c99fa42ca0bd01d69216688727014f8e0399c6753021be",
+      "src/assest/player/girl-portrait.webp": "8656d274f5ee07bf0c2f3d448e3fd95c7f753b596b25c29d8ba4063d01ec9935",
+      "src/assest/player/girl-run.gif": "30ca9eb4cbff7c46dccd9e2d33411dd558a07168821eaf6fecf594b43b6d5074",
+      "src/assest/player/girl_Headshot.webp": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0",
+      "src/assest/prick01.webp": "67e308d953d59344f4b21c97a537e334afdefea1ccccbf58d09aeb06ef4551b6",
+      "src/assest/second_jump.webp": "d66f301ff45d6fed9d5ab85776060d26882f3f799c3849b58f301b9655970b5c",
+      "src/assest/slide.webp": "45bca5a7fe1e8f67dff2f9da657da8c54945d547db9c5fc477262e98eea573a4",
+      "src/assest/speed_gummy.webp": "3d3a64976c870dbcaf1dcf7345b5b51a8586c65e2e1771561a637932c7768229",
+      "src/assest/speed_platform.webp": "1d9d51a5f88ad7e7f7f990028b2313436b952738fcfbd6f470c0bb0d85c4a509",
+      "src/assest/start.webp": "26190a6cac4cc577ec1c6c2f5dd8f3b60fa7a5da560b37c0098fa6aed3fdf1f9",
+      "src/assest/start_icon.webp": "042037ad6a37fc3d3986040dc5fa8a2fd27bf7fb4006d732596ced0d5d023daa",
+      "src/assest/sticky_syrup.webp": "b83d2a1e79d4782404ddc9e3b6c44193ce14561ae2b0b48fa745d314ff1d14fd",
+      "src/assest/wall.webp": "9e40854e2ab62fc3ab64130848f01b87ecafdeaca44868f4780bf04b6afbc848",
+      "src/candy/animated-image.ts": "c441cb8c2829c6bbe59b8180c638e1a8dfc44eb819227041faa276d385e49e14",
+      "src/candy/art.ts": "b8aeaab5479a4bfbca50a237bbfb980fcfcdcc6702b67f18baf2b04fe338b8d1",
+      "src/candy/assets.ts": "fc5d6b0c7f108df1485506e2f69067e6c90d9c86d19f5c666ee347f3459a7cfc",
+      "src/candy/audio.ts": "c0071bc16fd759d9949cab2e040fb698f92e258b8f096a193308cd7087a845bd",
+      "src/candy/comic-view.ts": "e61547987678fb1bef1e73cb1c9817451de38c581ff8efadf4fecdd81b4dc527",
+      "src/candy/comics.ts": "b6d22b0bb89d81ee23f41baf4fc24a27f7f716b2b8691ab9a4cf1cc47c23ee3b",
+      "src/candy/config.ts": "4ee53e2c9a53575cdfa46712abf0221db3756c7b4149a08695483a63561866df",
       "src/candy/cooperation.ts": "2cc22e91590be663b27358a6b12838d5914531d3e863e395d9db2fe9a31b7f97",
+      "src/candy/floor-platforms.ts": "4ec47b4ea2a576b279cf221c9b7f083d41e89bc773171d867c26b5419c7beedc",
+      "src/candy/floor.ts": "6ead54b8fefcb9cb59073d5eb36da1987f40ef0fcb8df90153ebc22afd330292",
+      "src/candy/fullscreen.ts": "f42c7d56240e6157d4e7ca9c847357a40ad46df326393370dfdc7ac80750e7d9",
+      "src/candy/game.ts": "f5216b92212b1faccf2dbcc0a44d33feb49ed261e765eeeba7722a9edc7ec4cf",
+      "src/candy/gamepad.ts": "88640646b3a92f7711b7cd51a3b9e3e061bbe6cd166a5892d81da940f79afada",
+      "src/candy/hallway.ts": "e0891868b0844524fa4d4a3e4c9d21dbdb3ce744d96e70c1ba3eca2d650799a9",
+      "src/candy/input.ts": "3ef47f92b000e6d8c375db1696f44d270f06a27aef1b6fe2406b7caca0194090",
       "src/candy/levels.ts": "b643d23fa5fd20b2df17532e8fbdc4b62f941f1ac060cb1acf4564ba024e0036",
-      "src/candy/render.ts": "cef6be5fb7f9bf3b317588eb4d1874ae88e8bbb0826d9998cd36962913c95e1c",
-      "src/candy/ui.ts": "65761708add1800c5246100fb19286b831ee3220445498e2632328d8c74ac430",
-      "src/styles/cooperative.css": "b964662c4ad283c9ab2250678eb1914e2bcb81b0da4023640d9c8ea5e0b80190",
-      "src/candy/tutorial-view.ts": "56ca572908fdea72cac60b1fa8decb5f58c7de6524bac464e837204b76c369ee",
-      "src/candy/gamepad.ts": "07f7f9f853d6e6286aadb529137c84e3f8897c62b090138f3c0058189a27713f",
-      "src/candy/input.ts": "1401cbf53afb5b9e0cbcc6ace8e411f1e1880c9d4c39a426b0f78c38a71c7267",
-      "src/candy/audio.ts": "44d2125d1e99e7c5741c89e81fce4a2c511be0f8a5f9adb7d4ce86f427d4aee0",
+      "src/candy/puzzle-art.ts": "6e0a5546a1f87477ef2113a084c147192f74695c9909c3bbe30bd2399d78e589",
+      "src/candy/puzzles.ts": "2cbd03411b861483476928387ae94969127085777c5e56ef2d85f85f1b4acf5a",
       "src/candy/questions.ts": "9aab7ec317daf690fa2b7831cc2fbddc312b22f31145cab6da7d616c820e12fc",
-      "vite.config.js": "ca9879aa0bf29fac1af385ac05f4d05c588fae35ccb09e375a4ba048f6980d4f",
-      "package.json": "f51e461a21e1bc9d527e55d74af5b6d3c7e699aa4f490c14a043ac2ee387bc5b"
+      "src/candy/render.ts": "63cabeedcbded9431a74ecb24f13f8c7bd1d9f3187257e50d9664d42dd7b642e",
+      "src/candy/save.ts": "5c3875a111b3cf7bf615b4c86993e916d554a3c20b466d37fa74186dc2ca760e",
+      "src/candy/third-assets.ts": "95e1a056a504c3a8e8fddc43ff39e4728174f031a6bc1e1a4e370cd0c795fd7b",
+      "src/candy/tutorial-view.ts": "dba247b4d91202e568aee55a8a1e4d3771bdb36830b2b3c8b95ffda4a6cbc835",
+      "src/candy/types.ts": "68bf1830f0f44f58fb738e163e7f98d3681006ea2b61da6377ad79a9ca557dae",
+      "src/candy/ui.ts": "a1a2d28a2d3e4b84a516bab381f67f2193ccde6eddcb5e93bfbe27fe8df9bb0e",
+      "src/config/gameConfig.js": "97595386403d07b432934b4029f970fad7508593c2bad59a1193a81a44a9263a",
+      "src/data/ContentRepository.js": "dcf2b751698efeef9c43d966b38f8f28a53d4d32ac12108240c518b4a5192e7b",
+      "src/data/dialogues.json": "eaa3355f3311309cfca1d729aa558aeda6fd8de38cc9d66d5d80650b01e9f504",
+      "src/data/levels.json": "d9e739f7de88bb74aad333e8e0c85ed2fe2707b32f316e645654c2e43688fa75",
+      "src/data/questions.json": "32f71cfc8d1656273dffcdcd9dad9a84479c99f27bd2391443c6429f79ba78d7",
+      "src/entities/Enemy.js": "69df0634b3896e0c3cd2010dee9c1257f314ac53b050caba9bd513262f892445",
+      "src/entities/Player.js": "e70b574c573cea010ed91d39d9021ee35088263f408546298eb309b19bbd51c5",
+      "src/entities/WitchBoss.js": "98722a29393b9f5533e0c2039a287b79efd20c5d3a7ce6811f46b04ad3588705",
+      "src/main.js": "120a2604b48fbb73e9124d7714ce05b033514de882b9577b2fb58c6642cce0ab",
+      "src/main.ts": "f90a6edf61cee7527dbaea5af6abded01653996c6dbb040114cf0c4082597389",
+      "src/scenes/AdventureScene.js": "2c59f287c59b1993f3109cc7d3bc19508ff3ad83eaccbb27eef9fad2fe00bcf6",
+      "src/scenes/BootScene.js": "864fd135bce6ceb510b1f536a9e6e4c003eb0f5f58cf016d3888d71e0f79cbef",
+      "src/scenes/BossScene.js": "fcf89d79ee6ab52b34d870160bf7e242e0b3f43b474e171556be24ca46d71790",
+      "src/scenes/LevelScene.js": "430e2b131424663e3301f80da3b9f8ef7ada3caa4c4a3dd156a402aac04295de",
+      "src/scenes/MenuScene.js": "588f3081f3402dc15624b65da282c2c34989e1bf388892de844f03769bab8092",
+      "src/scenes/ResultScene.js": "66e606eb19c15d2b5be95dc32c191e00ab467f80307b4a850bd1c6a3b7c884c0",
+      "src/scenes/StoryScene.js": "7ba0d1fdc576e7eb9f8c24b9b1b9be14ec140c02d7f057c85a78a03aa795e628",
+      "src/styles/candy.css": "4025a8e3060cb040f24b6e74b515631fff8f1c512705d6cc4124f07efbf8d911",
+      "src/styles/comic.css": "5005c55a60ed75f8ee68b3f816cb4653e8cdc1ff5b63e32dd3515a70bd3a2bec",
+      "src/styles/cooperative.css": "d6c5ea7d30cf73d069777f67102aeb3f97f3180e53bd9d542f3ab1ee7ac3e71f",
+      "src/styles/main.css": "3174e0604e14ccf7cb34b8ef0013c3ae9bc3349bd13f1d3732ed6b46998d9c9b",
+      "src/styles/puzzle-art.css": "51e9ff3f1a5bf91a0b3ca5d8cc61ea236460222124181e94f47f07d5a9a89cc8",
+      "src/styles/setup.css": "c59a7fc31afa66b8a2f38191891d56f4a3fc5f23c8e3247d19a17756d3dcc7fc",
+      "src/styles/title.css": "3dde24f8846bbf7c374d8646446c9c0d7a0ccfca6bf8b06f7c44ab7141844572",
+      "src/styles/tutorial.css": "575ab571ea6811879db168357c4e90523222980de8a7844f949bb0d184315a4d",
+      "src/styles/viewport.css": "f53cce4885eaa05a48ffaa85138027164410b66d9338538e67508a3a6d842235",
+      "src/systems/CombatSystem.js": "60588213207f35eb4b2e54b6a9eb78d78cb5bf0b6b9943a61e240f389393dfe6",
+      "src/systems/DialogueSystem.js": "b73f68dbc08daa89b73bc0299b07302ea53d0b55422de2392bead386a8bd2582",
+      "src/systems/InputController.js": "6c24531179b8c0a66286a267319147cb69aff2a13eb53a91407eabc3bf1b29aa",
+      "src/systems/InteractionSystem.js": "599c68589e78cc864abc76fba9d84020a50084992d20e8ce79cd80747ac7cedd",
+      "src/systems/KnowledgeSystem.js": "0bbd3970d04faae02cec3740f9b9f0a40b0e5f6ec3719f2ccb76408100f8cd36",
+      "src/systems/ProgressSystem.js": "c5a3bee78024ba039ccb8f6c420c2cdf8367a3c2fe9ab31886ca020969084653",
+      "src/systems/SaveStore.js": "41a60eefe7c534daaa61cfb2ed430406cef7af1f3b0269bc23d3bcbfbf82a657",
+      "src/systems/session.js": "154105d9d4308722a518699836fa6a09ccef390e6bd9c832c937180f7a1df1fd",
+      "src/ui/HUD.js": "7ad878c929599a9736e959a0d0da8c0d29242de0350091681ad61cf2ec0becb7",
+      "src/ui/PauseMenu.js": "b02701fbe8540cf4d2ce051ed1980d66e66cff4a64a1617f478535603d3f28b8",
+      "src/ui/components.js": "78ab10f2cd4a70c716a3e9221ec50fdf0ea090a46b3a293452221afe09ae8101",
+      "vite.config.js": "ca9879aa0bf29fac1af385ac05f4d05c588fae35ccb09e375a4ba048f6980d4f"
     },
-    "sourceBeforeFile": "artifacts/second-routes-source-before.json",
-    "sourceAfterFile": "artifacts/second-routes-source-after.json",
+    "sourceAggregateSha256": "1cfdd81bf59cfb8774a2c29073fb720de0ce7bf2003437b4bf8e51d0459516e8",
     "testSha256": {
-      "tests/candy-browser/cooperative-adventure.spec.js": "a05c9e7ba83ac79a33d15cc05f2945c1b8b368ece2817435ff8a249260b61b21",
+      "playwright.candy.config.js": "f05bd7260e80620759c8ce0f1319c9d942a062529ffeebc42b4f1fd8c0afe236",
+      "tests/browser/adventure.spec.js": "3ad246ff232200e082933c39eaebb271311ce1546c42d917e38d6ad59694cd6c",
+      "tests/browser/persistence.spec.js": "036b4b1f123d35c8670ad91c691ff65ccae072bd1c996442645e38892215c4b0",
+      "tests/candy-browser/adventure.spec.js": "6e542f7d623ac7e7f56dcdc3002a9831e0ff43a77c4b8e7c295aca3854818463",
+      "tests/candy-browser/candy-recovery.spec.js": "2f297d268a341500aa2e415ceef172356c4a5f7fe1051ff784facc55d2a66379",
+      "tests/candy-browser/comic-skip.spec.js": "91ffd704c541f087739745db00ea94322008659a1619ebd8eb558ff806b55cf6",
+      "tests/candy-browser/cooperative-adventure.spec.js": "c94b77a006d39f90035d0ddb320dda00b2ebf035de36eda8df97471858446371",
       "tests/candy-browser/cooperative-art-audio.spec.js": "13de05d00eca36caec13cc06b28289b9f08cecb65eca2c2f2a3d8c9a55020e5f",
+      "tests/candy-browser/first-floor-support.spec.js": "bab1c4aa1882df6330999edda039833053d028edf532af85cc24686548887649",
+      "tests/candy-browser/first-floor.spec.js": "3436d3f8a54a62f823ce860e9ac4626c634ae20b994a29e79df7d1a9c4d31f6f",
+      "tests/candy-browser/floor-causal.spec.js": "8d10f307d8da22563521536a13e53fd77f302d6c7b35a1036ccfce40560c841c",
+      "tests/candy-browser/fullscreen.spec.js": "1806a4ed5d7e01caf75eabe1183026dbc43514ac9c5962a8aaf75b6288955320",
+      "tests/candy-browser/gamepad-controls.spec.js": "7dd9c2adb7fc59548e0fc461ed231596938f7cba3a2d0b35843c0ec9a2e4cfe3",
       "tests/candy-browser/knowledge-chase.spec.js": "c51d674e84ebe596bc023ceb522400001394e4dc9e8e476e38130c8cd8157635",
       "tests/candy-browser/knowledge-gamepad.spec.js": "70e4a3aaece377fd85404c139f317eceb720f2b0a6d949bc5efea1f4cac22d4c",
-      "tests/candy-browser/route.js": "29595ced8d2abcf4c8b9c5105c08fd34f90201ef84fbd729d5ca7e2a8557326a",
+      "tests/candy-browser/puzzle-art.spec.js": "76182071b49e429d707ad93b14b3550cbd7700f1163794d54501f7c58d028005",
+      "tests/candy-browser/room-platforms.spec.js": "d5ccf6351da677896284e4a660b3c5bd89194ab0bef3e720ff208b50f8b71d5a",
+      "tests/candy-browser/room-route.js": "23bebc4dffdad395a37020504f88e53b14f5e771ba0fc94cc1b63588baebfbcb",
+      "tests/candy-browser/route.js": "edd07c0ce9711d14eb6c1c259f6fb7aa889611bfd38c0ea19b06b83e241ee75e",
+      "tests/candy-browser/second-causal.spec.js": "d7ef81f3f3bb13b6b38b1ab483858168871e13a1629cd66086edb1ee606b037b",
       "tests/candy-browser/second-floor.spec.js": "bb004a67a71e962bc63313a750abae7195a3880cabd6cee30e795fdc8c5119ad",
       "tests/candy-browser/third-art.spec.js": "5194de8feac79c4da8ff34e2367e2a2466c7c95292949e480f3e4cd58ddb2ea8",
-      "tests/candy-browser/wordless-ui.spec.js": "966e86c7bd8e2dcdb2dfc3e152a97e89bf99ea2aaaccbc4e021002dd0aabff69",
-      "tests/candy-browser/second-causal.spec.js": "d7ef81f3f3bb13b6b38b1ab483858168871e13a1629cd66086edb1ee606b037b",
+      "tests/candy-browser/third-causal.spec.js": "2d3b5cd417ce03463f7c525de27573b86afd1d46938231ea9bcd5776da912928",
+      "tests/candy-browser/third-difficulty.spec.js": "e854cbcb691b38b71afe4dd01a4c5d19598b085c7f706dd6f776bd44529c13eb",
+      "tests/candy-browser/third-relay.spec.js": "3cedea9aafed3f7c70c0ddaf1596646222b78005bde20ab74d878a52dc0dd938",
+      "tests/candy-browser/third-route.js": "c1395b3e937f10b2d76d808863d11383af0c844d3300b4ce9fd32e3875149a8b",
+      "tests/candy-browser/touch-gesture.spec.js": "fb9ee58512e05ff136a21c4f524545a615c9e682284f774d4d725f12853fed0f",
+      "tests/candy-browser/tutorial.spec.js": "047e7ed617cc0cd08eeec902081f26492c4a8bc607c8222606b99aa49bc776ed",
+      "tests/candy-browser/wordless-ui.spec.js": "67cc67018cc8c132acb6041b23a1ee96edbe2ba0df734779390f86c10f4e87d9",
+      "tests/candy-comics.test.ts": "6fab084888d697d4a9b7fda604f986eb0ba5e2c1b77f2d1df8cb5c3db16eb9d4",
       "tests/candy-coop.test.ts": "a8e85c9f14bb010705d9ac43003c5cf538efe9ffffd0b249ef330a295fc3c454",
       "tests/candy-core.test.ts": "14ff627bd7f5d4ec33aa0156ff100ca4979eaea90e321ac6765162c3a9257602",
+      "tests/candy-first-floor.test.ts": "9eaff7cfaf2732e1072706c7113ad963dd32531f908331429ea6cb15e2f71b15",
+      "tests/candy-floor-causal.test.ts": "1290026ac8e27ee226e8636700408211824ab66ce55356a0205104cffb4c8b56",
+      "tests/candy-floor-puzzles.test.ts": "c1f5779e35202b833f916ea923e3b5bc2641de051b89a128fbe1e586e0170faf",
+      "tests/candy-floor-save.test.ts": "826c859926ae6868dfbe2c4f99383436537fae79e95b72be5d6c35a9aacca32a",
+      "tests/candy-floor-support.test.ts": "d9eb42719cf4367c8ebea4aeb9f189ffa734caab7656edba77d54a8368b8809b",
+      "tests/candy-gamepad.test.ts": "2fd8d9c9426bdc17eaa98210955cb3246c715a6ead73de01cd49782eaaa37b00",
       "tests/candy-knowledge.test.ts": "7860e14f5ad0cdc2a6408bdac275baeb0c85a447112eae740a796b03afccc21d",
+      "tests/candy-recovery.test.ts": "d572867e964cd2804dd98641f533975bb345ecf9d921e1bf9be06e29aca66ac0",
+      "tests/candy-room-platforms.test.ts": "595277593b9a1dca42201dc6fd3262f66f77ea89f0736b5382afc348882c18e7",
+      "tests/candy-second-causal.test.ts": "671c92899db067f43c2a7611ed1b9b4a44dce7075f196da9bfe41c8a52e09afd",
       "tests/candy-second-floor-controls.test.ts": "dd161a35623fc25d9916183162adf419d79dbbef10483670ba1de06beab36c5f",
       "tests/candy-second-floor.test.ts": "7f47d7cb2899ec423502ea7e2119a4a3319024f45d90309a74e8f78d56f1ffd7",
-      "tests/candy-second-causal.test.ts": "671c92899db067f43c2a7611ed1b9b4a44dce7075f196da9bfe41c8a52e09afd",
-      "tests/helpers/coop-routes.ts": "a050d9b6b0b787743414456f66fccd260476adc5d95c5244d3370b58c456193e",
-      "tests/helpers/play-routes.ts": "a5eb292be70f0a39a36ff9ec327548d68e3f59a74f4b09f7916b7f5f69b323b0"
+      "tests/candy-third-causal.test.ts": "bb46ca1dba0aa0a80191e94adf9effd0891917c07c7545f6e52b6e5e26f53cc4",
+      "tests/candy-third-relay.test.ts": "ff58f4c70b10fe179bf75e90e0918910245727c84cf16aa2fb2fcc5eaa408305",
+      "tests/candy-tutorial.test.ts": "6daf9c386809f96876bdd1eb1214299994e79b4f7061c5f5bb4ca3fc0aef123c",
+      "tests/candy-two-cakes.test.ts": "e47ec0d3d13181afcdf5f92917041179aa7eeb52eadb7076c70e4dc4d6ed23ac",
+      "tests/helpers/coop-routes.ts": "f0b369fb8aa27ab48eea15d49c48528385ffd6e988a109e282ca4f664c6ec1f9",
+      "tests/helpers/play-routes.ts": "2d28396aeb0051e2c40112a4d9217c66e507df993766e08584424a2e8750ab01",
+      "tests/helpers/room-traversal.ts": "07b26eccf995d6436eb0861d0f6826e58e4454250f091e58c99049f6d7741a8b",
+      "tests/helpers/third-route.ts": "d650f9e0b2a11f8d7d53f458d326677359c449442b8b6e3cf96c0d44d657a90a",
+      "tests/knowledge.test.js": "977d19fcb4e3976499edf1c7abbe519d45426aed81f255722edd61ed2ebb133c",
+      "tests/production-comic-skip-smoke.mjs": "7f338cee57dce1776fb47f3a4ff5b05f3046238a80668f1bfdc77e33158a2e70",
+      "tests/production-comic-smoke.mjs": "200a0dd96333b3b4bea786817c4b970d8ed1ab0c5a41cc8052c1799e1c52c040",
+      "tests/production-cooperative-smoke.mjs": "af69c5f2c0339ff84ae586177149848e554d50942cec63fef2f693a13eda619b",
+      "tests/production-floor-causal-smoke.mjs": "14d46f80852a3d22045491d7546d8cd429790c86d0c8ca6ae12df2e6ecefccbf",
+      "tests/production-floor-smoke.mjs": "94f891c27906b59f60ed23f0f3b15b98c4cf78891b96c50b2152ced509e0eb9c",
+      "tests/production-fullscreen-smoke.mjs": "74c530f97979f537eb679c030bd6b715d3238617d56244564741d9fd0d438842",
+      "tests/production-github-pages-smoke.mjs": "fcc6fe85c611e713659aadf6ee65bd2c8e258d0c2a87841e9acd9501418a79d3",
+      "tests/production-knowledge-smoke.mjs": "0b44bc1cefccedc85ba207dc5a9403cf71a7713a787f116eaf16ecabb419949f",
+      "tests/production-puzzle-art-smoke.mjs": "bda447692212a49bb7c133c53cc78967bf667829259c2ff027e81a1f8c705e5c",
+      "tests/production-room-platforms-smoke.mjs": "5c9756b7ff373ef50512b7505dc603aa275926bb99bc87c7e5e9ed7cf4f1922d",
+      "tests/production-second-routes-smoke.mjs": "89d5aac3141b4e24512caa3c8b591dcb4a3814f580c21b42a23a277fa45e2994",
+      "tests/production-third-causal-smoke.mjs": "2722a49d979cfdb171588a9d352f9db34fe60055563dda7121dc160a6034eac5",
+      "tests/production-third-relay-smoke.mjs": "c31646c3ffb47ea7ac75e9f9d6ac977ce82c775d65d61c6f5bcd3ce84bf0e422",
+      "tests/save-store.test.js": "03b2df982d0e2f928a9c9e8011d045e3dfe7f3e52e3584674aa2bfde537facf7"
     },
     "controls": {
       "keyboard": true,
       "touch": true,
       "standardGamepadAPISimulation": true,
       "physicalPlayStationHardware": false,
-      "directActorPositionEditsInPlaythroughs": false,
-      "isolatedCollisionAndCompositionFixtures": true,
-      "haptics": "Standard Gamepad API requests verified: shield 150 ms, hazard 220 ms, second gate 85 ms, each once per event. Physical controller vibration was not tested."
+      "physicalVibrationMotors": false,
+      "physicalControllerDisconnect": false,
+      "playthroughActorCoordinatesEdited": false,
+      "scope": "Playable routes accelerate only simulation time and supply ordinary keyboard, touch, or standard Gamepad API samples. Isolated collision/composition fixtures are separate from complete playable journeys. Hardware and vibration motors were not tested."
     },
     "coverage": {
-      "originalQuestions": 8,
-      "answerSeconds": 3,
-      "maxWrong": 3,
-      "resultSeconds": 0.85,
-      "quizFreeze": "Both siblings, player physics, run clocks, boosts, pressure and collisions freeze from card entry through the .85-second result. Readiness gates reading and the three-second answer clock.",
-      "lanes": [
-        410,
-        470,
-        530
+      "characters": [
+        "hansel",
+        "gretel"
       ],
-      "neutralDoorsBeforeConfirmation": true,
-      "actualSelectedOptionVerified": true,
-      "correctOnlyForwardShield": true,
-      "wrongOptionsAndTimeoutEvaded": true,
-      "unshieldedHitAddsPressureOnly": 0.12,
-      "activeHazards": 9,
-      "catalogSprites": 16,
-      "midPlateAndPhysicalGateBypass": true,
-      "retryReentryAndFirstFloorTransition": true,
-      "fullscreenEightCardTextFit": true,
-      "firstAndThirdFloorRegressionsRetained": true
+      "rooms": [
+        "living",
+        "kitchen",
+        "bathroom"
+      ],
+      "roomTimeLimit": null,
+      "explorationTargetSeconds": [
+        15,
+        25
+      ],
+      "cooperationRequiredForTask": true,
+      "unbuiltRouteCannotBeSkipped": true,
+      "fallReturnsToRealSafeLanding": true,
+      "progressSurvivesFallAndReentry": true,
+      "layerOneRecipePortions": 3,
+      "layerTwoWrappedProducts": 2,
+      "kitchenTotalCatches": 5,
+      "wrappedProductExitCells": [
+        12,
+        15
+      ],
+      "secondTrayReachableStates": 60,
+      "allReachableSecondTrayStatesSolvable": true,
+      "fixedParcelRecoveryBatchesSolved": 15,
+      "storageShortBridgeAndRedLatch": true,
+      "storageBottomHorizontalBarMustMoveFirst": true,
+      "undoResetAndRepeatedInteractions": true,
+      "uniqueGiftsAndBadges": true,
+      "threeBadgeSocketsAndKeyCompartment": true,
+      "originalEndingTransition": true,
+      "versionEightToNineMigration": true,
+      "roomPhysicsFrameRatesHz": [
+        30,
+        60,
+        144
+      ],
+      "storageEntryBridgeHasMatchingPartialCollision": true,
+      "movingLiftCarriesGroundedFeetAndLastSafe": true,
+      "roomPlatformModelCases": 20,
+      "gamepadShoulderEdgeLongHoldBusyAndRelease": true
     },
-    "runtimes": {
-      "fixture": "Deterministic question order, all eight reading leads completed before correct answers, 120 Hz ordinary forward inputs.",
-      "normalPlate": {
-        "secondsToComic": 88.666667,
-        "runElapsedSeconds": 58.891667,
-        "rescueRejoinedAt": 32.733333
-      },
-      "normalBypass": {
-        "secondsToComic": 88.666667,
-        "runElapsedSeconds": 58.891667,
-        "rescueRejoinedAt": 36.141667,
-        "actualBypassLedgeLanding": true
-      },
-      "bypassReunionDelaySeconds": 3.408334
+    "preliminarySourceFile": "artifacts/first-platforms-source-before-final-camera.json",
+    "coreTests": 169,
+    "coreExitCode": 0,
+    "browserTests": 57,
+    "browserExitCode": 1,
+    "browserAcceptedTests": 57,
+    "finalValidationPending": false,
+    "sourceUnchangedDuringPreliminaryBrowserValidation": true,
+    "preliminarySourceAfterFile": "artifacts/first-platforms-source-after-pre-bridge.json",
+    "sourceChanges": [],
+    "fixtureChangesFile": "artifacts/first-platforms-fixture-changes.json",
+    "testAggregateSha256": "2bbeceeb0b70135003f015e2f3f967fd4d35681b36c1ff61d8a31f8a00f6ded0",
+    "testBeforeFile": "artifacts/first-platforms-tests-before.json",
+    "preliminaryBuild": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "executedBy": "root",
+      "scope": "Preliminary final-camera and shoulder-edge build, before storage-entry bridge collision correction.",
+      "bundles": {
+        "assets/index-CDxxcvIg.js": "8b8724a944390096170a90470a9369128ab43a59f4cf33ab657293276891af5d",
+        "assets/phaser-DFK5Ua9d.js": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb",
+        "assets/index-CCh-CQOL.css": "42de2395b8d56f8b9ac4d5e559bf06da1d157a245b80acd4cc78070fd9aef9a5"
+      }
     },
-    "proofFiles": {
-      "core": "artifacts/second-routes-core.log",
-      "browserBatch": "artifacts/second-routes-browser.log",
-      "targeted": "artifacts/second-routes-targeted.log",
-      "waveCaptures": "artifacts/second-causal-*-unshielded-wave.png",
-      "questionCaptures": "artifacts/knowledge-*.png",
-      "nativeLastRun": "test-results/.last-run.json"
-    },
-    "typecheck": true,
-    "productionBuild": true,
-    "productionViewportSmoke": {
-      "url": "http://127.0.0.1:4187/",
-      "verifiedAt": "2026-11-23T12:38:43.881Z",
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "executedBy": "root",
+      "sourceGitCommit": "20b91db3615a586c073d99b813cf8fa103b7c49e",
+      "artifact": "artifacts/first-platforms-build.json",
+      "servedExactArchiveAt": "http://127.0.0.1:4188/",
+      "verifiedAt": "2026-11-23T13:58:55.077Z",
       "entries": [
         {
-          "file": "./assets/index-DF8uQs1B.js",
-          "sha256": "07d7deff3ffd1b0ef3eec2b0a360eb5407ba52cde88ce02e221eff453c542b89"
+          "file": "index.html",
+          "sha256": "e5295f5310333300eddd0badb0615e5b08a62756363609cfaaf015ecbcb3b99d"
+        },
+        {
+          "file": "./assets/index-BZWP-O1N.js",
+          "sha256": "62e6c3ae61b3a69b90810c7f134fdcdf9e902c3e78a15234106c63b98c7e894d"
         },
         {
           "file": "./assets/phaser-DFK5Ua9d.js",
           "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
         },
         {
-          "file": "./assets/index-DIEYzPOX.css",
-          "sha256": "2652880bb1fb230d7124798a598fa474240be51d8f512731f86fa963544d0b02"
+          "file": "./assets/index-CCh-CQOL.css",
+          "sha256": "42de2395b8d56f8b9ac4d5e559bf06da1d157a245b80acd4cc78070fd9aef9a5"
+        }
+      ],
+      "rootDistMatchesArchiveJavaScriptAndCSS": true,
+      "scope": "Anonymous production smoke through three fresh room-entry checkpoints using real cooperation and platform controls to open the task board, plus a legitimate advanced kitchen room checkpoint with three actual swaps, both wrapped deliveries, player badge pickup and the opened shortcut. Offline models only compile input timings. The running page exposes no development hook and receives no actor/room-progress edits. Full fresh-room puzzle-to-ending journeys and simulated PS controls are covered by separate local browser acceptance tests. No physical PS controller or vibration motor was tested."
+    },
+    "completedAt": "2026-11-23T14:15:19.992493+00:00",
+    "browserPassed": 53,
+    "browserKnownFailed": 3,
+    "browserUnfinished": 1,
+    "targetedTests": 4,
+    "targetedPassed": 4,
+    "targetedExitCode": 0,
+    "fullBatchRepeated": false,
+    "sourceAfterFile": "artifacts/first-platforms-source-after.json",
+    "sourceUnchangedDuringFinalBrowserValidation": true,
+    "testAfterFile": "artifacts/first-platforms-tests-after.json",
+    "targetedTestBeforeFile": "artifacts/first-platforms-tests-targeted-before.json",
+    "testChangesAfterFullBatch": [
+      "tests/candy-browser/floor-causal.spec.js",
+      "tests/candy-browser/wordless-ui.spec.js"
+    ],
+    "testsUnchangedDuringTargetedRun": true,
+    "testChangesDuringTargetedRun": [],
+    "browserValidationScope": "57 distinct browser cases each have a passing result across the frozen-source full batch and the fresh-worker targeted rerun. The complete 57-case batch was not repeated after the two test-only corrections. Its recorded exit code remains 1 after authorized interruption, with 53 completed passes, three known failures, and one unfinished case. The four affected cases then passed together in a separate exit-0 batch. The 54/57 preliminary run is historical and is not substituted for the final interrupted batch.",
+    "communicationCorrection": "An earlier progress update read only a log tail and missed preceding failures. This report corrects that mistake using the complete log and an independent read-only review: the final interrupted full batch has 53 completed passes, three known failures, and one unfinished case. The secondary execution-context-destroyed error followed a PS test timeout and does not establish a navigation bug.",
+    "typecheck": true,
+    "productionBuild": true,
+    "productionViewportSmoke": {
+      "url": "http://127.0.0.1:4188/",
+      "verifiedAt": "2026-11-23T13:58:55.077Z",
+      "entries": [
+        {
+          "file": "index.html",
+          "sha256": "e5295f5310333300eddd0badb0615e5b08a62756363609cfaaf015ecbcb3b99d"
+        },
+        {
+          "file": "./assets/index-BZWP-O1N.js",
+          "sha256": "62e6c3ae61b3a69b90810c7f134fdcdf9e902c3e78a15234106c63b98c7e894d"
+        },
+        {
+          "file": "./assets/phaser-DFK5Ua9d.js",
+          "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
+        },
+        {
+          "file": "./assets/index-CCh-CQOL.css",
+          "sha256": "42de2395b8d56f8b9ac4d5e559bf06da1d157a245b80acd4cc78070fd9aef9a5"
         }
       ],
       "results": [
         {
-          "name": "desktop",
+          "name": "desktop-living",
           "viewport": {
             "width": 1440,
             "height": 900
           },
           "character": "hansel",
-          "outcome": "correct",
-          "selectedLane": 2,
-          "question": "q1",
-          "fullGameArea": true,
-          "completeOptions": true,
-          "backgroundAnimation": true,
+          "input": "ordinary keyboard events",
+          "checkpoint": "fresh room-entry checkpoint",
           "noDevelopmentHook": true,
-          "ordinaryKeyboardOrTouch": true,
-          "otherGameplayWordless": true,
+          "noRuntimeActorOrMechanismEdits": true,
+          "actualCheckpointEvidence": true,
+          "openedTaskBoard": true,
+          "freshCooperationRoute": true,
+          "offlineInputPlanSeconds": 15.647999999999163,
+          "offlineInputPlan": [
+            {
+              "action": {
+                "kind": "push"
+              },
+              "frames": 458,
+              "predictedX": -460,
+              "predictedFeet": 530
+            },
+            {
+              "action": {
+                "kind": "ready"
+              },
+              "frames": 213,
+              "predictedX": -460,
+              "predictedFeet": 530
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -390,
+                "feet": 472
+              },
+              "frames": 43,
+              "predictedX": -389.60000000000036,
+              "predictedFeet": 472
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -370
+              },
+              "frames": 5,
+              "predictedX": -372.00000000000045,
+              "predictedFeet": 472
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -200,
+                "feet": 440
+              },
+              "frames": 46,
+              "predictedX": -210.0800000000013,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -125
+              },
+              "frames": 24,
+              "predictedX": -125.6000000000017,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": 25,
+                "feet": 350
+              },
+              "frames": 38,
+              "predictedX": 8.159999999998456,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 85
+              },
+              "frames": 21,
+              "predictedX": 82.07999999999849,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": 225,
+                "feet": 260
+              },
+              "frames": 38,
+              "predictedX": 215.83999999999818,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 420
+              },
+              "frames": 57,
+              "predictedX": 416.4799999999972,
+              "predictedFeet": 260
+            }
+          ],
+          "wordless": true,
           "errors": []
         },
         {
-          "name": "phone",
+          "name": "phone-kitchen",
           "viewport": {
             "width": 390,
             "height": 844
           },
           "character": "gretel",
-          "outcome": "wrongA",
-          "selectedLane": 1,
-          "question": "q6",
-          "fullGameArea": true,
-          "completeOptions": true,
-          "backgroundAnimation": true,
+          "input": "ordinary keyboard events",
+          "checkpoint": "fresh room-entry checkpoint",
           "noDevelopmentHook": true,
-          "ordinaryKeyboardOrTouch": true,
-          "otherGameplayWordless": true,
+          "noRuntimeActorOrMechanismEdits": true,
+          "actualCheckpointEvidence": true,
+          "openedTaskBoard": true,
+          "freshCooperationRoute": true,
+          "offlineInputPlanSeconds": 15.391999999999191,
+          "offlineInputPlan": [
+            {
+              "action": {
+                "kind": "jump",
+                "x": -1050,
+                "feet": 470
+              },
+              "frames": 43,
+              "predictedX": -1049.7600000000007,
+              "predictedFeet": 470
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -1000
+              },
+              "frames": 14,
+              "predictedX": -1000.4800000000009,
+              "predictedFeet": 470
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -850,
+                "feet": 450
+              },
+              "frames": 47,
+              "predictedX": -849.1200000000017,
+              "predictedFeet": 450
+            },
+            {
+              "action": {
+                "kind": "ready"
+              },
+              "frames": 460,
+              "predictedX": -849.1200000000017,
+              "predictedFeet": 450
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -780
+              },
+              "frames": 19,
+              "predictedX": -782.240000000002,
+              "predictedFeet": 450
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -610,
+                "feet": 440
+              },
+              "frames": 48,
+              "predictedX": -613.2800000000029,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -500
+              },
+              "frames": 32,
+              "predictedX": -500.6400000000035,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -350,
+                "feet": 350
+              },
+              "frames": 38,
+              "predictedX": -366.8800000000042,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -210
+              },
+              "frames": 44,
+              "predictedX": -212.000000000005,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -50,
+                "feet": 260
+              },
+              "frames": 38,
+              "predictedX": -78.24000000000528,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 190
+              },
+              "frames": 76,
+              "predictedX": 189.2799999999946,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": 380,
+                "feet": 260
+              },
+              "frames": 49,
+              "predictedX": 361.75999999999374,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 420
+              },
+              "frames": 16,
+              "predictedX": 418.07999999999345,
+              "predictedFeet": 260
+            }
+          ],
+          "wordless": true,
           "errors": []
         },
         {
-          "name": "landscape",
+          "name": "landscape-storage",
           "viewport": {
             "width": 844,
             "height": 390
           },
           "character": "hansel",
-          "outcome": "wrongB",
-          "selectedLane": 1,
-          "question": "q7",
-          "fullGameArea": true,
-          "completeOptions": true,
-          "backgroundAnimation": true,
+          "input": "ordinary keyboard events",
+          "checkpoint": "fresh room-entry checkpoint",
           "noDevelopmentHook": true,
-          "ordinaryKeyboardOrTouch": true,
-          "otherGameplayWordless": true,
+          "noRuntimeActorOrMechanismEdits": true,
+          "actualCheckpointEvidence": true,
+          "openedTaskBoard": true,
+          "freshCooperationRoute": true,
+          "offlineInputPlanSeconds": 16.031999999999123,
+          "offlineInputPlan": [
+            {
+              "action": {
+                "kind": "jump",
+                "x": -1050,
+                "feet": 460
+              },
+              "frames": 41,
+              "predictedX": -1049.7600000000007,
+              "predictedFeet": 460
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -1000
+              },
+              "frames": 14,
+              "predictedX": -1000.4800000000009,
+              "predictedFeet": 460
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -820,
+                "feet": 385
+              },
+              "frames": 41,
+              "predictedX": -856.1600000000017,
+              "predictedFeet": 385
+            },
+            {
+              "action": {
+                "kind": "ready"
+              },
+              "frames": 493,
+              "predictedX": -856.1600000000017,
+              "predictedFeet": 385
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -550
+              },
+              "frames": 86,
+              "predictedX": -553.4400000000032,
+              "predictedFeet": 530
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -390,
+                "feet": 440
+              },
+              "frames": 38,
+              "predictedX": -419.68000000000393,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -335
+              },
+              "frames": 24,
+              "predictedX": -335.20000000000437,
+              "predictedFeet": 440
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": -160,
+                "feet": 350
+              },
+              "frames": 38,
+              "predictedX": -201.44000000000506,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": -25
+              },
+              "frames": 50,
+              "predictedX": -25.44000000000527,
+              "predictedFeet": 350
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": 140,
+                "feet": 260
+              },
+              "frames": 38,
+              "predictedX": 108.31999999999485,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 215
+              },
+              "frames": 30,
+              "predictedX": 213.91999999999447,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "jump",
+                "x": 420,
+                "feet": 260
+              },
+              "frames": 49,
+              "predictedX": 386.3999999999936,
+              "predictedFeet": 260
+            },
+            {
+              "action": {
+                "kind": "walk",
+                "x": 420
+              },
+              "frames": 9,
+              "predictedX": 418.07999999999345,
+              "predictedFeet": 260
+            }
+          ],
+          "wordless": true,
           "errors": []
         },
         {
-          "name": "smallphone",
+          "name": "phone-deliveries",
           "viewport": {
-            "width": 320,
-            "height": 568
+            "width": 390,
+            "height": 844
           },
           "character": "gretel",
-          "outcome": "timeout",
-          "selectedLane": null,
-          "question": "q3",
-          "fullGameArea": true,
-          "completeOptions": true,
-          "backgroundAnimation": true,
+          "input": "ordinary CDP touchscreen events",
+          "checkpoint": "legitimate first-recipe-complete kitchen room checkpoint",
           "noDevelopmentHook": true,
-          "ordinaryKeyboardOrTouch": true,
-          "otherGameplayWordless": true,
+          "noRuntimeActorOrMechanismEdits": true,
+          "actualCheckpointEvidence": true,
+          "openedTaskBoard": true,
+          "actualWrappedSwaps": [
+            [
+              6,
+              10
+            ],
+            [
+              10,
+              11
+            ],
+            [
+              14,
+              15
+            ]
+          ],
+          "bothPackagesDelivered": true,
+          "playerCollectedBadge": true,
+          "returnedByShortcut": true,
+          "wordless": true,
           "errors": []
         }
       ],
-      "scope": "Four exact-build anonymous production checkpoints through the first knowledge question and selected running lane: correct, each wrong option, and timeout. Full eight-question playthroughs, frozen chase/collision state, shield contacts, mid-level rescue and simulated standard PS controls are asserted in separate local tests. No physical controller or vibration motor was tested."
+      "scope": "Anonymous production smoke through three fresh room-entry checkpoints using real cooperation and platform controls to open the task board, plus a legitimate advanced kitchen room checkpoint with three actual swaps, both wrapped deliveries, player badge pickup and the opened shortcut. Offline models only compile input timings. The running page exposes no development hook and receives no actor/room-progress edits. Full fresh-room puzzle-to-ending journeys and simulated PS controls are covered by separate local browser acceptance tests. No physical PS controller or vibration motor was tested."
     }
   },
-  "validationScope": "137 core tests passed. The complete 55-case Chrome batch had 54 passes and one obsolete all-16-live-obstacles fixture failure (exit 1). After correcting that art-only fixture and strengthening exact selected-answer assertions, the affected three cases passed (exit 0). All 55 distinct Chrome cases have a passing result; the complete batch was not repeated. Game source stayed frozen. Both selected siblings complete eight knowledge questions and reach the first floor. Actual keyboard and touch routes cover both wrong doors, timeout, avoidable/unavoided waves, correct-only shields, physical mid-level plate/gate and visible delayed bypass. Standard PS-style Gamepad API and haptic calls are simulated. Four no-development-hook production checkpoints cover the first question and returned lane; these do not claim a public eight-question playthrough. Physical PS hardware and vibration motors were not tested.",
+  "validationScope": "169 core tests passed. The complete 57-case Chrome attempt was interrupted after 53 passes, a simulated PS journey timeout, two stale room-DOM fixtures and one unfinished final scene audit (exit 1, without a completion summary). After refreshing the direct-entry fixtures and extending the PS test timeout, the four affected cases passed together (4/4, exit 0). All 57 distinct cases have passing evidence on unchanged game sources; the complete batch was not repeated. Actual keyboard and touch events and simulated standard PS-style Gamepad API complete both selected siblings, all three entrance cooperation routes, puzzle stages, gifts, badges, key and original ending. Recovery, reentry, undo/reset, irreversible progress, package delivery and both slider goals are covered. Four no-development-hook production checkpoints cover fresh living/kitchen/storage platform routes plus the second kitchen layer through both deliveries, gift and shortcut. They do not claim a full public playthrough. Physical PS controllers and vibration motors were not tested.",
   "features": [
-    "eight unchanged knowledge questions, three complete text options drawn as equal neutral corridor entrances across the entire game stage, with responsive phone and fullscreen layouts",
-    "font and layout readiness, original reading lead, then a three-second nonnumeric answer bar; one result per question; runner, chase, attacks and collisions freeze throughout the card and door zoom",
-    "keyboard 1/2/3, standard PS-style D-pad and cross, and touch answer input; held confirmation must release before the next runner jump",
-    "each selected answer joins its own physical corridor profile; correct-only forward companion shield blocks a warned incoming spell; unshielded lanes have jumpable waves and low landing platforms",
-    "original correct-answer speed reward and three-mistake retry rule; an unavoided wave adds pursuit pressure once without counting another answer mistake",
-    "fourth-question cooperation: shield support leaves the companion at a rear cookie gate, a real player side-plate landing raises it, or the companion takes a visible elevated detour and rejoins later",
-    "selected sibling remains controlled throughout; automatic companion support, forward camera space, optional guarded one-shot haptics, and no gameplay text outside story and knowledge questions",
-    "retained third-floor 60-second runner, two causal cooperation relays, gummy boost, variable jump, lower fallback route and removed overhead lamp strip",
-    "retained first-floor three single-player cooperative puzzles, gifts, physical badge slots, key, exit latch and original ending comics",
-    "existing hand-painted candy-house assets, exact filename casing, foot anchors, local light, particles and mechanism sound cues"
+    "untimed first-floor exploration: player always controls the chosen sibling while the opposite sibling follows and operates necessary scene mechanisms",
+    "living room: physically push the biscuit box, companion climbs and opens persistent drawer stairs, jump to the high merge board, strawberry step and held latch unlock chocolate, jointly open cabinet and personally collect the gift",
+    "kitchen: land on a lid plate to open the companion route, companion physically fixes the tray, jump to the high match-three station; first recipe triggers a companion board change, two wrapped products fall through matching outlets after actual swaps under fixed obstacles",
+    "storage: land on the entry plate to deploy a helper footbridge, companion raises the loading lift, jump to the high slider; short candy opens a distinct inner wafer bridge, the lower horizontal candy must clear before the long blocker and red exit, companion holds the door until the player returns",
+    "latched supports, collision rectangles shared with rendering, last-real-landing fall recovery, per-room earned shortcuts, unique gifts/badges and save version 9 with legacy migration",
+    "keyboard, multitouch and standard PS-style input: room jump and interaction contexts, L1 undo and R1 reset rising edges, held-input isolation and optional guarded haptic requests",
+    "forward room cameras with a brief entry overview and closer portrait framing; icon-only gameplay outside story and existing second-floor knowledge questions",
+    "retained third-floor 60-second two-relay runner without overhead lamp strip, second-floor eight knowledge questions with full-stage cards, actual lanes, shields and mid-level help, and original hallway key/exit/forest comics",
+    "existing hand-painted assets, exact filename casing, transparent foot-anchored characters, local mechanism/landing sound and particles"
   ],
   "files": [
     {
@@ -667,14 +1374,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-DF8uQs1B.js",
-      "bytes": 184354,
-      "sha256": "07d7deff3ffd1b0ef3eec2b0a360eb5407ba52cde88ce02e221eff453c542b89"
+      "file": "assets/index-BZWP-O1N.js",
+      "bytes": 211411,
+      "sha256": "62e6c3ae61b3a69b90810c7f134fdcdf9e902c3e78a15234106c63b98c7e894d"
     },
     {
-      "file": "assets/index-DIEYzPOX.css",
-      "bytes": 75115,
-      "sha256": "2652880bb1fb230d7124798a598fa474240be51d8f512731f86fa963544d0b02"
+      "file": "assets/index-CCh-CQOL.css",
+      "bytes": 77788,
+      "sha256": "42de2395b8d56f8b9ac4d5e559bf06da1d157a245b80acd4cc78070fd9aef9a5"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -789,7 +1496,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "954748cc366c672ff2357e9ab164d3924d143e9fdd69669180b2e22bcf67c6eb"
+      "sha256": "e5295f5310333300eddd0badb0615e5b08a62756363609cfaaf015ecbcb3b99d"
     }
   ]
 }
