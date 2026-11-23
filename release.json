@@ -1,12 +1,13 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "d86c5c35bbdcb61144e00873653b7e4d1c5136ab",
-  "builtAt": "2026-11-23T04:43:50.979Z",
+  "gameCommit": "5b2af90ea0453be77760ac03ecc4d5ca3715f5a4",
+  "builtAt": "2026-11-23T04:53:43.246Z",
   "version": "0.3.0",
   "validation": {
     "coreTests": 44,
-    "browserTests": 13,
+    "browserTests": 14,
     "completeRealInputAdventures": 2,
+    "assetReadinessGate": true,
     "typecheck": true
   },
   "features": [
@@ -17,7 +18,7 @@
     "single-player two-cake, matching and slider puzzles with companion latch assistance",
     "wordless gameplay, preflight controls, scene lamps, magic warning, local sound cues and pressure-paced broom audio",
     "original hand-drawn artwork and opening / ending comics; current-group skip uses a double-arrow icon",
-    "desktop and touch controls, checkpoint saving and supplied browser icon"
+    "desktop and touch controls, checkpoint saving, supplied browser icon and asset-ready startup"
   ],
   "files": [
     {
@@ -436,14 +437,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-CXNq6yKL.css",
-      "bytes": 61245,
-      "sha256": "d5c4737c16da9753e66198f259c2dcca2e60cbe2ff62425b61414a68f06f1591"
+      "file": "assets/index-BDj4tsAN.js",
+      "bytes": 121433,
+      "sha256": "7cebb2193886650d1136b3c1461c70335e19b099464e05137f645af13df371f8"
     },
     {
-      "file": "assets/index-D5Uyy9gO.js",
-      "bytes": 121156,
-      "sha256": "73e4223f25d41a8440d10bc1361c88ce2718885672472b6d0560cbdfbab104a2"
+      "file": "assets/index-CX1IThYB.css",
+      "bytes": 61502,
+      "sha256": "85c261ffd1b05f79ac218202c79c75f65a13653fc88152a96250ac6f1a96456e"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -558,7 +559,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "23b2ce748255ca60bf11cc0754db7c338a64085974946b72fc65f2fcb39f7d38"
+      "sha256": "b28e3d08f7ca9d9ebc764464fff0ec961ac38c8b9518c531f2a6b883dfb5dff9"
     }
   ]
 }
