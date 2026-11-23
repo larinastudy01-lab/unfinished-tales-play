@@ -1,15 +1,13 @@
-# Candy House Adventure — Siblings Together
+# Candy House Adventure — playable build
 
 Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
-Choose Hansel or Gretel once and control that sibling throughout the adventure. The other sibling follows, jumps and automatically supports wafer platforms, shields and puzzle latches. No character switching or second player is required.
+Version 0.5.0 restores the original eight knowledge questions in the second-floor witch chase. The runner continues on safe flat tracks while all text options are visible. A short reading lead precedes the original three-second answer window. Correct answers widen the gap and trigger a companion kick; three wrong or timed-out answers retain the original failure rule. Hazards, the biscuit shield and upper bypass sit between questions. The selected sibling remains under the same player's control and the original first-floor/ending flow is retained.
 
-Third floor: variable-height jumps, an optional upper support route, and a complete lower route. Second floor: uninterrupted pursuit, shield or upper bypass, pictorial route gates and recoverable wrong turns. First floor: hold the first cake latch, pull the dual cabinet together, catch matched desserts without stopping the board, and brace the storage door until the player returns outside. Three physical badge sockets reveal the key, and moonlight leads both siblings into the original forest ending. Standard gamepad controls: left stick/D-pad, bottom face button (PS cross) confirm/interact, right face button (PS circle) cancel then return. Gameplay is wordless; controls are explained before play. Existing hand-drawn artwork is retained.
+Keyboard: A/D move, W/Up/Space variable jump, Q gummy; 1/2/3 answer directly or arrows and Enter. Touch: scene controls and text answer buttons. Standard PS-style gamepad on floors two and one: D-pad selection, × confirm, ○ cancel, Options pause; second-floor × jump and □ gummy. Hardware and vibration motors have not been physically tested.
 
-Release source: 414b7572573f9a2f0f613ad7ff15bf171807a0fc.
+Source commit: f72353668251196206f7d7be4c06cc02de50f396
 
-Validation: 63 core tests, 17 Chrome browser checks, two complete keyboard/touch adventures from normal selection to ending, TypeScript and production build. Original assets, build provenance and hashes are recorded in release.json. First-floor gamepad input and optional haptic calls were tested with standard Gamepad API samples; no physical PS controller or vibration motor was tested. Physical mobile hardware, human blind-play readability and final sound mix remain to be assessed.
+This public repository contains generated playable files only. Private source retains the existing game project. release.json records SHA-256 for the 108 current build files. Older immutable bundles are retained for open tabs.
 
-This public repository contains only the generated game and the artwork required to play it.
-
-Pause style update: removed the surrounding panel and changed the resume circle to wine red. Three viewport checks confirmed appearance, pause and resume.
+Validation: 78 core tests; 25 integrated Chrome cases plus 2 legacy second-floor artwork checks; 24 question/viewport layouts; TypeScript and Vite build. The integrated suite includes both selected-character full adventures, four eight-question keyboard/touch chase routes, wrong/timeout/retry, and two eight-question simulated gamepad routes. Exact production-build checks cover the first question with correct/wrong/timeout across desktop, phone and landscape from a valid checkpoint. This does not claim a complete live-site playthrough or physical controller testing.

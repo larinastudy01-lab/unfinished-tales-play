@@ -1,31 +1,37 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "414b7572573f9a2f0f613ad7ff15bf171807a0fc",
-  "builtAt": "2026-11-23T07:30:29.748Z",
-  "version": "0.4.0",
+  "gameCommit": "f72353668251196206f7d7be4c06cc02de50f396",
+  "builtAt": "2026-11-23T07:57:45.807Z",
+  "version": "0.5.0",
   "validation": {
-    "coreTests": 63,
-    "browserTests": 17,
-    "firstFloorRealInputRoutes": 2,
+    "coreTests": 78,
+    "browserTests": 25,
+    "legacySecondFloorBrowserChecks": 2,
+    "completeRealInputAdventures": 2,
+    "knowledgeKeyboardTouchRoutes": 4,
+    "knowledgeGamepadRoutes": 2,
+    "productionCheckpointChecks": 3,
+    "quizViewportQuestionLayouts": 24,
     "simulatedGamepad": true,
     "physicalPSGamepad": false,
-    "completeRealInputAdventures": 2,
+    "physicalRumble": false,
     "assetReadinessGate": true,
-    "typecheck": true,
-    "pauseStyleChecks": 3
+    "typecheck": true
   },
+  "validationScope": "Local Chrome: full selected-character adventures, four eight-question keyboard/touch second-floor routes, wrong/timeout/retry, and simulated standard PS gamepad input. Production checks: exact HTML/JS/CSS and first knowledge question correct/wrong/timeout from a valid checkpoint in three viewports. Physical PS hardware and motors were not tested.",
   "features": [
-    "one selected playable sibling with an automatic, nonblocking companion throughout the adventure",
+    "one selected playable sibling with an automatic nonblocking companion throughout the adventure",
+    "eight original text knowledge questions and answers, three-second decision window after layout and reading lead, one settlement per question",
+    "continuous runner and witch during safe flat-track quiz zones; context-isolated keyboard, touch and standard gamepad answering",
+    "correct answers open distance and trigger a companion biscuit kick; wrong or timeout increases pressure; original three-mistake failure",
+    "sixteen original lethal hazards between questions; telegraphed witch spell, companion biscuit shield and independently passable upper bypass",
     "variable jump height, 100 ms input buffer and coyote grace; transparent foot-aligned animation frames",
     "optional third-floor upper wafer support route and independently passable lower route",
-    "continuous second-floor shield and upper bypass routes with physical pictorial gates and recoverable wrong turns",
-    "first-cake companion latch, explicit dual-handle cabinet opening, nonblocking dessert catches and storage door bracing until the player returns outside",
-    "persistent partial puzzle boards and mechanisms, physical badge sockets, moonlight and both siblings running into the original ending",
-    "single standard gamepad first-floor controls and feature-detected optional mechanism rumble",
-    "wordless gameplay, preflight controls, scene lamps, magic warning, local sound cues and pressure-paced broom audio",
-    "original hand-drawn artwork and opening / ending comics; current-group skip uses a double-arrow icon",
-    "desktop and touch controls, checkpoint saving, supplied browser icon and asset-ready startup",
-    "frame-free wine red pause resume button"
+    "first-cake companion latch, explicit dual-handle cabinet, concurrent dessert catches and storage door bracing until player returns outside",
+    "persistent partial puzzles and mechanisms, physical badge sockets, manual key pickup and original forest ending",
+    "optional feature-detected haptics, local sound cues and pressure-paced broom audio",
+    "original hand-drawn artwork and comics; preflight controls, wordless gameplay outside story and knowledge questions",
+    "desktop and touch controls, checkpoint saving, supplied browser icon, asset-ready startup and frame-free wine red pause button"
   ],
   "files": [
     {
@@ -444,14 +450,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BL-q1ffZ.css",
-      "bytes": 64778,
-      "sha256": "bbfcc98f3c6c7936e2cd0226b991b97c92538a36579ca4fba12140316d4d9df2"
+      "file": "assets/index-DLZb56jj.js",
+      "bytes": 144953,
+      "sha256": "2793e1abb86eb578b6fd8bbd4d8199e83a2389eac93cc952d69ce6017be96364"
     },
     {
-      "file": "assets/index-BvjTfrmS.js",
-      "bytes": 138264,
-      "sha256": "6b5eb6715c503bdddfcaa906bb26d6283712f7527f95beedaf81e9422605c738"
+      "file": "assets/index-Dwo9ka1X.css",
+      "bytes": 68243,
+      "sha256": "4da95ace1734f26323405a84b1f440fd22eefe56c55c21d99f5cfdd78ca709a5"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -566,8 +572,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "f0ffb20109e4042e2544273407a8eb2daa1176d7d6d8bdeb16f13a938a101dac"
+      "sha256": "89ae2d24cda04ff2a585b866d2d9c87ee91e8f57a0705fdfce512fd8cdb4e39c"
     }
-  ],
-  "validationScope": "Pause style update: production build and three viewport checks of frame removal, wine red color, paused canvas stability and resume. The 63 core / 17 browser game suite is inherited from the prior first-floor release."
+  ]
 }
