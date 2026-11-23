@@ -1,38 +1,136 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "1a979ee369fa5b7cd12285706ffcfde51e073581",
-  "builtAt": "2026-11-23T11:21:21.591Z",
-  "version": "0.7.0",
+  "gameCommit": "7d3fac56adc822b1497a235d8e29c350f0f7cbb0",
+  "builtAt": "2026-11-23T12:03:50.601Z",
+  "version": "0.8.0",
   "validation": {
-    "coreTests": 107,
-    "integratedBrowserTests": 36,
-    "legacyArtworkDifficultyChecks": 4,
-    "browserBatch": {
-      "passed": 38,
-      "failed": 2,
-      "exitCode": 1
+    "createdAt": "2026-11-23T12:02:26.532Z",
+    "coreTests": 126,
+    "browserTests": 50,
+    "coreExitCode": 0,
+    "browserExitCode": 0,
+    "checks": [
+      {
+        "name": "final complete core",
+        "command": "npm test",
+        "tests": 126,
+        "passed": 126,
+        "failed": 0,
+        "exitCode": 0,
+        "scope": "Final source including the late-Q clear-animation reunion fix."
+      },
+      {
+        "name": "complete Chrome regression batch",
+        "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line",
+        "tests": 50,
+        "passed": 50,
+        "failed": 0,
+        "exitCode": 0,
+        "duration": "7.1m",
+        "scope": "Completed before the final clear-only fix, with no source reload or mutation during the batch."
+      },
+      {
+        "name": "final-source relay Chrome regression",
+        "command": "npx playwright test --config playwright.candy.config.js third-relay.spec.js --reporter=line",
+        "tests": 10,
+        "passed": 10,
+        "failed": 0,
+        "exitCode": 0,
+        "duration": "1.6m",
+        "scope": "After the clear-only fix, reran every relay case, including changed-path touch Q6240, normal/Q success and late routes, and simulated standard PS controls."
+      }
+    ],
+    "browserValidationScope": "50 broad browser cases passed. After the final clear-only fix, the complete core and all 10 affected relay browser cases passed again; the broad 50-case batch was not repeated.",
+    "controls": {
+      "keyboard": true,
+      "touch": true,
+      "standardGamepadAPISimulation": true,
+      "physicalPlayStationHardware": false,
+      "directActorPositionEditsInPlaythroughs": false,
+      "forwardOnlyPlayerRoutes": true
     },
-    "isolatedReruns": {
-      "passed": 2,
-      "failed": 0,
-      "exitCode": 0
+    "helperForwardScope": "Every relay route from player x>=4800 to the ending, plus ordinary front-upper forward following; the existing authored front-lower safe gate-hop approach is retained.",
+    "runtimes": {
+      "normal": {
+        "runElapsedSeconds": 35.792,
+        "toComicSeconds": 37
+      },
+      "relayQ4800": {
+        "runElapsedSeconds": 33.042,
+        "toComicSeconds": 34.25
+      },
+      "normalReunion": {
+        "successAt": 30.2,
+        "fallbackAt": 32.133,
+        "advantageSeconds": 1.933
+      },
+      "relayQReunion": {
+        "successAt": 27.533,
+        "fallbackAt": 29.783,
+        "advantageSeconds": 2.25
+      }
     },
-    "completeRealInputAdventures": 2,
-    "thirdFloorKeyboardUpperRoutes": 4,
-    "thirdFloorTouchLowerRoutes": 1,
-    "thirdFloorSimulatedPSRoutes": 2,
-    "normalThirdFloorSeconds": 37.02,
-    "gummyUpperThirdFloorSeconds": 34.25,
-    "causalSceneViewportChecks": 24,
-    "productionCompleteThirdFloorReplays": 3,
-    "simulatedGamepad": true,
-    "physicalPSGamepad": false,
-    "physicalRumble": false,
-    "typecheck": true,
-    "assetReadinessGate": true,
-    "closedGateReturnRegression": true
+    "lateQExitWait": {
+      "qAt": 6240,
+      "clearWaiting": {
+        "x": 7801.614999999616,
+        "feet": 530,
+        "helperX": 7561.308333333173,
+        "helperFeet": 530,
+        "elapsed": 33.274999999998755
+      },
+      "clearRejoined": {
+        "x": 7801.614999999616,
+        "feet": 530,
+        "helperX": 7709.074999999818,
+        "helperFeet": 530,
+        "elapsed": 33.708333333332064
+      },
+      "waitSeconds": 0.433,
+      "health": 3,
+      "decision": "skip"
+    },
+    "proofFiles": {
+      "relayRoutes": "artifacts/third-relay-*.json",
+      "playwrightNativeState": "test-results/.last-run.json"
+    },
+    "sourceSha256": {
+      "src/candy/game.ts": "f84646ae01a494bbef1b4ad3a4686fc4a23968e4b8fa14cb15590218749eadb4",
+      "src/candy/cooperation.ts": "bce082accf494c00b7734d6a6bc835014da9bf017edb17c0710eaa29dcfd2828",
+      "src/candy/levels.ts": "f6fe6ef25a907d283bad695c7538b2ab31e7fca631ac431de5cae8fa09644f4e",
+      "src/candy/render.ts": "55d173073787d99b7e93961a4ffa000bd097a4a25fb5b5b9ef3bdabce27bd8ff",
+      "src/candy/tutorial-view.ts": "d7e24461ab48a645f88204cd789568e6096b709c8acfc03a2e6134e351ae2837",
+      "src/candy/gamepad.ts": "453856cfd7a417e77503ce3a88d3351505ca5289d79fe02aae88ce06affd2f8c",
+      "src/candy/audio.ts": "78cf73e883bf96d6b570039faab5afc4c4f7c3aa22bac817f244c672675508f5",
+      "tests/helpers/coop-routes.ts": "09f227fd1b87714cf3cf600fff6cb8508877c7584cb1d8891b896a043cce8b3a",
+      "tests/candy-third-causal.test.ts": "bb46ca1dba0aa0a80191e94adf9effd0891917c07c7545f6e52b6e5e26f53cc4",
+      "tests/candy-third-relay.test.ts": "ff58f4c70b10fe179bf75e90e0918910245727c84cf16aa2fb2fcc5eaa408305",
+      "tests/candy-browser/third-route.js": "c1395b3e937f10b2d76d808863d11383af0c844d3300b4ce9fd32e3875149a8b",
+      "tests/candy-browser/third-relay.spec.js": "3cedea9aafed3f7c70c0ddaf1596646222b78005bde20ab74d878a52dc0dd938"
+    },
+    "productionBuild": {
+      "typecheck": true,
+      "viteBuild": true,
+      "exactBuildKeyboardReplays": 5,
+      "report": "artifacts/third-relay-build.json",
+      "noDevelopmentHook": true,
+      "entries": [
+        {
+          "file": "./assets/index-BzjThxrW.js",
+          "sha256": "5dbc0afb6ecb235b82f8810be15430b9de222ddd1e0a16bd4446825713132201"
+        },
+        {
+          "file": "./assets/phaser-DFK5Ua9d.js",
+          "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
+        },
+        {
+          "file": "./assets/index-CrU0McgB.css",
+          "sha256": "70e9039860602426d84026489e5e3b6bd1c21d650706eba10ea4f3fd2678ed4f"
+        }
+      ]
+    }
   },
-  "validationScope": "Current source: 107 core tests; 40 distinct Chrome cases verified (batch 38 passed/2 failed; isolated reruns 2/2 passed after removing a development-page reload interference and settling a legacy camera fixture). Includes two complete adventures, both selected siblings on normal/Q upper routes, touch lower fallback, missed-wafer fallback, two complete simulated standard-PS third-floor routes, retry/pause and retained knowledge/first-floor flows; four legacy art/difficulty checks. Exact production build: three complete third-floor keyboard replays through the original comic into floor two. No physical PS controller or motor was tested.",
+  "validationScope": "Current code: both selected siblings complete both cooperation chains; rear relay success, missed plate and physically late plate routes; normal and rear-relay gummy speed; visible downhill detour, different reunion timing, retry/reentry and original floor-two transition. Tests use real keyboard/touch input and simulated standard Gamepad API. Production replays use ordinary keyboard events with no development hook. Physical controller and vibration motors were not tested.",
   "features": [
     "one selected playable sibling with an automatic nonblocking companion throughout the adventure",
     "eight original text knowledge questions and answers, three-second decision window after layout and reading lead, one settlement per question",
@@ -50,13 +148,14 @@
     "physical third-floor upper-plate contact opens the helper-only cookie gate; actual companion passage and lower-plate contact extend the upper wafer",
     "wafer collision follows its drawn width; the full extension latches for at least 2.5 seconds and until the player reaches the safe landing; the helper rejoins below",
     "missed-first-plate and missed-wafer lower routes remain independently passable within the original 60-second limit; retry and reentry rebuild every mechanism",
-    "wide cooperation camera, separate rear helper lane, visible linkages, preflight diagrams, three local mechanism cues and optional 85 ms bridge-position rumble",
     "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors",
     "physical third-floor upper-plate contact opens the helper-only cookie gate; actual companion passage and lower-plate contact extend the upper wafer",
     "wafer collision follows its drawn width; the full extension latches for at least 2.5 seconds and until the player reaches the safe landing; the helper rejoins below",
     "missed-first-plate and missed-wafer lower routes remain independently passable within the original 60-second limit; retry and reentry rebuild every mechanism",
-    "wide cooperation camera, separate rear helper lane, visible linkages, preflight diagrams, three local mechanism cues and optional 85 ms bridge-position rumble",
-    "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors"
+    "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors",
+    "second third-floor relay: actual upper companion plate raises a lower lollipop gate, then actual player side-plate landing extends a wafer across the companion gap",
+    "the companion crosses only after the wafer is ready; missing or late help commits a visible downhill detour and a later reunion while the ordinary player route stays open",
+    "two readable cooperation compositions and preflight diagrams, forward camera space, linked mechanisms, local sound cues and optional one-shot 85 ms wafer-position rumble"
   ],
   "files": [
     {
@@ -475,9 +574,9 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BJj2HJgd.js",
-      "bytes": 163019,
-      "sha256": "f1c360c53359debd9da7980d9355d25543485554d621cfbf75d13a087ea817b7"
+      "file": "assets/index-BzjThxrW.js",
+      "bytes": 174288,
+      "sha256": "5dbc0afb6ecb235b82f8810be15430b9de222ddd1e0a16bd4446825713132201"
     },
     {
       "file": "assets/index-CrU0McgB.css",
@@ -597,7 +696,7 @@
     {
       "file": "index.html",
       "bytes": 1862,
-      "sha256": "20c297aa9d76fa31b2b43e7ecaa500a0c756e22b8b7205a8b2553ed391c28212"
+      "sha256": "9527826d9fe8296b7a4f9f89c90726e324ee3cbbe5a44a794832798e6978c2bc"
     }
   ]
 }
