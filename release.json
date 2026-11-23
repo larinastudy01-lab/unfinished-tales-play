@@ -1,123 +1,18 @@
 {
   "game": "Candy House Adventure",
-  "gameCommit": "7d3fac56adc822b1497a235d8e29c350f0f7cbb0",
-  "builtAt": "2026-11-23T12:03:50.601Z",
-  "version": "0.8.0",
+  "gameCommit": "4b73d7db8119d8ab3e02877dc54e7a03e1409c10",
+  "builtAt": "2026-11-23T12:13:27.801Z",
+  "version": "0.8.1",
   "validation": {
-    "createdAt": "2026-11-23T12:02:26.532Z",
-    "coreTests": 126,
-    "browserTests": 50,
-    "coreExitCode": 0,
-    "browserExitCode": 0,
-    "checks": [
-      {
-        "name": "final complete core",
-        "command": "npm test",
-        "tests": 126,
-        "passed": 126,
-        "failed": 0,
-        "exitCode": 0,
-        "scope": "Final source including the late-Q clear-animation reunion fix."
-      },
-      {
-        "name": "complete Chrome regression batch",
-        "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line",
-        "tests": 50,
-        "passed": 50,
-        "failed": 0,
-        "exitCode": 0,
-        "duration": "7.1m",
-        "scope": "Completed before the final clear-only fix, with no source reload or mutation during the batch."
-      },
-      {
-        "name": "final-source relay Chrome regression",
-        "command": "npx playwright test --config playwright.candy.config.js third-relay.spec.js --reporter=line",
-        "tests": 10,
-        "passed": 10,
-        "failed": 0,
-        "exitCode": 0,
-        "duration": "1.6m",
-        "scope": "After the clear-only fix, reran every relay case, including changed-path touch Q6240, normal/Q success and late routes, and simulated standard PS controls."
-      }
-    ],
-    "browserValidationScope": "50 broad browser cases passed. After the final clear-only fix, the complete core and all 10 affected relay browser cases passed again; the broad 50-case batch was not repeated.",
-    "controls": {
-      "keyboard": true,
-      "touch": true,
-      "standardGamepadAPISimulation": true,
-      "physicalPlayStationHardware": false,
-      "directActorPositionEditsInPlaythroughs": false,
-      "forwardOnlyPlayerRoutes": true
-    },
-    "helperForwardScope": "Every relay route from player x>=4800 to the ending, plus ordinary front-upper forward following; the existing authored front-lower safe gate-hop approach is retained.",
-    "runtimes": {
-      "normal": {
-        "runElapsedSeconds": 35.792,
-        "toComicSeconds": 37
-      },
-      "relayQ4800": {
-        "runElapsedSeconds": 33.042,
-        "toComicSeconds": 34.25
-      },
-      "normalReunion": {
-        "successAt": 30.2,
-        "fallbackAt": 32.133,
-        "advantageSeconds": 1.933
-      },
-      "relayQReunion": {
-        "successAt": 27.533,
-        "fallbackAt": 29.783,
-        "advantageSeconds": 2.25
-      }
-    },
-    "lateQExitWait": {
-      "qAt": 6240,
-      "clearWaiting": {
-        "x": 7801.614999999616,
-        "feet": 530,
-        "helperX": 7561.308333333173,
-        "helperFeet": 530,
-        "elapsed": 33.274999999998755
-      },
-      "clearRejoined": {
-        "x": 7801.614999999616,
-        "feet": 530,
-        "helperX": 7709.074999999818,
-        "helperFeet": 530,
-        "elapsed": 33.708333333332064
-      },
-      "waitSeconds": 0.433,
-      "health": 3,
-      "decision": "skip"
-    },
-    "proofFiles": {
-      "relayRoutes": "artifacts/third-relay-*.json",
-      "playwrightNativeState": "test-results/.last-run.json"
-    },
-    "sourceSha256": {
-      "src/candy/game.ts": "f84646ae01a494bbef1b4ad3a4686fc4a23968e4b8fa14cb15590218749eadb4",
-      "src/candy/cooperation.ts": "bce082accf494c00b7734d6a6bc835014da9bf017edb17c0710eaa29dcfd2828",
-      "src/candy/levels.ts": "f6fe6ef25a907d283bad695c7538b2ab31e7fca631ac431de5cae8fa09644f4e",
-      "src/candy/render.ts": "55d173073787d99b7e93961a4ffa000bd097a4a25fb5b5b9ef3bdabce27bd8ff",
-      "src/candy/tutorial-view.ts": "d7e24461ab48a645f88204cd789568e6096b709c8acfc03a2e6134e351ae2837",
-      "src/candy/gamepad.ts": "453856cfd7a417e77503ce3a88d3351505ca5289d79fe02aae88ce06affd2f8c",
-      "src/candy/audio.ts": "78cf73e883bf96d6b570039faab5afc4c4f7c3aa22bac817f244c672675508f5",
-      "tests/helpers/coop-routes.ts": "09f227fd1b87714cf3cf600fff6cb8508877c7584cb1d8891b896a043cce8b3a",
-      "tests/candy-third-causal.test.ts": "bb46ca1dba0aa0a80191e94adf9effd0891917c07c7545f6e52b6e5e26f53cc4",
-      "tests/candy-third-relay.test.ts": "ff58f4c70b10fe179bf75e90e0918910245727c84cf16aa2fb2fcc5eaa408305",
-      "tests/candy-browser/third-route.js": "c1395b3e937f10b2d76d808863d11383af0c844d3300b4ce9fd32e3875149a8b",
-      "tests/candy-browser/third-relay.spec.js": "3cedea9aafed3f7c70c0ddaf1596646222b78005bde20ab74d878a52dc0dd938"
-    },
-    "productionBuild": {
-      "typecheck": true,
-      "viteBuild": true,
-      "exactBuildKeyboardReplays": 5,
-      "report": "artifacts/third-relay-build.json",
-      "noDevelopmentHook": true,
+    "typecheck": true,
+    "productionBuild": true,
+    "productionViewportSmoke": {
+      "url": "http://127.0.0.1:4187/",
+      "verifiedAt": "2026-11-23T12:12:39.214Z",
       "entries": [
         {
-          "file": "./assets/index-BzjThxrW.js",
-          "sha256": "5dbc0afb6ecb235b82f8810be15430b9de222ddd1e0a16bd4446825713132201"
+          "file": "./assets/index-DLWr18Dk.js",
+          "sha256": "85293aa03eb1d21eb6e06d18b8a2712195e66dab5e273413bee3560704ec2235"
         },
         {
           "file": "./assets/phaser-DFK5Ua9d.js",
@@ -127,10 +22,180 @@
           "file": "./assets/index-CrU0McgB.css",
           "sha256": "70e9039860602426d84026489e5e3b6bd1c21d650706eba10ea4f3fd2678ed4f"
         }
-      ]
+      ],
+      "results": [
+        {
+          "name": "desktop",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "character": "hansel",
+          "keyboardJump": true,
+          "noDevelopmentHook": true,
+          "screen": "artifacts/third-no-lamps-build-desktop.png",
+          "errors": []
+        },
+        {
+          "name": "phone",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "character": "gretel",
+          "keyboardJump": true,
+          "noDevelopmentHook": true,
+          "screen": "artifacts/third-no-lamps-build-phone.png",
+          "errors": []
+        },
+        {
+          "name": "landscape",
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "character": "gretel",
+          "keyboardJump": true,
+          "noDevelopmentHook": true,
+          "screen": "artifacts/third-no-lamps-build-landscape.png",
+          "errors": []
+        }
+      ],
+      "scope": "Visual-only lamp-strip removal: three production viewport screenshots after ordinary resume and jump input. Screenshots are inspected separately; no full gameplay regression or physical controller test was rerun for this patch."
+    },
+    "previousGameplayValidation": {
+      "sourceCommit": "7d3fac56adc822b1497a235d8e29c350f0f7cbb0",
+      "version": "0.8.0",
+      "validation": {
+        "createdAt": "2026-11-23T12:02:26.532Z",
+        "coreTests": 126,
+        "browserTests": 50,
+        "coreExitCode": 0,
+        "browserExitCode": 0,
+        "checks": [
+          {
+            "name": "final complete core",
+            "command": "npm test",
+            "tests": 126,
+            "passed": 126,
+            "failed": 0,
+            "exitCode": 0,
+            "scope": "Final source including the late-Q clear-animation reunion fix."
+          },
+          {
+            "name": "complete Chrome regression batch",
+            "command": "npm run test:e2e -- third-art.spec.js third-difficulty.spec.js second-floor.spec.js --reporter=line",
+            "tests": 50,
+            "passed": 50,
+            "failed": 0,
+            "exitCode": 0,
+            "duration": "7.1m",
+            "scope": "Completed before the final clear-only fix, with no source reload or mutation during the batch."
+          },
+          {
+            "name": "final-source relay Chrome regression",
+            "command": "npx playwright test --config playwright.candy.config.js third-relay.spec.js --reporter=line",
+            "tests": 10,
+            "passed": 10,
+            "failed": 0,
+            "exitCode": 0,
+            "duration": "1.6m",
+            "scope": "After the clear-only fix, reran every relay case, including changed-path touch Q6240, normal/Q success and late routes, and simulated standard PS controls."
+          }
+        ],
+        "browserValidationScope": "50 broad browser cases passed. After the final clear-only fix, the complete core and all 10 affected relay browser cases passed again; the broad 50-case batch was not repeated.",
+        "controls": {
+          "keyboard": true,
+          "touch": true,
+          "standardGamepadAPISimulation": true,
+          "physicalPlayStationHardware": false,
+          "directActorPositionEditsInPlaythroughs": false,
+          "forwardOnlyPlayerRoutes": true
+        },
+        "helperForwardScope": "Every relay route from player x>=4800 to the ending, plus ordinary front-upper forward following; the existing authored front-lower safe gate-hop approach is retained.",
+        "runtimes": {
+          "normal": {
+            "runElapsedSeconds": 35.792,
+            "toComicSeconds": 37
+          },
+          "relayQ4800": {
+            "runElapsedSeconds": 33.042,
+            "toComicSeconds": 34.25
+          },
+          "normalReunion": {
+            "successAt": 30.2,
+            "fallbackAt": 32.133,
+            "advantageSeconds": 1.933
+          },
+          "relayQReunion": {
+            "successAt": 27.533,
+            "fallbackAt": 29.783,
+            "advantageSeconds": 2.25
+          }
+        },
+        "lateQExitWait": {
+          "qAt": 6240,
+          "clearWaiting": {
+            "x": 7801.614999999616,
+            "feet": 530,
+            "helperX": 7561.308333333173,
+            "helperFeet": 530,
+            "elapsed": 33.274999999998755
+          },
+          "clearRejoined": {
+            "x": 7801.614999999616,
+            "feet": 530,
+            "helperX": 7709.074999999818,
+            "helperFeet": 530,
+            "elapsed": 33.708333333332064
+          },
+          "waitSeconds": 0.433,
+          "health": 3,
+          "decision": "skip"
+        },
+        "proofFiles": {
+          "relayRoutes": "artifacts/third-relay-*.json",
+          "playwrightNativeState": "test-results/.last-run.json"
+        },
+        "sourceSha256": {
+          "src/candy/game.ts": "f84646ae01a494bbef1b4ad3a4686fc4a23968e4b8fa14cb15590218749eadb4",
+          "src/candy/cooperation.ts": "bce082accf494c00b7734d6a6bc835014da9bf017edb17c0710eaa29dcfd2828",
+          "src/candy/levels.ts": "f6fe6ef25a907d283bad695c7538b2ab31e7fca631ac431de5cae8fa09644f4e",
+          "src/candy/render.ts": "55d173073787d99b7e93961a4ffa000bd097a4a25fb5b5b9ef3bdabce27bd8ff",
+          "src/candy/tutorial-view.ts": "d7e24461ab48a645f88204cd789568e6096b709c8acfc03a2e6134e351ae2837",
+          "src/candy/gamepad.ts": "453856cfd7a417e77503ce3a88d3351505ca5289d79fe02aae88ce06affd2f8c",
+          "src/candy/audio.ts": "78cf73e883bf96d6b570039faab5afc4c4f7c3aa22bac817f244c672675508f5",
+          "tests/helpers/coop-routes.ts": "09f227fd1b87714cf3cf600fff6cb8508877c7584cb1d8891b896a043cce8b3a",
+          "tests/candy-third-causal.test.ts": "bb46ca1dba0aa0a80191e94adf9effd0891917c07c7545f6e52b6e5e26f53cc4",
+          "tests/candy-third-relay.test.ts": "ff58f4c70b10fe179bf75e90e0918910245727c84cf16aa2fb2fcc5eaa408305",
+          "tests/candy-browser/third-route.js": "c1395b3e937f10b2d76d808863d11383af0c844d3300b4ce9fd32e3875149a8b",
+          "tests/candy-browser/third-relay.spec.js": "3cedea9aafed3f7c70c0ddaf1596646222b78005bde20ab74d878a52dc0dd938"
+        },
+        "productionBuild": {
+          "typecheck": true,
+          "viteBuild": true,
+          "exactBuildKeyboardReplays": 5,
+          "report": "artifacts/third-relay-build.json",
+          "noDevelopmentHook": true,
+          "entries": [
+            {
+              "file": "./assets/index-BzjThxrW.js",
+              "sha256": "5dbc0afb6ecb235b82f8810be15430b9de222ddd1e0a16bd4446825713132201"
+            },
+            {
+              "file": "./assets/phaser-DFK5Ua9d.js",
+              "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
+            },
+            {
+              "file": "./assets/index-CrU0McgB.css",
+              "sha256": "70e9039860602426d84026489e5e3b6bd1c21d650706eba10ea4f3fd2678ed4f"
+            }
+          ]
+        }
+      }
     }
   },
-  "validationScope": "Current code: both selected siblings complete both cooperation chains; rear relay success, missed plate and physically late plate routes; normal and rear-relay gummy speed; visible downhill detour, different reunion timing, retry/reentry and original floor-two transition. Tests use real keyboard/touch input and simulated standard Gamepad API. Production replays use ordinary keyboard events with no development hook. Physical controller and vibration motors were not tested.",
+  "validationScope": "Visual-only patch removes the third-floor hanging timer lamps and updates the before-play description. The 60-second model timer, runner inputs, collisions and cooperative mechanisms are unchanged. Current patch validation: TypeScript, production build and three production viewport screenshots after resume and jump. Full gameplay and hardware tests were not rerun; prior release results are explicitly recorded separately.",
   "features": [
     "one selected playable sibling with an automatic nonblocking companion throughout the adventure",
     "eight original text knowledge questions and answers, three-second decision window after layout and reading lead, one settlement per question",
@@ -155,7 +220,8 @@
     "standard mapped PS-style controller movement, variable-height cross jump, square gummy, Options pause and cross retry on all runner floors",
     "second third-floor relay: actual upper companion plate raises a lower lollipop gate, then actual player side-plate landing extends a wafer across the companion gap",
     "the companion crosses only after the wafer is ready; missing or late help commits a visible downhill detour and a later reunion while the ordinary player route stays open",
-    "two readable cooperation compositions and preflight diagrams, forward camera space, linked mechanisms, local sound cues and optional one-shot 85 ms wafer-position rumble"
+    "two readable cooperation compositions and preflight diagrams, forward camera space, linked mechanisms, local sound cues and optional one-shot 85 ms wafer-position rumble",
+    "third-floor hanging timer lamp strip removed; internal 60-second time limit remains"
   ],
   "files": [
     {
@@ -574,14 +640,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BzjThxrW.js",
-      "bytes": 174288,
-      "sha256": "5dbc0afb6ecb235b82f8810be15430b9de222ddd1e0a16bd4446825713132201"
-    },
-    {
       "file": "assets/index-CrU0McgB.css",
       "bytes": 71637,
       "sha256": "70e9039860602426d84026489e5e3b6bd1c21d650706eba10ea4f3fd2678ed4f"
+    },
+    {
+      "file": "assets/index-DLWr18Dk.js",
+      "bytes": 174058,
+      "sha256": "85293aa03eb1d21eb6e06d18b8a2712195e66dab5e273413bee3560704ec2235"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -695,8 +761,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 1862,
-      "sha256": "9527826d9fe8296b7a4f9f89c90726e324ee3cbbe5a44a794832798e6978c2bc"
+      "bytes": 1890,
+      "sha256": "102c4736203dba727fa8fa4b731f93e5bc43917c81f54d91eab11685627379de"
     }
   ]
 }
