@@ -1,98 +1,41 @@
 {
   "game": "Candy House Adventure",
-  "version": "0.13.0",
-  "gameCommit": "c02c26acf5794909328f0763680a1674bd541017",
-  "builtAt": "2026-11-23T16:36:17.632Z",
+  "version": "0.13.1",
+  "gameCommit": "fda0df31fdea08aff1c5ce3912a40ab0810f9b89",
+  "builtAt": "2026-11-24T04:32:17.223Z",
   "validation": {
-    "version": "0.13.0",
-    "verifiedAt": "2026-11-23T16:31:20.547Z",
-    "core": {
-      "command": [
-        "C:\\Program Files\\nodejs\\node.exe",
-        "--test",
-        "--test-reporter=tap",
-        "tests\\candy-knowledge.test.ts",
-        "tests\\candy-comics.test.ts",
-        "tests\\candy-coop.test.ts",
-        "tests\\candy-second-floor.test.ts",
-        "tests\\candy-gamepad.test.ts",
-        "tests\\candy-floor-support.test.ts",
-        "tests\\candy-floor-save.test.ts",
-        "tests\\candy-floor-puzzles.test.ts",
-        "tests\\candy-floor-causal.test.ts",
-        "tests\\candy-first-floor.test.ts",
-        "tests\\candy-room-platforms.test.ts",
-        "tests\\candy-recovery.test.ts",
-        "tests\\candy-second-causal.test.ts",
-        "tests\\candy-second-floor-controls.test.ts",
-        "tests\\candy-tutorial.test.ts",
-        "tests\\candy-third-relay.test.ts",
-        "tests\\candy-third-causal.test.ts",
-        "tests\\candy-two-cakes.test.ts",
-        "tests\\candy-unique-gifts.test.ts",
-        "tests\\candy-failure-retry.test.ts",
-        "tests\\candy-core.test.ts",
-        "tests\\candy-dev-tools.test.ts"
-      ],
-      "startedAt": "2026-11-23T16:25:21.683Z",
-      "finishedAt": "2026-11-23T16:25:39.913Z",
-      "code": 0,
-      "signal": null,
-      "sourceUnchanged": true,
-      "fileCount": 242,
-      "tests": 194,
-      "passed": 194,
-      "failed": 0,
-      "skipped": 0
-    },
+    "core": 194,
     "browser": {
-      "command": [
-        "C:\\Program Files\\nodejs\\node.exe",
-        "node_modules/@playwright/test/cli.js",
-        "test",
-        "--config",
-        "playwright.candy.config.js",
-        "knowledge-chase.spec.js",
-        "knowledge-gamepad.spec.js",
-        "second-causal.spec.js",
-        "physical-lanes.spec.js",
-        "second-floor.spec.js",
-        "cooperative-adventure.spec.js",
-        "wordless-ui.spec.js",
-        "dev-retry.spec.js",
-        "--reporter=json",
-        "--output=test-results-dev-retry-acceptance"
-      ],
-      "startedAt": "2026-11-23T16:25:22.990Z",
-      "finishedAt": "2026-11-23T16:30:16.460Z",
-      "code": 0,
-      "signal": null,
-      "stats": {
-        "startTime": "2026-11-23T16:25:25.896Z",
-        "duration": 290247.705,
-        "expected": 34,
-        "skipped": 0,
-        "unexpected": 0,
-        "flaky": 0
+      "startTime": "2026-11-24T04:26:41.502Z",
+      "duration": 68844.84000000001,
+      "expected": 11,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "productionViewports": [
+      {
+        "width": 1440,
+        "height": 900
       },
-      "errors": [],
-      "sourceUnchanged": true,
-      "fileCount": 242
-    },
-    "production": {
-      "passed": 4,
-      "report": "dev-retry-build-smoke.json",
-      "noDevHook": true
-    },
-    "physicalPS": false,
-    "physicalVibration": false,
-    "publicColdGameplayCompleted": false
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 844,
+        "height": 390
+      }
+    ],
+    "entriesPerViewport": 6,
+    "formalSaveUnchanged": true,
+    "productionModelHookAbsent": true
   },
-  "validationScope": "Four distinct Space / PS cross / touch presses fill a frosting retry ring, with held-death and long-press suppression, preserved progress and automatic stage-local retry after flash. A loopback development-only ?dev=1 Ctrl+Shift+L menu offers six fresh stage/room entries, preserves character and isolates formal saves. The production build has neither development menu nor model hook even with ?dev=1. The existing eight physical answer lanes, both siblings, shield/gate/bypass, wrong/timeout/third-error reset and first-floor transition remain. The complete 34-case local browser batch includes two full adventures through first-floor gifts, key and ending. Four exact-production ring checks use keyboard, touch and simulated standard Gamepad polling from a valid saved entrance and actual hazard. Physical PS hardware and vibration motors were not tested. Public full cold asset loading has not completed in the latest 300-second check; deployment and file integrity are distinct from public gameplay verification.",
+  "validationScope": "Public ellipsis level picker on desktop and touch opens six fresh isolated entrances, retains the selected sibling and preserves formal saves. Modal pause, focus, unfinished nickname and character selection are retained on close. Local debug access remains development-only. 194 exact-source core tests, 11 final browser cases, and three exact-production viewport checks passed. Entry smoke checks do not claim complete playthroughs of every level.",
   "features": [
-    "four-press frosting retry ring with device glyph, no countdown or progress decay",
-    "fresh local developer entries for third, second, hallway and all three exploration rooms; formal saves isolated",
-    "production keeps original opening, selected sibling, three-floor cooperation, physical answer lanes and ending"
+    "public ellipsis menu with six isolated level entries",
+    "keyboard and touch modal controls preserve pause, focus and unfinished setup",
+    "formal saves and production debug restrictions preserved"
   ],
   "files": [
     {
@@ -511,14 +454,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-CTxuAgDR.js",
-      "bytes": 221720,
-      "sha256": "e7c446975156ad83a0aef783698b9c11c0d0c1618caa30e95052f055ba5ed5f0"
+      "file": "assets/index-6dW7tPqR.js",
+      "bytes": 225708,
+      "sha256": "7e37c93f7f0c755d9a68708aff5eee70b396fa040467ce92cbdf96e30bf8fa37"
     },
     {
-      "file": "assets/index-GNa38s_H.css",
-      "bytes": 78693,
-      "sha256": "663875d390a8dfaf33877b87e184e3d92236eab6ac1fe1fb52b8717f7a82ca2b"
+      "file": "assets/index-DNKbtLL_.css",
+      "bytes": 79108,
+      "sha256": "3a07e2d2471d5811032b8dc95eeef7f2a645a9d067a1ff670e9a3958b51ace58"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -632,8 +575,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 1862,
-      "sha256": "804f8d9aa973ba2aecc8378c5a0716dc96fda02847c71b94e65436e56bc76465"
+      "bytes": 2279,
+      "sha256": "21e998b2244499f4a1b31e84303b9ccb778b0be53294ef0f8c27d366ebefcbf8"
     }
   ]
 }
