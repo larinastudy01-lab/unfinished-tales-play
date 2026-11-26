@@ -1,27 +1,22 @@
 {
-  "game": "Unfinished Tales: The Page Journey",
-  "version": "0.14.0",
-  "gameCommit": "e5b2906b5299f40492f7a55b245ef1724f075ed6",
-  "builtAt": "2026-11-26T16:08:29.381387+00:00",
+  "version": "0.14.1",
+  "sourceCommit": "0e0681a11d2454c8d4230c2f527e52e0378713a8",
+  "builtAt": "2026-11-26T16:56:17.051748+00:00",
   "validation": {
-    "corePassed": 205,
-    "browserPassed": 25,
-    "productionCasesPassed": 2,
-    "compiledAssetsMatchTestedDist": true,
-    "htmlWhitespaceOnly": [
-      {
-        "file": "index.html",
-        "difference": "CR/CRLF versus LF and one blank line only"
-      }
-    ]
+    "corePassed": 207,
+    "browserPassed": 28,
+    "productionKnowledgeCasesPassed": 3,
+    "productionStartCasesPassed": 2,
+    "compiledAssetsMatchTestedDist": true
   },
-  "validationScope": "Local model tests and keyboard/touch browser regressions cover both siblings through runners, three rooms and the ending. Exact-production smoke checks cover both explicit selections, nickname validation, fade, Enter opening dialogue, preserved selection and the third-floor checkpoint. They do not claim complete public playthroughs.",
+  "validationScope": "Local real-input tests cover both siblings, all eight physical answers, reachable lanes, keyboard, touch, simulated Gamepad, pause/resume, comics, cooperation and the full adventure. Exact-production local smoke covers correct, wrong and idle timeout at three viewport sizes, plus both startup selections through the opening comic to the third floor. These are not full public playthrough claims.",
   "features": [
-    "illustrated 16:9 character and nickname start screen",
-    "exclusive circular gold and warm-white breathing selection glow",
-    "original start_icon, 0.8-second fade and original opening comics",
-    "selection-linked sibling animations and resumable opening saves",
-    "verified movement, answer card, retry and touch interface polish"
+    "single centered original play icon on the blurred pause screen",
+    "only more and fullscreen controls in the top-right toolbar",
+    "restored existing physical three-lane quiz and natural merges",
+    "entrance-aligned biscuit answer signs and three-second circular countdown",
+    "real runner judgment, single settlement and idle timeout",
+    "original questions, maps, art, physics, collision sizes and cooperation retained"
   ],
   "files": [
     {
@@ -440,14 +435,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-7F0IRlQL.css",
-      "bytes": 87110,
-      "sha256": "bf0fd9719a4d7fd5df60d025f6191e69f50b7135b7ae4246600a9630c58e97ca"
+      "file": "assets/index-C2KaLf21.js",
+      "bytes": 228945,
+      "sha256": "2cecfea89cb352fb7d1a1e3a27312016902b5b6ebe4b885bd95426f9e93c8127"
     },
     {
-      "file": "assets/index-CRrEn57U.js",
-      "bytes": 228555,
-      "sha256": "41e1d2742a24e8f8d12379cc3455c84d6f23caf0982fb100c05f7236f11ac8c3"
+      "file": "assets/index-DnywXXI7.css",
+      "bytes": 90878,
+      "sha256": "02d2bdb707fef316fe12633cc26ae1a38b2aeb4e0a3039592f48caa7dadfa1df"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -561,8 +556,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 2279,
-      "sha256": "84a87ab801a870d51e5ab26a0fbc6986147a4971bd33aed1c5ce7aa2b4b1961e"
+      "bytes": 2181,
+      "sha256": "4972cdf7bd111b62a29d732bbf5055b510b3c5af8cf7481b9aec92c736224478"
     }
   ]
 }
