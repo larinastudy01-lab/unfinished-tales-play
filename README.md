@@ -1,11 +1,11 @@
-# Unfinished Tales: The Page Journey - playable build
+# Unfinished Tales - Candy House Adventure: playable build
 
 Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
-Version0.16.0 integrates all28 formal artwork categories using34 supplied original WebP files. It adds state-driven first-floor doors, badges, matching slots, key compartment, cabinet, paired cake tray, latches, a weighted pushable crate, three independently collidable stair treads, measured 4x4 dessert board and cake stands. The prior13 mechanism and witch spell categories remain active.
+Version 0.17.0 integrates all 47 formal artwork categories using 57 supplied original WebP files. The third batch adds the connected kitchen production line, measured 4x4 match-three board, 6x6 sliding board and red target, storage tracks/controller/bridge sockets/gate/chest, original-rule health hearts, state-driven locks and candy direction arrows.
 
-Original selection, nickname, comics, keyboard controls, Shift boost, physical three-lane questions, witch chase, single-player sibling cooperation, all three rooms and the original ending retain their progression.
+The previous 28 categories remain active. Original selection, nickname, comics, keyboard controls, Shift boost, physical three-lane questions, witch chase, single-player sibling cooperation, all three rooms and the original ending retain their progression.
 
-Source commit: ad063fac2cc1f8d6dca1efad585eebda0f925088
+Source commit: 59df0911d479c306b4fef68f54aaab2abaf86a71
 
-Validation before publication:232 model tests,32 real-input browser cases,3 anonymous exact-production floor checkpoint cases and34 original-image byte checks passed. See release.json for scope and hashes. Old immutable assets remain available for open tabs.
+Before publication: 238 model tests, 39 real-input browser cases, 3 anonymous exact-production checkpoint cases and 57 original-image byte checks passed. The isolated 0.16/0.17 comparison covers 14 cases per version and 3,360 real RAF samples. See release.json for scope and build hashes. Public post-deployment checks are recorded in the source repository. Old immutable assets remain available for open tabs.
