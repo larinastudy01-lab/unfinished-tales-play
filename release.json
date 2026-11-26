@@ -1,21 +1,23 @@
 {
-  "version": "0.15.0",
-  "sourceCommit": "5d72ec6ccb228576dda9cc4710e6bd9d5335cade",
-  "builtAt": "2026-11-26T17:39:14.245964+00:00",
+  "version": "0.16.0",
+  "sourceCommit": "ad063fac2cc1f8d6dca1efad585eebda0f925088",
+  "builtAt": "2026-11-26T18:03:52.897800+00:00",
   "validation": {
-    "corePassed": 216,
-    "browserPassed": 30,
-    "productionKnowledgeCasesPassedLocally": 3,
-    "originalArtworkFilesVerified": 15,
+    "corePassed": 232,
+    "browserPassed": 32,
+    "productionFloorCasesPassedLocally": 3,
+    "originalArtworkFilesVerifiedLocally": 34,
     "compiledAssetsMatchTestedDist": true
   },
-  "validationScope": "Both selected siblings complete both runners, all eight physical questions, three first-floor rooms and the original ending via real controls. A focused legal-route draw audit verifies every formal image is visible, proportional, transparent and connected to its animation state. Local exact-production tests cover correct, wrong and timeout at three viewports. Public post-deployment integrity and smoke results are recorded separately in source deployment documentation. No physical Gamepad hardware is claimed.",
+  "validationScope": "Both selected siblings complete the original three floors and ending using real controls locally. Separate legal-route draw audits verify all 34 formal images, animated mechanisms and three responsive layouts. Model tests cover two-direction weighted crate push, top support, all three independent stair treads at30/60/144Hz, persistence and authoritative dessert slide results. Anonymous exact-production checkpoint tests cover both cake puzzles, manual cabinet reward, badge reload persistence and earned-three-badge key-to-exit original ending. Public post-deployment byte and anonymous checks are recorded in source deployment documentation. No physical Gamepad hardware or universal FPS claim.",
   "features": [
-    "15 supplied original WebP files covering all 13 formal mechanism and magic categories",
-    "pressure plate frames, cookie lift gates, lollipop fence, extending bridge bases, broken floor edges, candy rope linkages and fixed pendulum axles",
-    "rotating full spell circles, original-speed crescent waves with alpha-aware collision, rescue barrier, full-character golden shield and 11 varied fragment particles",
-    "existing selection, nickname, comics, keyboard controls, Shift boost, three physical answer lanes, maps, puzzle rooms, physics and progression retained",
-    "no second-floor touch-control container; centered pause play icon and two-icon toolbar retained"
+    "All28 formal artwork categories using34 supplied original WebP files without source rewrites",
+    "Original13 mechanisms and witch spell effects retained",
+    "State-driven room and exit doors, tiled hallway, three earned badge sprites, slots and animated compartment with original key",
+    "Formal living cabinet, paired cake tray, stands and actual locked/unlocked latch conditions",
+    "16 measured artwork recesses with original dessert sliding and merging logic",
+    "Original weighted box gains two-direction pushing before docking; collidable crate top and three independently aligned staircase treads",
+    "Single-player sibling cooperation, selection, nickname, comics, Shift boost, runner maps and physical three-lane questions retained"
   ],
   "files": [
     {
@@ -294,6 +296,11 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "file": "assets/badge_slot-B8lrg85a.webp",
+      "bytes": 2470459,
+      "sha256": "938360e3bb308bb8bcb88abadb2b71c2d9633b83c7bc7d2074fad6182ec3c5db"
+    },
+    {
       "file": "assets/biscuit_shield-BrKivIqx.webp",
       "bytes": 1802887,
       "sha256": "5054231926e7c19f6a6f5e9b527d14815071ebe5749d0b7e78b7cefd4364acfc"
@@ -359,6 +366,41 @@
       "sha256": "2662e80a7891c6b5a766e8d2f1fd96c99f9f1f042910168bdf6dc72fd84e19ca"
     },
     {
+      "file": "assets/bubble_badge-CN18PjAu.webp",
+      "bytes": 2379124,
+      "sha256": "a33b4f1260d3c4d843348d4189eac756751c5d61ea3e918e63d8f338a0acaedb"
+    },
+    {
+      "file": "assets/cabinet_latch_locked-CaN6zrB5.webp",
+      "bytes": 2242922,
+      "sha256": "69804fc118f91d2b9adfc83880adbbde7d2bc78bb46c6fe385ba7368968cd98c"
+    },
+    {
+      "file": "assets/cabinet_latch_unlocked-CJFjI8Px.webp",
+      "bytes": 2053310,
+      "sha256": "e3aff1092d7515411a39f38eb75472033c0a90637adca05c87f28e9bd3444a01"
+    },
+    {
+      "file": "assets/cake_badge-CYi_FA8-.webp",
+      "bytes": 2734431,
+      "sha256": "2800dfeae83e4590308fd48d3f8a01b11ef678d26670a752de4a032fb787d7fc"
+    },
+    {
+      "file": "assets/cake_display_tray-Dk_wjpZY.webp",
+      "bytes": 1986464,
+      "sha256": "b7c960c6acfbb45654c9c9b333dcbc1fad3535fd2bccf97429a2bf25e6342c13"
+    },
+    {
+      "file": "assets/cake_stand-DNEEUhvl.webp",
+      "bytes": 1261515,
+      "sha256": "ce7a5824679f998e10094b54e64c2105a5f8588ad0b3e5b6e3098724154a27ef"
+    },
+    {
+      "file": "assets/candy_badge-CKdygbYk.webp",
+      "bytes": 2557483,
+      "sha256": "e3c166a2d6366bb2954fe839c99ea616524b43fda643c28fa0a07c3da460e6e6"
+    },
+    {
       "file": "assets/candy_hammer-fxPcjx-p.webp",
       "bytes": 1118329,
       "sha256": "99b60b6b95c327852f6e9039ea0e98863bb707bba755cbb65ed4fd1cd8d0fcd1"
@@ -384,9 +426,34 @@
       "sha256": "a0207bd3361343233730985b06666303e14190d9a9213e7426c29942a5ed420d"
     },
     {
+      "file": "assets/cookie_stairs-DI-pJPa-.webp",
+      "bytes": 1922594,
+      "sha256": "c91f2254bb29292fc13663ff1936f5d090ae23cf23ee0915c497dccd72433b48"
+    },
+    {
+      "file": "assets/dessert_board-DBsbCq_y.webp",
+      "bytes": 2791857,
+      "sha256": "a677b623955c40162885778ef2732a793444be2c3b6ca4b83af43fe83f0551bb"
+    },
+    {
+      "file": "assets/dessert_cabinet-BkyV_29m.webp",
+      "bytes": 2623711,
+      "sha256": "1b5c83accabfbe6283f80541026b57680e7731969ce8358b260895989626eb6d"
+    },
+    {
       "file": "assets/enemies/.gitkeep",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/exit_door_closed-CPL5m6LK.webp",
+      "bytes": 3026829,
+      "sha256": "8057d432bc8901e8ff3ca411cc43f2d69c5d7def44c32e57ce63365d7e293d9c"
+    },
+    {
+      "file": "assets/exit_door_open-DKbZkj3G.webp",
+      "bytes": 1898868,
+      "sha256": "c0529d10e1a6b00923d6247809d6dbd02b60846224e6eeedc924c2fea73e7802"
     },
     {
       "file": "assets/exit_key-BKNHAthH.webp",
@@ -464,14 +531,19 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-DLENk10P.css",
-      "bytes": 91019,
-      "sha256": "17cfdbb587ca8bef9fc616578d9b5d0aa09a4dc629b7764061a4737bd97917e2"
+      "file": "assets/hallway_floor_tile-CAHt4r2B.webp",
+      "bytes": 2678554,
+      "sha256": "c77794417a4edf1a6a719179ee26e2d95c1bdae312a22458c4fe72b5e3dfbaf1"
     },
     {
-      "file": "assets/index-DS5vnwNK.js",
-      "bytes": 234003,
-      "sha256": "8c1e5f2f580793ed9801bcb203121b9c5327115ab86b9212be3d34c6ae57bae1"
+      "file": "assets/index-BYx9zqiB.css",
+      "bytes": 94107,
+      "sha256": "e033b0656c9d7439a7aaba0e72053734e7133938c2555a2852e154df7e056c20"
+    },
+    {
+      "file": "assets/index-CjWus8T1.js",
+      "bytes": 241107,
+      "sha256": "e10de0da4d577b3026c55ad28abdb3236d01738ffb5d3d3787a6059935f0571c"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -519,6 +591,11 @@
       "sha256": "a043bd349a415b1a8ae859b0bad4288270046f668bfd9bf8e2541fac55e25a9b"
     },
     {
+      "file": "assets/movable_cookie_box-BCMTfQyJ.webp",
+      "bytes": 2078915,
+      "sha256": "f54aa076a584def4b9927dcf4466454542f64825a997f4cbc23c1b1da21ec2a6"
+    },
+    {
       "file": "assets/pendulum_anchor-BSZKcr3g.webp",
       "bytes": 1887476,
       "sha256": "8e93df628a98e5b3d6374a748411d06f85a91f0bfe678af02d56e6c7f673dee7"
@@ -554,9 +631,29 @@
       "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
     },
     {
+      "file": "assets/room_door_closed-DPbVito1.webp",
+      "bytes": 1689096,
+      "sha256": "e01c38c1db0b9d066aac5085688522bb64837ddd8618bab9bb40962250955150"
+    },
+    {
+      "file": "assets/room_door_open-CV8DkGpg.webp",
+      "bytes": 965431,
+      "sha256": "626be2fe202bf2df627659555fbf34bfdc192d226fdd738bc6d8e7918165be5f"
+    },
+    {
       "file": "assets/second_jump-H8JcOzZg.webp",
       "bytes": 99192,
       "sha256": "d66f301ff45d6fed9d5ab85776060d26882f3f799c3849b58f301b9655970b5c"
+    },
+    {
+      "file": "assets/secret_compartment_closed-D6_Wvt5s.webp",
+      "bytes": 3278049,
+      "sha256": "51dc0f7f1e046c3870a21eb6dea4e18bbef414952f24d3cc0811a1b2f4ba1d29"
+    },
+    {
+      "file": "assets/secret_compartment_open-6h0O2F0d.webp",
+      "bytes": 2909726,
+      "sha256": "4256598c9877ca2a5e9d2aaddcd4d316a5514a19dd71ea53eca7aced2f45803b"
     },
     {
       "file": "assets/slide-CAm8Z61o.webp",
@@ -631,7 +728,7 @@
     {
       "file": "index.html",
       "bytes": 2181,
-      "sha256": "066626fa430b9063e1db2ddcd784ad63ff158b80abe846944b7bf975886e1b27"
+      "sha256": "8e3592b54e1e794a183e2aa70452133a8cd4bdec348195d9357d83ada85b2517"
     }
   ]
 }

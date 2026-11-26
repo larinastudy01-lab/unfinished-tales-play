@@ -2,10 +2,10 @@
 
 Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
-Version 0.15.0 integrates all 15 supplied original images in 13 mechanism and magic categories, with state-driven plates, gates, bridges, ropes, pendulum anchors, physical answer arches, spell charge, crescent attacks, barriers, golden shields and varied fragment particles. Image aspect and transparency are retained.
+Version0.16.0 integrates all28 formal artwork categories using34 supplied original WebP files. It adds state-driven first-floor doors, badges, matching slots, key compartment, cabinet, paired cake tray, latches, a weighted pushable crate, three independently collidable stair treads, measured 4x4 dessert board and cake stands. The prior13 mechanism and witch spell categories remain active.
 
-Character selection, nickname input, original comics, Shift boost, real three-lane questions, witch pursuit, single-player sibling cooperation and all three first-floor puzzle rooms retain their existing progression. Second-floor virtual controls remain absent; pause keeps one centered play icon and the toolbar keeps more and fullscreen.
+Original selection, nickname, comics, keyboard controls, Shift boost, physical three-lane questions, witch chase, single-player sibling cooperation, all three rooms and the original ending retain their progression.
 
-Source commit: 5d72ec6ccb228576dda9cc4710e6bd9d5335cade
+Source commit: ad063fac2cc1f8d6dca1efad585eebda0f925088
 
-Validation before publication: 216 model tests, 30 browser cases, 3 exact-production checkpoint cases and all 15 original-image byte checks passed. See release.json for scope and build hashes. Old immutable assets remain available for open tabs.
+Validation before publication:232 model tests,32 real-input browser cases,3 anonymous exact-production floor checkpoint cases and34 original-image byte checks passed. See release.json for scope and hashes. Old immutable assets remain available for open tabs.
