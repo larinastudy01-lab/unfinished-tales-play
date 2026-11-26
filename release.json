@@ -1,25 +1,23 @@
 {
-  "version": "0.19.0",
-  "sourceCommit": "f28f44442d4b917e518d4da646bf722247461d3e",
-  "builtAt": "2026-11-26T20:54:49.074387+00:00",
+  "version": "0.19.1",
+  "sourceCommit": "c4fd457cb74f71650c2f37581047d308a5d07836",
+  "builtAt": "2026-11-26T21:32:18.683101+00:00",
   "validation": {
     "model": 306,
-    "browserCases": 40,
+    "browserCases": 2,
     "preparedHashes": 454,
     "originalImagesUnchanged": 149,
-    "originalAudioUnchanged": 12,
-    "webkitTouchPassed": true,
-    "anonymousBuiltCases": 2,
-    "runtimeAudioByteChecks": 12
+    "originalAudioUnchanged": 12
   },
-  "validationScope": "306 model tests and 40 Chrome browser regressions, including both selected siblings, real physical answer lanes, all three rooms, keyboard/touch/gamepad, stage waiting and original audio lifecycle. Physical iPad is not claimed. All original supplied sources remain untouched; derived full-resolution DOM artwork and preprocessed Canvas/sprite sheets are separate. Original physics, collision, controls, questions, puzzle rules and CSS are unchanged.",
+  "validationScope": "Two complete desktop/keyboard and iPad-viewport/touch upper-floor routes, including original third-to-second comics, eight physical-lane answers and second-to-hallway comics. Closed/open room-door proportions, floor anchoring, actor foreground, transparency and first-floor room/exit artwork distinction verified. 306 model tests and exact source TypeScript/Vite build pass. No physics, collision, maps, puzzles, story, CSS or original artwork changed. Physical iPad is not claimed.",
   "features": [
     "Offline sprite trimming, white-edge removal, frame/feet alignment and seven lossless WebP atlases; no application pixel readback on startup",
     "Staged title, opening, attic, chase, hallway, independent room and ending loading, with original clocks frozen while destinations wait",
     "Shared prioritized three-image loading/decode queue; released stale decoded images; obsolete queued work canceled without deleting HTTP cache",
     "Lossless/full-resolution display artwork, original runtime Canvas preparation dimensions, smaller site icons and deferred hidden previews",
     "Nine genuine MP3 BGM derivatives preserve exact playable sample counts/rates/channels; three original MP3 effects and AudioManager behavior retained",
-    "Once-per-load original-size Canvas raster cache restores rendering throughput without pixel reads; evicted backing stores are released"
+    "Once-per-load original-size Canvas raster cache restores rendering throughput without pixel reads; evicted backing stores are released",
+    "Both upper-floor exits reuse the original paired room-door artwork, with existing 0.24s crossfade and unchanged clear conditions; only the first-floor final exit uses exit-door artwork."
   ],
   "files": [
     {
@@ -1558,9 +1556,9 @@
       "sha256": "9bfef6c3925ee5ac84dbd4d411a43be7ea4d6b296bd5773fd0536c30069b3981"
     },
     {
-      "file": "assets/index-D8WWFxDb.js",
-      "bytes": 355210,
-      "sha256": "ad75b87e869f8ebc2b9e819933e26b0afcec5fa06bf5a924b259067ed29beba0"
+      "file": "assets/index-CCDI3QHD.js",
+      "bytes": 355211,
+      "sha256": "e29f2652f1472ff00d145ad6974e10be12f44d63036fd693c0e69aaa02968015"
     },
     {
       "file": "assets/index-kdmsYnas.css",
@@ -1640,7 +1638,7 @@
     {
       "file": "index.html",
       "bytes": 2210,
-      "sha256": "e391e4fc30c3831254ffc3c51bae3c706d4ae045735fb193dd918f42c3737f3f"
+      "sha256": "6de9a8391ccb9d3ce076dec24a4d519ad0d4d505fdc9f8548464262ce3bc9244"
     }
   ],
   "performance": {
@@ -2166,6 +2164,8 @@
           }
         }
       ]
-    }
+    },
+    "measuredSourceCommit": "f28f44442d4b917e518d4da646bf722247461d3e",
+    "scopeNote": "Performance table is the prior0.19.0 controlled measurement, not remeasured for the0.19.1 visual patch."
   }
 }
