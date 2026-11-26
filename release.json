@@ -1,41 +1,27 @@
 {
-  "game": "Candy House Adventure",
-  "version": "0.13.1",
-  "gameCommit": "fda0df31fdea08aff1c5ce3912a40ab0810f9b89",
-  "builtAt": "2026-11-24T04:32:17.223Z",
+  "game": "Unfinished Tales: The Page Journey",
+  "version": "0.14.0",
+  "gameCommit": "e5b2906b5299f40492f7a55b245ef1724f075ed6",
+  "builtAt": "2026-11-26T16:08:29.381387+00:00",
   "validation": {
-    "core": 194,
-    "browser": {
-      "startTime": "2026-11-24T04:26:41.502Z",
-      "duration": 68844.84000000001,
-      "expected": 11,
-      "skipped": 0,
-      "unexpected": 0,
-      "flaky": 0
-    },
-    "productionViewports": [
+    "corePassed": 205,
+    "browserPassed": 25,
+    "productionCasesPassed": 2,
+    "compiledAssetsMatchTestedDist": true,
+    "htmlWhitespaceOnly": [
       {
-        "width": 1440,
-        "height": 900
-      },
-      {
-        "width": 390,
-        "height": 844
-      },
-      {
-        "width": 844,
-        "height": 390
+        "file": "index.html",
+        "difference": "CR/CRLF versus LF and one blank line only"
       }
-    ],
-    "entriesPerViewport": 6,
-    "formalSaveUnchanged": true,
-    "productionModelHookAbsent": true
+    ]
   },
-  "validationScope": "Public ellipsis level picker on desktop and touch opens six fresh isolated entrances, retains the selected sibling and preserves formal saves. Modal pause, focus, unfinished nickname and character selection are retained on close. Local debug access remains development-only. 194 exact-source core tests, 11 final browser cases, and three exact-production viewport checks passed. Entry smoke checks do not claim complete playthroughs of every level.",
+  "validationScope": "Local model tests and keyboard/touch browser regressions cover both siblings through runners, three rooms and the ending. Exact-production smoke checks cover both explicit selections, nickname validation, fade, Enter opening dialogue, preserved selection and the third-floor checkpoint. They do not claim complete public playthroughs.",
   "features": [
-    "public ellipsis menu with six isolated level entries",
-    "keyboard and touch modal controls preserve pause, focus and unfinished setup",
-    "formal saves and production debug restrictions preserved"
+    "illustrated 16:9 character and nickname start screen",
+    "exclusive circular gold and warm-white breathing selection glow",
+    "original start_icon, 0.8-second fade and original opening comics",
+    "selection-linked sibling animations and resumable opening saves",
+    "verified movement, answer card, retry and touch interface polish"
   ],
   "files": [
     {
@@ -117,6 +103,21 @@
       "file": "assets/12-BM4Dwj5U.webp",
       "bytes": 3203759,
       "sha256": "e302126fbea6cb08401211b98bd5b8523694240c688350d293a91aa097b560dc"
+    },
+    {
+      "file": "assets/2-DP9Hz80E.webp",
+      "bytes": 849135,
+      "sha256": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369"
+    },
+    {
+      "file": "assets/2-DTEE7DcR.webp",
+      "bytes": 1029455,
+      "sha256": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1"
+    },
+    {
+      "file": "assets/2-rfYAxxsE.webp",
+      "bytes": 1885394,
+      "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
     },
     {
       "file": "assets/2_01-tFFhtBsP.webp",
@@ -204,26 +205,6 @@
       "sha256": "dc0842d04f058c791fd87ab0ec91d9b4c9b5dc4010fb6bed84241482552bc448"
     },
     {
-      "file": "assets/2-DP9Hz80E.webp",
-      "bytes": 849135,
-      "sha256": "75c802823d7d548e8d332897f39c125e97ebab3abb1d39bb76882484763c6369"
-    },
-    {
-      "file": "assets/2-DTEE7DcR.webp",
-      "bytes": 1029455,
-      "sha256": "ce4b687a18a88f1c0b68bafd304a439cc93cadc94336fd35b2ad51be4a6072f1"
-    },
-    {
-      "file": "assets/2-rfYAxxsE.webp",
-      "bytes": 1885394,
-      "sha256": "7a36cc6cafe69411eee8bb0e63408d95140c1af0d067a397f015e2d5bda32b56"
-    },
-    {
-      "file": "assets/3_floor-DmtbeJYa.webp",
-      "bytes": 2258571,
-      "sha256": "835fb5daabb9619693cc1b9741980af7c41f2962956e7cd188298e40fd50559a"
-    },
-    {
       "file": "assets/3-BfKBfm29.webp",
       "bytes": 1496119,
       "sha256": "e4c32456344c77aa8e394d1c6ff8f9d835ef0cc1d1e8dc84e6388c8cfbefab40"
@@ -237,6 +218,11 @@
       "file": "assets/3-DvopH4Oa.webp",
       "bytes": 1451983,
       "sha256": "ca35054389c9dd29c31b9578ef19a2be17b5c442a76d64d7cf5ceb2c75478c49"
+    },
+    {
+      "file": "assets/3_floor-DmtbeJYa.webp",
+      "bytes": 2258571,
+      "sha256": "835fb5daabb9619693cc1b9741980af7c41f2962956e7cd188298e40fd50559a"
     },
     {
       "file": "assets/4-C7_4BIPN.webp",
@@ -404,11 +390,6 @@
       "sha256": "72ab217f14dd715b469b11fb4ea5694ddf999cb5c97430595f3bea4bad77daa3"
     },
     {
-      "file": "assets/girl_Headshot-DpntGRWD.webp",
-      "bytes": 1874597,
-      "sha256": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0"
-    },
-    {
       "file": "assets/girl-failure-CP_gdY0J.webp",
       "bytes": 20102,
       "sha256": "3a264d0d9278322e97c50d5190f59f499082ce4d58a46ce9ba51184ffcec8c9f"
@@ -449,19 +430,24 @@
       "sha256": "30ca9eb4cbff7c46dccd9e2d33411dd558a07168821eaf6fecf594b43b6d5074"
     },
     {
+      "file": "assets/girl_Headshot-DpntGRWD.webp",
+      "bytes": 1874597,
+      "sha256": "89a2be0eee292702c2d0c8148231ab2ee8068c21829ab2a6eb8bc99d226721d0"
+    },
+    {
       "file": "assets/gummy-evL83gki.webp",
       "bytes": 9164,
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-6dW7tPqR.js",
-      "bytes": 225708,
-      "sha256": "7e37c93f7f0c755d9a68708aff5eee70b396fa040467ce92cbdf96e30bf8fa37"
+      "file": "assets/index-7F0IRlQL.css",
+      "bytes": 87110,
+      "sha256": "bf0fd9719a4d7fd5df60d025f6191e69f50b7135b7ae4246600a9630c58e97ca"
     },
     {
-      "file": "assets/index-DNKbtLL_.css",
-      "bytes": 79108,
-      "sha256": "3a07e2d2471d5811032b8dc95eeef7f2a645a9d067a1ff670e9a3958b51ace58"
+      "file": "assets/index-CRrEn57U.js",
+      "bytes": 228555,
+      "sha256": "41e1d2742a24e8f8d12379cc3455c84d6f23caf0982fb100c05f7236f11ac8c3"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -519,14 +505,14 @@
       "sha256": "1d9d51a5f88ad7e7f7f990028b2313436b952738fcfbd6f470c0bb0d85c4a509"
     },
     {
-      "file": "assets/start_icon-BHVsFwOO.webp",
-      "bytes": 2607526,
-      "sha256": "042037ad6a37fc3d3986040dc5fa8a2fd27bf7fb4006d732596ced0d5d023daa"
-    },
-    {
       "file": "assets/start-41uEELUO.webp",
       "bytes": 3679901,
       "sha256": "26190a6cac4cc577ec1c6c2f5dd8f3b60fa7a5da560b37c0098fa6aed3fdf1f9"
+    },
+    {
+      "file": "assets/start_icon-BHVsFwOO.webp",
+      "bytes": 2607526,
+      "sha256": "042037ad6a37fc3d3986040dc5fa8a2fd27bf7fb4006d732596ced0d5d023daa"
     },
     {
       "file": "assets/sticky_syrup-DHjIRJvS.webp",
@@ -576,7 +562,7 @@
     {
       "file": "index.html",
       "bytes": 2279,
-      "sha256": "21e998b2244499f4a1b31e84303b9ccb778b0be53294ef0f8c27d366ebefcbf8"
+      "sha256": "84a87ab801a870d51e5ab26a0fbc6986147a4971bd33aed1c5ce7aa2b4b1961e"
     }
   ]
 }
