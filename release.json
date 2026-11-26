@@ -1,21 +1,23 @@
 {
   "version": "0.18.0",
-  "sourceCommit": "15d76788aa8021e37a2f85f79f67f76338c44a0d",
-  "builtAt": "2026-11-26T19:28:15.608020+00:00",
+  "sourceCommit": "a078cfcb2ea68ee52a278af7667e62e22d660489",
+  "builtAt": "2026-11-26T19:42:01.913199+00:00",
   "validation": {
-    "model": 285,
-    "browser": 38,
+    "model": 291,
+    "browserCases": 39,
+    "browserRerunAfterFinalAudioOnlyPatch": 5,
     "anonymousProductionLocal": 2,
     "originalAudioByteChecks": 12,
     "unchangedVisualFiles": 156
   },
-  "validationScope": "285 models from exact source; 29 original adventure/physical-lane browser regressions, 5 art/MP3 cases, 3 focused audio lifecycle/full live-input route cases, 1 real Web Audio PCM output case. Two anonymous built checkpoints and twelve original MP3 byte checks passed locally before publication. Public verification is recorded separately in the source repository. Near-EOF seek verifies native ended, not a complete-duration listening test.",
+  "validationScope": "291 models from all 931 exact Git tree files. This update passed 29 original adventure/physical-lane regressions and 5 art/MP3 cases; the final audio-only patch reran 3 focused lifecycle/full live-input routes, 1 real PCM output/persisted-reload case and 1 real HTTP-delayed MP3 crossfade case. Two anonymous exact built checkpoints and twelve original MP3 byte checks are verified locally before publication. Public checks are recorded separately in the source repository. Near-EOF seek verifies native ended, not a complete-duration listening test.",
   "features": [
     "Nine provided streamed BGM tracks with group-aware continuity and crossfades",
     "Three reusable MP3 SFX voices triggered only by accepted player jump, actual witch release and formal stage/badge/final completion",
     "Independent quiz and completion ducking; pause/resume offsets, hidden-tab cleanup, retry restart and mute controls",
     "One-shot opening and full ending sequences; parked hallway progress; handled autoplay rejection",
-    "All previous artwork, controls, physics, three physical lanes, puzzle rules, sibling cooperation and original story preserved"
+    "All previous artwork, controls, physics, three physical lanes, puzzle rules, sibling cooperation and original story preserved",
+    "Playback-ready gated crossfades and first-gesture fades; persisted master/BGM/SFX/mute preferences with denied-storage fallback"
   ],
   "files": [
     {
@@ -229,14 +231,14 @@
       "sha256": "b548905017a3741e077a5f3dee921670a02f2f6bbeb908dd939f1edda1db75f6"
     },
     {
-      "file": "assets/5-CcNGb7G-.webp",
-      "bytes": 1069857,
-      "sha256": "7ceec9de51e292db304c299ac34df9448c521175e5623e7eb8e598d385069d67"
-    },
-    {
       "file": "assets/5-CHGqNlUg.webp",
       "bytes": 1510963,
       "sha256": "f2f2c25852d341dc76166cf3fd193d8a4ca0b206fb9920131699cb958fe1b02c"
+    },
+    {
+      "file": "assets/5-CcNGb7G-.webp",
+      "bytes": 1069857,
+      "sha256": "7ceec9de51e292db304c299ac34df9448c521175e5623e7eb8e598d385069d67"
     },
     {
       "file": "assets/6-Cjx4CfT3.webp",
@@ -262,6 +264,36 @@
       "file": "assets/9-CD0Lw-RD.webp",
       "bytes": 1194810,
       "sha256": "6fd12cd2f62b838bd83aea84fd1a36a4ff4e8a3ddf1b49439796a9ca9e939e25"
+    },
+    {
+      "file": "assets/Lollipop-DtXd-9DM.webp",
+      "bytes": 748928,
+      "sha256": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19"
+    },
+    {
+      "file": "assets/README.md",
+      "bytes": 423,
+      "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
+    },
+    {
+      "file": "assets/The witch failed-Jn3oDXPe.gif",
+      "bytes": 392152,
+      "sha256": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69"
+    },
+    {
+      "file": "assets/Wafer platform-C1gXrOFU.webp",
+      "bytes": 1419368,
+      "sha256": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3"
+    },
+    {
+      "file": "assets/Witch Attack-D8NV7wxW.gif",
+      "bytes": 346758,
+      "sha256": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71"
+    },
+    {
+      "file": "assets/Witch Chase-CqpE2xLk.gif",
+      "bytes": 419172,
+      "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
     },
     {
       "file": "assets/answer_gate-CVrRIqQX.webp",
@@ -649,9 +681,9 @@
       "sha256": "b468d6f4a5e5601abcab465815e815f5a6e9875e44d2d5dc9c6c4935bce2e51e"
     },
     {
-      "file": "assets/index-BcuE6ZfI.js",
-      "bytes": 263407,
-      "sha256": "6ff5e5f6770e3f49a8b4295605f4fa81a0de12ba57a60b2e46ae89da79da956a"
+      "file": "assets/index-BUzOr4MZ.js",
+      "bytes": 264780,
+      "sha256": "3060ad353b0fc3163780a4a398041a2997ddbdcec9fe6f35af28a9ecbfb9fe10"
     },
     {
       "file": "assets/index-kdmsYnas.css",
@@ -672,11 +704,6 @@
       "file": "assets/login-Dzsqkk25.webp",
       "bytes": 2892880,
       "sha256": "973a1715e13695c2b236d64f3e01ae6984e1ec40aebd8c5b0a43afa19a54d329"
-    },
-    {
-      "file": "assets/Lollipop-DtXd-9DM.webp",
-      "bytes": 748928,
-      "sha256": "57c2216dab170233e719ab092a70add410e92e2dd2552a34a247ed3644968e19"
     },
     {
       "file": "assets/lollipop-head-a2Q9Nbt-.webp",
@@ -764,11 +791,6 @@
       "sha256": "67e308d953d59344f4b21c97a537e334afdefea1ccccbf58d09aeb06ef4551b6"
     },
     {
-      "file": "assets/README.md",
-      "bytes": 423,
-      "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
-    },
-    {
       "file": "assets/red_candy_block-gq8gDEck.webp",
       "bytes": 2217508,
       "sha256": "467c55523370e9f3704bc8d6928fe6379c315bfeb09b08fef0c21262c17d9194"
@@ -839,34 +861,14 @@
       "sha256": "824e29463700ed71f769cee775439c89d8911b6e92f7f3164bf4e51bc4bb7800"
     },
     {
-      "file": "assets/The witch failed-Jn3oDXPe.gif",
-      "bytes": 392152,
-      "sha256": "958df3e71b34cf38002751b58708ae35e18c938f1f4bb7b71f7e8e7451127d69"
-    },
-    {
       "file": "assets/ui/.gitkeep",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
-      "file": "assets/Wafer platform-C1gXrOFU.webp",
-      "bytes": 1419368,
-      "sha256": "c15b195a73e39abc736c831fef25cff5d31ce13622d133c5c1ca944e59fa00f3"
-    },
-    {
       "file": "assets/wall-BvzSPU_4.webp",
       "bytes": 159226,
       "sha256": "9e40854e2ab62fc3ab64130848f01b87ecafdeaca44868f4780bf04b6afbc848"
-    },
-    {
-      "file": "assets/Witch Attack-D8NV7wxW.gif",
-      "bytes": 346758,
-      "sha256": "dd43bbcbefe6f012b7fb3c887af6d02d606b8db9da6af3d09e0c37ece9c7ff71"
-    },
-    {
-      "file": "assets/Witch Chase-CqpE2xLk.gif",
-      "bytes": 419172,
-      "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
     },
     {
       "file": "assets/主題曲-CGMUVSHq.mp3",
@@ -901,7 +903,7 @@
     {
       "file": "index.html",
       "bytes": 2181,
-      "sha256": "2f1b824b74b38052ef84f3647a2a5429a4830e7aaebf5fce39cc58c205e498f0"
+      "sha256": "c351f3de6c282f0ebf704b5ba575f6deee3a0667f94028e5dd709860e06a610b"
     }
   ]
 }

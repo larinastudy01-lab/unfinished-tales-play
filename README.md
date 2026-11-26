@@ -6,6 +6,8 @@ Version 0.18.0 adds the unified game audio system using the 12 supplied original
 
 All 47 formal artwork categories and previous gameplay remain active. 156 image, animation and CSS build files retain their 0.17.0 paths and SHA-256. Source MP3 bytes are unchanged (13,497,089 bytes).
 
-Source commit: 15d76788aa8021e37a2f85f79f67f76338c44a0d
+Source commit: a078cfcb2ea68ee52a278af7667e62e22d660489
 
-Before publication: 285 model tests, 38 browser cases, 2 anonymous exact-production cases and 12 original-audio byte checks passed. Real Web Audio PCM output, silent mute and resumed output were measured in Chrome. See release.json for scope and build hashes. Public post-deployment verification is recorded in AUDIO_SYSTEM.md in the source repository. Old immutable assets remain available for open tabs.
+Before publication: 291 model tests, 39 browser cases, 2 anonymous exact-production cases and 12 original-audio byte checks passed. Real Web Audio PCM output, silent mute and resumed output were measured in Chrome. See release.json for scope and build hashes. Public post-deployment verification is recorded in AUDIO_SYSTEM.md in the source repository. Old immutable assets remain available for open tabs.
+
+Final audio-only correction waits for actual incoming playback before starting synchronized fades, including first gesture. Master/BGM/SFX volume and mute preferences persist through reload. One real delayed-HTTP case, three complete audio cases and one actual PCM/reload case were rerun after this correction; previous gameplay/art regressions remain unchanged.
