@@ -1,16 +1,19 @@
 {
-  "version": "0.19.1",
-  "sourceCommit": "c4fd457cb74f71650c2f37581047d308a5d07836",
-  "builtAt": "2026-11-26T21:32:18.683101+00:00",
+  "version": "0.19.2",
+  "sourceCommit": "7d395ce365cf6c88881a3bf721d22088b97303e2",
+  "builtAt": "2026-11-26T21:53:05.217242+00:00",
   "validation": {
     "model": 306,
-    "browserCases": 2,
+    "browserCases": 5,
     "preparedHashes": 454,
     "originalImagesUnchanged": 149,
-    "originalAudioUnchanged": 12
+    "originalAudioUnchanged": 12,
+    "debugFramesObserved": 1682,
+    "anonymousLocalPhases": 2
   },
-  "validationScope": "Two complete desktop/keyboard and iPad-viewport/touch upper-floor routes, including original third-to-second comics, eight physical-lane answers and second-to-hallway comics. Closed/open room-door proportions, floor anchoring, actor foreground, transparency and first-floor room/exit artwork distinction verified. 306 model tests and exact source TypeScript/Vite build pass. No physics, collision, maps, puzzles, story, CSS or original artwork changed. Physical iPad is not claimed.",
+  "validationScope": "Five Chrome cases: two complete real-input desktop/phone adventures, two desktop/iPad-viewport upper-floor door routes, and a full three-floor/three-room/ending rendering audit with the debug flag enabled. No helper lines, collision/trigger outlines, rectangular underlays or inter-mechanism links are drawn. Existing formal assets load and animate. Physics, maps, puzzles, controls, audio, stories and source artwork unchanged. iPad is emulated, not a physical-device claim. Anonymous exact local build validates two public upper-floor entries and eight HTTP asset hashes; complete natural routes are local regression.",
   "features": [
+    "Removed temporary connector lines, underlays, shadows, bounds and reference marks across every floor; retained model geometry and original formal mechanism/door artwork. Actual ramps use existing floor textures. Puzzle cells and bridge sockets retain transparent containers.",
     "Offline sprite trimming, white-edge removal, frame/feet alignment and seven lossless WebP atlases; no application pixel readback on startup",
     "Staged title, opening, attic, chase, hallway, independent room and ending loading, with original clocks frozen while destinations wait",
     "Shared prioritized three-image loading/decode queue; released stale decoded images; obsolete queued work canceled without deleting HTTP cache",
@@ -1556,14 +1559,14 @@
       "sha256": "9bfef6c3925ee5ac84dbd4d411a43be7ea4d6b296bd5773fd0536c30069b3981"
     },
     {
-      "file": "assets/index-CCDI3QHD.js",
-      "bytes": 355211,
-      "sha256": "e29f2652f1472ff00d145ad6974e10be12f44d63036fd693c0e69aaa02968015"
+      "file": "assets/index-C8EJ45sg.css",
+      "bytes": 101161,
+      "sha256": "a02e218bb9b6dd93d45c71357ee9962cf0b192bee77c3f826711809d8253a84f"
     },
     {
-      "file": "assets/index-kdmsYnas.css",
-      "bytes": 101229,
-      "sha256": "84384df7cc56adbabbc6876ef12f71ffe1e3b060347271fbf52f56e0c0264ef8"
+      "file": "assets/index-ts8IRVbi.js",
+      "bytes": 333032,
+      "sha256": "0a496f1883257947ad066c9c48a26945fbc45d7e1aaa84dd5edf0bc640ae081e"
     },
     {
       "file": "assets/kitchen_puzzle-DkA1XWiK.mp3",
@@ -1638,7 +1641,7 @@
     {
       "file": "index.html",
       "bytes": 2210,
-      "sha256": "6de9a8391ccb9d3ce076dec24a4d519ad0d4d505fdc9f8548464262ce3bc9244"
+      "sha256": "65607ff2a1b3357458d843f6149507f224a25df476139baf54a3fdecca0fef87"
     }
   ],
   "performance": {
@@ -2167,5 +2170,6 @@
     },
     "measuredSourceCommit": "f28f44442d4b917e518d4da646bf722247461d3e",
     "scopeNote": "Performance table is the prior0.19.0 controlled measurement, not remeasured for the0.19.1 visual patch."
-  }
+  },
+  "unchangedFilesFrom0191": 321
 }

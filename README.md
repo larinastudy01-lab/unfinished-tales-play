@@ -2,16 +2,16 @@
 
 Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
 
-Version 0.19.1 replaces both upper-floor temporary exits with the supplied room_door_closed/open artwork. Doors align with the unchanged finish line and cookie floor, behind the characters. The attic door opens on approach; the witch-chase door opens after the original clear condition succeeds. Both reuse the existing 0.24-second crossfade. The first-floor final exit keeps its separate exit_door artwork.
+Version 0.19.2 clears temporary mechanism connectors, translucent platform underlays, collision/trigger outlines, reference marks, placeholder shapes and shadow blocks from all three floors and rooms. Mechanism state is shown through the supplied plates, rising gates, extending bridges, doors and original animations. Actual playable ramps retain existing cookie-floor artwork; model paths and collisions are unchanged. Puzzle selection and bridge sockets no longer display colored rectangle backgrounds. Supplied artwork replaces geometric tutorial diagrams.
 
-Version 0.19.0 introduced offline image trimming, character alignment, seven lossless animation atlases, staged loading and released image/raster caches. These optimizations are preserved.
+Both upper-floor exits retain the paired room_door_closed/open artwork from 0.19.1; only the first-floor final exit uses exit_door artwork. Their positions, sizes, fade and original completion conditions are preserved.
 
-All 47 formal artwork categories, original physics, collisions, puzzles, stories, controls, layout and audio events remain active. Original supplied images and audio are preserved in the source repository. Runtime artwork uses lossless derivatives or smaller unchanged originals; display artwork retains full resolution. Nine BGM files use genuine MP3 derivatives with exact playable sample lengths; the three short sound effects remain unchanged.
+All original physics, puzzles, stories, controls, difficulty, audio events and supplied media remain unchanged. The staged loading and runtime raster cache from 0.19.0 remain active. Every image, audio and Phaser build file matches 0.19.1: 321 of 324 build files are identical; only HTML, application JavaScript and CSS differ. Older immutable assets remain available for open tabs.
 
-Source commit: c4fd457cb74f71650c2f37581047d308a5d07836
+Source commit: 7d395ce365cf6c88881a3bf721d22088b97303e2
 
-Validation for 0.19.1: 306 model tests, exact-source TypeScript/Vite build, and two complete desktop/keyboard and iPad-viewport/touch upper-floor routes passed. Both original comic transitions, all eight physical answer lanes, door states/size/alignment/layering and first-floor room/exit distinction are verified. No images, audio or CSS changed; all 322 other dist files match 0.19.0. Canvas warnings and asset failures are zero in both routes.
+Validation: 306 model tests, 454 artwork/source hash checks, TypeScript/Vite build and five Chrome cases pass. Real-input desktop and phone routes complete both runners, eight physical-lane answers, all three rooms, both cakes, badges, key and original ending. Desktop and iPad-viewport touch routes verify both room doors and comic transitions. An additional 1,682-frame audit with debug enabled finds no helper rectangles, lines, circles, dashed paths, collision outlines or inter-mechanism connectors; formal scene artwork remains loaded. Actual pendulum support uses its existing rope image. No physical iPad verification is claimed.
 
-The previous 0.19.0 full regression (40 Chrome cases, WebKit touch checks and anonymous production flows) remains documented in the source performance report. Its performance figures are labeled with their measured source commit in release.json, rather than presented as new 0.19.1 measurements.
+The exact build also passes two anonymous local upper-floor entries with eight HTTP asset hashes. Published integrity and deployment results are recorded in the source repository's VISUAL_CLEANUP.md and artifacts. Complete natural routes are verified locally, not claimed as a second anonymous production playthrough.
 
-See release.json for exact build hashes and PERFORMANCE_REPORT.md in the source repository for before/after measurements, waterfall analysis, the 20 slowest baseline resources and verification scope. Chrome touch emulation and Windows WebKit do not constitute physical iPad testing. Old published immutable assets remain available for open tabs.
+See release.json for source/build hashes. Earlier performance figures retain their measured 0.19.0 source commit; they are not new 0.19.2 benchmarks.
