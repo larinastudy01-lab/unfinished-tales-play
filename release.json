@@ -1,21 +1,21 @@
 {
-  "version": "0.14.2",
-  "sourceCommit": "c5dce410c3530bd2ee4e3a1ce092059fb4982af8",
-  "builtAt": "2026-11-26T17:16:25.150360+00:00",
+  "version": "0.15.0",
+  "sourceCommit": "5d72ec6ccb228576dda9cc4710e6bd9d5335cade",
+  "builtAt": "2026-11-26T17:39:14.245964+00:00",
   "validation": {
-    "corePassed": 207,
-    "browserPassed": 29,
-    "productionKnowledgeCasesPassed": 3,
+    "corePassed": 216,
+    "browserPassed": 30,
+    "productionKnowledgeCasesPassedLocally": 3,
+    "originalArtworkFilesVerified": 15,
     "compiledAssetsMatchTestedDist": true
   },
-  "validationScope": "Local model and real-input browser tests cover keyboard-only second-floor running, six viewport sizes, absent virtual-control DOM, proportional bottom-aligned rendering, bottom floor pixels, Shift boost, jumps, all eight physical answer lanes, witch chase, cooperation, comics and other floors. Exact-production checkpoint smoke verifies correct, wrong and timeout results at three viewport sizes. Mobile viewports use keyboard input on the second floor; other floors retain their touch controls. Physical gamepad hardware is not claimed.",
+  "validationScope": "Both selected siblings complete both runners, all eight physical questions, three first-floor rooms and the original ending via real controls. A focused legal-route draw audit verifies every formal image is visible, proportional, transparent and connected to its animation state. Local exact-production tests cover correct, wrong and timeout at three viewports. Public post-deployment integrity and smoke results are recorded separately in source deployment documentation. No physical Gamepad hardware is claimed.",
   "features": [
-    "second-floor virtual controls and their container are removed from the DOM",
-    "other floors reuse the original control nodes",
-    "proportional FIT canvas aligned to the bottom only on the active second-floor checkpoint",
-    "existing floor tiles repeat to the bottom during camera zoom",
-    "keyboard movement, Shift, jumps, chase, physics, collisions, maps, questions and cooperative mechanisms retained",
-    "existing centered pause play icon and two-icon toolbar retained"
+    "15 supplied original WebP files covering all 13 formal mechanism and magic categories",
+    "pressure plate frames, cookie lift gates, lollipop fence, extending bridge bases, broken floor edges, candy rope linkages and fixed pendulum axles",
+    "rotating full spell circles, original-speed crescent waves with alpha-aware collision, rescue barrier, full-character golden shield and 11 varied fragment particles",
+    "existing selection, nickname, comics, keyboard controls, Shift boost, three physical answer lanes, maps, puzzle rooms, physics and progression retained",
+    "no second-floor touch-control container; centered pause play icon and two-icon toolbar retained"
   ],
   "files": [
     {
@@ -264,6 +264,11 @@
       "sha256": "6fd12cd2f62b838bd83aea84fd1a36a4ff4e8a3ddf1b49439796a9ca9e939e25"
     },
     {
+      "file": "assets/answer_gate-CVrRIqQX.webp",
+      "bytes": 1356944,
+      "sha256": "121cbcacf0767d7cabc37002da6c2746ec9f2d760cab28c47c94c6aebbee4935"
+    },
+    {
       "file": "assets/audio/.gitkeep",
       "bytes": 1,
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
@@ -339,9 +344,29 @@
       "sha256": "8ffb0e1497f137f5ab42b5890e1d749de3792b74a444392a8fd626f75fb6a03f"
     },
     {
+      "file": "assets/bridge_base-DFaZ6dvZ.webp",
+      "bytes": 2059240,
+      "sha256": "ab47155ddfbff166ce7a3303c8fd30af3756ead29459d9e8f45ea8c887ca4941"
+    },
+    {
+      "file": "assets/broken_floor_left-zki51gxg.webp",
+      "bytes": 2270553,
+      "sha256": "afa3d262c787ff53542afea4610d3d177d09abf14ae50a5de292b2c09f38e8e1"
+    },
+    {
+      "file": "assets/broken_floor_right-BEnFiFYu.webp",
+      "bytes": 1999369,
+      "sha256": "2662e80a7891c6b5a766e8d2f1fd96c99f9f1f042910168bdf6dc72fd84e19ca"
+    },
+    {
       "file": "assets/candy_hammer-fxPcjx-p.webp",
       "bytes": 1118329,
       "sha256": "99b60b6b95c327852f6e9039ea0e98863bb707bba755cbb65ed4fd1cd8d0fcd1"
+    },
+    {
+      "file": "assets/candy_rope-B0U2cRdP.webp",
+      "bytes": 504607,
+      "sha256": "c438ba5f94b2985bfa4356d13a4a0eaa54bced3bf4e3e9850caabbe5afc533a3"
     },
     {
       "file": "assets/characters/.gitkeep",
@@ -352,6 +377,11 @@
       "file": "assets/cookie_background-BxMXsel8.webp",
       "bytes": 2841625,
       "sha256": "77f59dd769d45444ff8493717717696c707676c1d51c781634ab6b88b5d72d43"
+    },
+    {
+      "file": "assets/cookie_gate-C9ywPBGF.webp",
+      "bytes": 2996582,
+      "sha256": "a0207bd3361343233730985b06666303e14190d9a9213e7426c29942a5ed420d"
     },
     {
       "file": "assets/enemies/.gitkeep",
@@ -434,14 +464,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-BIZQofoA.js",
-      "bytes": 229242,
-      "sha256": "bb2d1618720cc1b400b2d1b839e9034fac6da4ffd406e47751ed97d591cf1ae9"
-    },
-    {
       "file": "assets/index-DLENk10P.css",
       "bytes": 91019,
       "sha256": "17cfdbb587ca8bef9fc616578d9b5d0aa09a4dc629b7764061a4737bd97917e2"
+    },
+    {
+      "file": "assets/index-DS5vnwNK.js",
+      "bytes": 234003,
+      "sha256": "8c1e5f2f580793ed9801bcb203121b9c5327115ab86b9212be3d34c6ae57bae1"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -459,6 +489,41 @@
       "sha256": "742e7fbcd7921ff82f8c90fb84fa887299d70b9ec5d5bd0ca4744aca1e7f6e66"
     },
     {
+      "file": "assets/lollipop_gate-BecYXCWE.webp",
+      "bytes": 2570891,
+      "sha256": "0e64492c5f54aff4bbc14d8ef420ac4736217cd61a6fa75f12445ff93e33ff0c"
+    },
+    {
+      "file": "assets/magic_barrier-DDPwdFHQ.webp",
+      "bytes": 1482688,
+      "sha256": "216faa627112100d549f889f736a1690878416c22ffb1819efe96867c581b855"
+    },
+    {
+      "file": "assets/magic_circle-CLJViUXj.webp",
+      "bytes": 2059623,
+      "sha256": "52dcaa2b98445cec91b56d35770b741f37577558251d78a4ce7975cde9f7c0bb"
+    },
+    {
+      "file": "assets/magic_fragment-DaPYftAJ.webp",
+      "bytes": 781759,
+      "sha256": "95bcb87aab72d053c0e1d35f674964699c17aff3d4b0a8db921e66e58747681b"
+    },
+    {
+      "file": "assets/magic_shield-nDX-C5PD.webp",
+      "bytes": 1273734,
+      "sha256": "ac0b4ee051f1c056160d73b4fdcbc0d4e741c24c2029ebe4199a31891a9bd0a6"
+    },
+    {
+      "file": "assets/magic_wave-SmIrv6CD.webp",
+      "bytes": 1950639,
+      "sha256": "a043bd349a415b1a8ae859b0bad4288270046f668bfd9bf8e2541fac55e25a9b"
+    },
+    {
+      "file": "assets/pendulum_anchor-BSZKcr3g.webp",
+      "bytes": 1887476,
+      "sha256": "8e93df628a98e5b3d6374a748411d06f85a91f0bfe678af02d56e6c7f673dee7"
+    },
+    {
       "file": "assets/phaser-DFK5Ua9d.js",
       "bytes": 1208056,
       "sha256": "f9025c1a29bc3ae097dd886ce07717b297466da1ce8f032c8294252ce6cf5cdb"
@@ -467,6 +532,16 @@
       "file": "assets/platform01-B1QKW03g.webp",
       "bytes": 20438,
       "sha256": "718a37477c053b67534142822720ccb627be3eb5e75aa868c3b256bcd599c5d5"
+    },
+    {
+      "file": "assets/pressure_plate_idle-D834hcvk.webp",
+      "bytes": 1344168,
+      "sha256": "c05a73d8369a54471bfd03b5f000fc79627e11d7f616afb171a13f2686954db8"
+    },
+    {
+      "file": "assets/pressure_plate_pressed-8c0j9s_d.webp",
+      "bytes": 1155890,
+      "sha256": "f7df65122fd0fdf0bd3e74aa7d0df621f96f946894fc98df2bdd4cd0c5ee25b4"
     },
     {
       "file": "assets/prick01-DhZngR4L.webp",
@@ -556,7 +631,7 @@
     {
       "file": "index.html",
       "bytes": 2181,
-      "sha256": "87dfe409762f08f3bc62c44b5177219beaadae0f5e0e7da21a0594ed336dbbe1"
+      "sha256": "066626fa430b9063e1db2ddcd784ad63ff158b80abe846944b7bf975886e1b27"
     }
   ]
 }
