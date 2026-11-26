@@ -1,17 +1,13 @@
-# Unfinished Tales - Candy House Adventure: playable build
+# Unfinished Tales — 糖果屋冒險
 
-Play: https://larinastudy01-lab.github.io/unfinished-tales-play/
+[正式試玩](https://larinastudy01-lab.github.io/unfinished-tales-play/)
 
-Version 0.19.2 clears temporary mechanism connectors, translucent platform underlays, collision/trigger outlines, reference marks, placeholder shapes and shadow blocks from all three floors and rooms. Mechanism state is shown through the supplied plates, rising gates, extending bridges, doors and original animations. Actual playable ramps retain existing cookie-floor artwork; model paths and collisions are unchanged. Puzzle selection and bridge sockets no longer display colored rectangle backgrounds. Supplied artwork replaces geometric tutorial diagrams.
+0.20.0 整合第 48–55 類正式美術，累計 55 類、65 張使用者原始圖片。客廳解謎桌、原同伴升降餅乾柱、獨立滑動櫃門、廚房鍋蓋、固定烤爐框與獨立升降門板、共用置物架、儲藏室搭乘升降台皆使用提供的素材。原圖保留，八張執行用 WebP 合計 1,804,934 bytes，依房間載入、共用快取，首頁不載入這八張圖。
 
-Both upper-floor exits retain the paired room_door_closed/open artwork from 0.19.1; only the first-floor final exit uses exit_door artwork. Their positions, sizes, fade and original completion conditions are preserved.
+保留前 174 個圖片登錄、300 個衍生圖片、149 個原始來源與 12 個原始音訊。沿用既有碰撞、物理、三樓與二樓跑酷、三跑道答題、單人兄妹合作、三房解謎、雙蛋糕、三徽章、鑰匙、漫畫、音訊及結局。固定外框與活動門板分開繪製；移動平台踏面與原碰撞同步。沒有新增遊戲介面、提示、虛線或碰撞框。
 
-All original physics, puzzles, stories, controls, difficulty, audio events and supplied media remain unchanged. The staged loading and runtime raster cache from 0.19.0 remain active. Every image, audio and Phaser build file matches 0.19.1: 321 of 324 build files are identical; only HTML, application JavaScript and CSS differ. Older immutable assets remain available for open tabs.
+產品來源 ef4dc30b0998d6f875b905636ae93f31a39f0b62。精確來源 1,416 個 Git blob 相符；340 個正式產物中，322 個與 0.19.2 完全相同。306／306 模型測試、TypeScript、478 項素材雜湊、正式建置及六項瀏覽器案例通過，包括兩名角色完整通關、觸控、房門、幾何清理，以及新機關完整路線。實際踏面核對 4,248 次，最大圖像誤差低於 0.01 px；提前搭乘升降台連續 100 次更新保持腳線、安全落點與平台同步。iPad 為瀏覽器觸控模擬，未宣稱實體裝置測試。
 
-Source commit: 7d395ce365cf6c88881a3bf721d22088b97303e2
+匿名精確建置通過三個房間入口、八張新圖解碼與十二項 HTTP 雜湊核對。條件式升降柱及升降台的實際啟動、搭乘、櫃門與烤爐動畫由本機完整原操作路線驗證；匿名入口不是完整通關證據。原效能比較數字保留其 0.19.0 量測來源，不作為本次新量測。
 
-Validation: 306 model tests, 454 artwork/source hash checks, TypeScript/Vite build and five Chrome cases pass. Real-input desktop and phone routes complete both runners, eight physical-lane answers, all three rooms, both cakes, badges, key and original ending. Desktop and iPad-viewport touch routes verify both room doors and comic transitions. An additional 1,682-frame audit with debug enabled finds no helper rectangles, lines, circles, dashed paths, collision outlines or inter-mechanism connectors; formal scene artwork remains loaded. Actual pendulum support uses its existing rope image. No physical iPad verification is claimed.
-
-The exact build also passes two anonymous local upper-floor entries with eight HTTP asset hashes. Published integrity and deployment results are recorded in the source repository's VISUAL_CLEANUP.md and artifacts. Complete natural routes are verified locally, not claimed as a second anonymous production playthrough.
-
-See release.json for source/build hashes. Earlier performance figures retain their measured 0.19.0 source commit; they are not new 0.19.2 benchmarks.
+完整來源、逐項 1–55 清單與驗收證據位於來源專案 ALL_ART_INTEGRATION.md、DEPLOYMENT.md 及 artifacts/batch4-art-*。此儲存庫僅發布精確建置，release.json 保存來源與產物雜湊。

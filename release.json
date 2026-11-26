@@ -1,18 +1,25 @@
 {
-  "version": "0.19.2",
-  "sourceCommit": "7d395ce365cf6c88881a3bf721d22088b97303e2",
-  "builtAt": "2026-11-26T21:53:05.217242+00:00",
+  "version": "0.20.0",
+  "sourceCommit": "ef4dc30b0998d6f875b905636ae93f31a39f0b62",
+  "builtAt": "2026-11-26T22:24:49.961299+00:00",
   "validation": {
     "model": 306,
-    "browserCases": 5,
-    "preparedHashes": 454,
+    "browserCases": 6,
+    "preparedHashes": 478,
+    "formalCategories": 55,
+    "formalOriginalImages": 65,
     "originalImagesUnchanged": 149,
+    "priorPreparedFilesUnchanged": 300,
     "originalAudioUnchanged": 12,
-    "debugFramesObserved": 1682,
-    "anonymousLocalPhases": 2
+    "newImagesDecoded": 8,
+    "anonymousLocalRooms": 3,
+    "anonymousLocalHashes": 12,
+    "earlyElevatorRideUpdates": 100,
+    "treadChecks": 4248
   },
-  "validationScope": "Five Chrome cases: two complete real-input desktop/phone adventures, two desktop/iPad-viewport upper-floor door routes, and a full three-floor/three-room/ending rendering audit with the debug flag enabled. No helper lines, collision/trigger outlines, rectangular underlays or inter-mechanism links are drawn. Existing formal assets load and animate. Physics, maps, puzzles, controls, audio, stories and source artwork unchanged. iPad is emulated, not a physical-device claim. Anonymous exact local build validates two public upper-floor entries and eight HTTP asset hashes; complete natural routes are local regression.",
+  "validationScope": "Six Chrome cases: complete real-input desktop/phone adventures, desktop/iPad-viewport touch upper-floor routes, full-scene debug-geometry audit and complete eight-new-image mechanism route. Table/lid/shelf/lift treads align with unchanged colliders; original clocks drive sliding cabinet and independently rising oven panel. All eight images enter view. Anonymous exact build verifies three room entries, eight decoded caches and twelve HTTP hashes; conditional rising steps/lift activation are covered by local natural-input route. No physical iPad claim.",
   "features": [
+    "Formal art categories 48-55 integrated from eight supplied unchanged originals. Independent cabinet/oven panels, collision-aligned table/lids/shelves/lift, existing helper-cookie steps and physical lift rails. Eight small runtime WebP derivatives total 1,804,934 bytes; title adds zero new room-image downloads. Prior 174 mappings and 300 prepared image files preserved.",
     "Removed temporary connector lines, underlays, shadows, bounds and reference marks across every floor; retained model geometry and original formal mechanism/door artwork. Actual ramps use existing floor textures. Puzzle cells and bridge sockets retain transparent containers.",
     "Offline sprite trimming, white-edge removal, frame/feet alignment and seven lossless WebP atlases; no application pixel readback on startup",
     "Staged title, opening, attic, chase, hallway, independent room and ending loading, with original clocks frozen while destinations wait",
@@ -23,6 +30,21 @@
     "Both upper-floor exits reuse the original paired room-door artwork, with existing 0.24s crossfade and unchanged clear conditions; only the first-floor final exit uses exit-door artwork."
   ],
   "files": [
+    {
+      "file": "favicon.svg",
+      "bytes": 251,
+      "sha256": "3591ca351f070f6cd64d4b61abd56771f74c8470487713057e97280860a66f55"
+    },
+    {
+      "file": "game-icon.png",
+      "bytes": 1770132,
+      "sha256": "59d0ec3ce977c16d94cda9816f7878c5224bcd884cc0b5b524d3c847f32fc976"
+    },
+    {
+      "file": "index.html",
+      "bytes": 2210,
+      "sha256": "1885c4353798bed1c60bbf2c2d578d36569e965449f9588be672505c6fdd08fa"
+    },
     {
       "file": "assets/006a8d5c13a29b0a4d4e9c28-BaLU1Y6c.jpg",
       "bytes": 114796,
@@ -134,6 +156,11 @@
       "sha256": "1d48764e58f7843451f771a9b7335b988b38f24026b37830c8275a432511372e"
     },
     {
+      "file": "assets/1edb418e885c92c34336564a-DojNv1UD.webp",
+      "bytes": 566602,
+      "sha256": "1edb418e885c92c34336564ac6eee50c7b7f311268bd1e7af6b6257a8a2820bb"
+    },
+    {
       "file": "assets/1eef20251de2d19aff2fb97c-CHSi2X-G.webp",
       "bytes": 253898,
       "sha256": "1eef20251de2d19aff2fb97c1f9620ce3d06b257aa877798b21a2509ed5132bd"
@@ -177,6 +204,16 @@
       "file": "assets/250158b4b4e730f838505be0-CvceOgqc.webp",
       "bytes": 610318,
       "sha256": "250158b4b4e730f838505be0600665af6bd29c747068eb3efd946b12f32b84c8"
+    },
+    {
+      "file": "assets/278bd4c179b1054d6efbbc0d-BR-gqCeh.webp",
+      "bytes": 289554,
+      "sha256": "278bd4c179b1054d6efbbc0d51f10d44ef5c21732ad092133a77fd957a4bcc7a"
+    },
+    {
+      "file": "assets/27d785536715b0152f0f86e2-UzIKXhIx.webp",
+      "bytes": 662138,
+      "sha256": "27d785536715b0152f0f86e285b4441ab2c35f3e187174c0e0b67164f58154cb"
     },
     {
       "file": "assets/28a98b7e0a2377c7f7be1c79-C4KpMN_N.webp",
@@ -249,6 +286,11 @@
       "sha256": "2eb6ead1c36f855ab334006effb746b35f02eaafb6bd6304c72a93fd99e1dcdc"
     },
     {
+      "file": "assets/2f76d6fdcf2e29fdc59afd53-BHwOSPkY.webp",
+      "bytes": 1208914,
+      "sha256": "2f76d6fdcf2e29fdc59afd536e25d3a74863902921b1262f92df79bed32ad472"
+    },
+    {
       "file": "assets/301b1be21ddade1f898172c2-DtXM-Uts.webp",
       "bytes": 334710,
       "sha256": "301b1be21ddade1f898172c2e789ef1657573b5eae19e2139808bc28e0c3b084"
@@ -287,6 +329,11 @@
       "file": "assets/37ef3b0fb50aafc66464a7da-DmBxkRIP.jpg",
       "bytes": 28642,
       "sha256": "37ef3b0fb50aafc66464a7dafcf721832e8b77fe2e08b3d7904195930f964b88"
+    },
+    {
+      "file": "assets/3898b704737d262edef475ff-CJwUQxk9.webp",
+      "bytes": 164188,
+      "sha256": "3898b704737d262edef475ffef9e2e1673dc2d0cb8808208be507c7aba705acc"
     },
     {
       "file": "assets/39e10bc17b1e909496622a4a-D2ufSP0X.webp",
@@ -449,6 +496,11 @@
       "sha256": "4c5f08d6f08d7865e347fa29ac15e16bd15c7e20a877ac227dde090b1167520a"
     },
     {
+      "file": "assets/4c8fde5e5444e1809dc72ddb-BCqx7a0u.webp",
+      "bytes": 163162,
+      "sha256": "4c8fde5e5444e1809dc72ddbaa917e7bfdab188c7e2aaccb9c751c727030c944"
+    },
+    {
       "file": "assets/4d59090812bd8182e68c54f6-CcxWyNIW.webp",
       "bytes": 413818,
       "sha256": "4d59090812bd8182e68c54f652058b9a99ac8324f79cab151aca340c44345f2d"
@@ -514,6 +566,16 @@
       "sha256": "541b75dfb349ccd015cdaf269f182b83a0d3dac95727e3247a219c1edb35bd8f"
     },
     {
+      "file": "assets/545db350e864af144b733bfd-C9GDx2u_.webp",
+      "bytes": 102772,
+      "sha256": "545db350e864af144b733bfdaa76011b8846d163da9103a83ede4700aa5ab4d1"
+    },
+    {
+      "file": "assets/547f26e9f27032d421551fe0-mvGKhez1.webp",
+      "bytes": 240250,
+      "sha256": "547f26e9f27032d421551fe01dfad4c827e43c2d5c16992ef9d7b6c03b680445"
+    },
+    {
       "file": "assets/55004b771ecfe350f76dd8f3-BbP-Gkgm.webp",
       "bytes": 324554,
       "sha256": "55004b771ecfe350f76dd8f36100b699a0cc464d20cf73a0398e4ce4f0de1817"
@@ -554,9 +616,19 @@
       "sha256": "5d38aa56573e1b39eec262d6c18b2333c1616af3e0d716a0a61a959110750bf2"
     },
     {
+      "file": "assets/5dfe5502fdf9f89c582b800c-Xv8GGPZR.webp",
+      "bytes": 1663684,
+      "sha256": "5dfe5502fdf9f89c582b800c9d965b2d1e0944cb1160ce52c22a8e8b430f1243"
+    },
+    {
       "file": "assets/5e0c10c7920b70d343b85752-CvgXo0Ma.webp",
       "bytes": 1334294,
       "sha256": "5e0c10c7920b70d343b857520c57e8c3b8c94f4db821287f579ce74742150da8"
+    },
+    {
+      "file": "assets/5f20a6ed1bff3395e5cdfedc-CMFGRLWM.webp",
+      "bytes": 91626,
+      "sha256": "5f20a6ed1bff3395e5cdfedc5a3fef67eaf5887578c5468f33ba593505193e37"
     },
     {
       "file": "assets/5f845b5158bb851204e922d5-kNdCBiAB.webp",
@@ -634,6 +706,11 @@
       "sha256": "69c4f29b507550b407e2f6bab2300142081963b9a4c3aa2ad887f1684c67bd1d"
     },
     {
+      "file": "assets/6d8ffaa0d926182ed389d40e-ESzyjj-W.webp",
+      "bytes": 711576,
+      "sha256": "6d8ffaa0d926182ed389d40e1aebe96c9f21146846cffdab9e580fca4cebc0b9"
+    },
+    {
       "file": "assets/6e5b16b3206c0c4f55020f5b-BxADfAcI.webp",
       "bytes": 43028,
       "sha256": "6e5b16b3206c0c4f55020f5bbcb469c6f03b29405bc5de08e1d42c2f7632784f"
@@ -702,6 +779,11 @@
       "file": "assets/75936b42b49f33f7f810b778-CiEEDrC8.webp",
       "bytes": 599868,
       "sha256": "75936b42b49f33f7f810b7786ba1b7964aa2558a2a5a8446cbec48fbbfa326a7"
+    },
+    {
+      "file": "assets/77d0c0bfe4d696770ae094a0-Bsn6RNVe.webp",
+      "bytes": 895302,
+      "sha256": "77d0c0bfe4d696770ae094a0446fb8e9eba155736cce750ad07b9b1a251b53c8"
     },
     {
       "file": "assets/7820473ac51573d12fe16839-DcO7MjWc.webp",
@@ -969,6 +1051,11 @@
       "sha256": "a512f884551d80e5d8eb853c50602247d85b82e00ae3c9acf0f0e03e1ee804e9"
     },
     {
+      "file": "assets/a5b01af57b79bbebb67207bb-CiTYIFt3.webp",
+      "bytes": 1107652,
+      "sha256": "a5b01af57b79bbebb67207bb5f0106470d44f6587aa2bf196a327b7448717a27"
+    },
+    {
       "file": "assets/a5d8e24393120ff663f76c78-_r2fMhxK.webp",
       "bytes": 427100,
       "sha256": "a5d8e24393120ff663f76c78717e94bd381951c18342510d93cee9416a60c5b0"
@@ -1019,11 +1106,6 @@
       "sha256": "aeb478d1dc8c71a6325810921b043d27beab91c77749792158ebbbce9d1a3c32"
     },
     {
-      "file": "assets/audio/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
       "file": "assets/b0614679334355d8d1112043-m1rvZQoj.webp",
       "bytes": 477854,
       "sha256": "b0614679334355d8d1112043c5627d193d3d965592cc04b3810723016dfd53ab"
@@ -1037,6 +1119,11 @@
       "file": "assets/b2e0e8fe9122b0c9e7acff58-C5BOb5W2.jpg",
       "bytes": 55415,
       "sha256": "b2e0e8fe9122b0c9e7acff5806f48d1eab241312d6eeb33f188c72c55a2ce8b1"
+    },
+    {
+      "file": "assets/b411267c6d5d735e754073e5-DL8t27bA.webp",
+      "bytes": 186780,
+      "sha256": "b411267c6d5d735e754073e5a0d1e244ea30ee171bbf9d86e91a088f44a303aa"
     },
     {
       "file": "assets/b47134deb1aeb37826032790-C4W5MxUo.webp",
@@ -1074,11 +1161,6 @@
       "sha256": "ba73b0bb7921a89684a24e081f4eea5655b211c3a5239e7b3949d75f7dac7ebf"
     },
     {
-      "file": "assets/backgrounds/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
       "file": "assets/bf8c1017c2ee1126fed0ccb0-CWsmxkWK.webp",
       "bytes": 259780,
       "sha256": "bf8c1017c2ee1126fed0ccb0bac7944c214ad88b4dca64b09d607f26814379f9"
@@ -1092,6 +1174,11 @@
       "file": "assets/bfc4266b891fc919f6a09bee-B8f3Pws7.webp",
       "bytes": 374690,
       "sha256": "bfc4266b891fc919f6a09beedcd12ad445e6c316d5f01d9b173c0676e2b61509"
+    },
+    {
+      "file": "assets/c0a045abb4b19e0649602189-_Ubf4gg-.webp",
+      "bytes": 1644542,
+      "sha256": "c0a045abb4b19e064960218972223d615f7d7083bb5158c9f80edf87f76282f6"
     },
     {
       "file": "assets/c0caada1ed1e5c80bd92f460-tFFhtBsP.jpg",
@@ -1219,11 +1306,6 @@
       "sha256": "cfe4e87cd8cf7148da6a929c078988492299b776f515896bf00374c1137e5eca"
     },
     {
-      "file": "assets/characters/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
       "file": "assets/d059f670803d88f9641c87b3-BpMhpTdj.webp",
       "bytes": 1205272,
       "sha256": "d059f670803d88f9641c87b3d17335c4575bd1c24f7a3586c8f831bb82f09687"
@@ -1292,6 +1374,11 @@
       "file": "assets/dbcdb54d50286575ac075513-8y6soYBs.webp",
       "bytes": 1730478,
       "sha256": "dbcdb54d50286575ac0755133c8df95ceaedc651eec982f7908493200dd49b82"
+    },
+    {
+      "file": "assets/dc3bd2e3e254794ff9f55e76-GplQBR76.webp",
+      "bytes": 2199612,
+      "sha256": "dc3bd2e3e254794ff9f55e7655d8d5466a05e2201ce59921e2ef472be2c30931"
     },
     {
       "file": "assets/dd43bbcbefe6f012b7fb3c88-D8NV7wxW.gif",
@@ -1422,11 +1509,6 @@
       "file": "assets/ending_escape-DKvdwQ7q.mp3",
       "bytes": 1365516,
       "sha256": "8ae91e97b33e5d449c8bc99503a9e21ff0a991b25d1de07119f8999a46d73009"
-    },
-    {
-      "file": "assets/enemies/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "file": "assets/f003da482c18da091bc80285-CD5Wuhks.webp",
@@ -1564,9 +1646,9 @@
       "sha256": "a02e218bb9b6dd93d45c71357ee9962cf0b192bee77c3f826711809d8253a84f"
     },
     {
-      "file": "assets/index-ts8IRVbi.js",
-      "bytes": 333032,
-      "sha256": "0a496f1883257947ad066c9c48a26945fbc45d7e1aaa84dd5edf0bc640ae081e"
+      "file": "assets/index-Cn3Ak_3j.js",
+      "bytes": 341250,
+      "sha256": "d2907ebbb51e240c7a041e293ce5567fdc0e0cb8a7f572005f103e68a776593f"
     },
     {
       "file": "assets/kitchen_puzzle-DkA1XWiK.mp3",
@@ -1604,44 +1686,49 @@
       "sha256": "a9d65200ca57afea0a0ed7eb03349cd9e4f98b8c41450cac9631e24bcef358e2"
     },
     {
-      "file": "assets/ui/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
       "file": "assets/witch_chase-DjBCCj-V.mp3",
       "bytes": 960932,
       "sha256": "46ea61cb81c73838b635f47d3cc915ff8f74eff4331b630f97a1b9e99617962a"
     },
     {
-      "file": "assets/\u653b\u64ca-DqspC8fS.mp3",
+      "file": "assets/攻擊-DqspC8fS.mp3",
       "bytes": 257280,
       "sha256": "d4ce77f8ab9ac2a0205627b0bc90aa9ebb009706cb2430787387d09d59869287"
     },
     {
-      "file": "assets/\u8df3\u8e8d-BLp-MqeS.mp3",
+      "file": "assets/跳躍-BLp-MqeS.mp3",
       "bytes": 35520,
       "sha256": "3d542f91232b31cd1d9f45c50eb22c8c2f9184eb342c00c0548317b332f2913e"
     },
     {
-      "file": "assets/\u901a\u95dc-CLfKBMPx.mp3",
+      "file": "assets/通關-CLfKBMPx.mp3",
       "bytes": 59136,
       "sha256": "f0a73d1b6550d6a140a63fa91ec906f89dcbc2fdece317dbaa81e5093a319629"
     },
     {
-      "file": "favicon.svg",
-      "bytes": 251,
-      "sha256": "3591ca351f070f6cd64d4b61abd56771f74c8470487713057e97280860a66f55"
+      "file": "assets/audio/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
-      "file": "game-icon.png",
-      "bytes": 1770132,
-      "sha256": "59d0ec3ce977c16d94cda9816f7878c5224bcd884cc0b5b524d3c847f32fc976"
+      "file": "assets/backgrounds/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
-      "file": "index.html",
-      "bytes": 2210,
-      "sha256": "65607ff2a1b3357458d843f6149507f224a25df476139baf54a3fdecca0fef87"
+      "file": "assets/characters/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/enemies/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "assets/ui/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     }
   ],
   "performance": {
@@ -2169,7 +2256,10 @@
       ]
     },
     "measuredSourceCommit": "f28f44442d4b917e518d4da646bf722247461d3e",
-    "scopeNote": "Performance table is the prior0.19.0 controlled measurement, not remeasured for the0.19.1 visual patch."
+    "scopeNote": "Performance table is the prior0.19.0 controlled measurement, not remeasured for the0.19.1 visual patch.",
+    "historicalMeasurementVersion": "0.19.0",
+    "historicalMeasurementSource": "f28f44442d4b917e518d4da646bf722247461d3e",
+    "notRemeasuredForThisRelease": true
   },
-  "unchangedFilesFrom0191": 321
+  "unchangedFilesFrom0192": 322
 }
