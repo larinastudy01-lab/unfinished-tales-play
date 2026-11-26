@@ -1,22 +1,21 @@
 {
-  "version": "0.14.1",
-  "sourceCommit": "0e0681a11d2454c8d4230c2f527e52e0378713a8",
-  "builtAt": "2026-11-26T16:56:17.051748+00:00",
+  "version": "0.14.2",
+  "sourceCommit": "c5dce410c3530bd2ee4e3a1ce092059fb4982af8",
+  "builtAt": "2026-11-26T17:16:25.150360+00:00",
   "validation": {
     "corePassed": 207,
-    "browserPassed": 28,
+    "browserPassed": 29,
     "productionKnowledgeCasesPassed": 3,
-    "productionStartCasesPassed": 2,
     "compiledAssetsMatchTestedDist": true
   },
-  "validationScope": "Local real-input tests cover both siblings, all eight physical answers, reachable lanes, keyboard, touch, simulated Gamepad, pause/resume, comics, cooperation and the full adventure. Exact-production local smoke covers correct, wrong and idle timeout at three viewport sizes, plus both startup selections through the opening comic to the third floor. These are not full public playthrough claims.",
+  "validationScope": "Local model and real-input browser tests cover keyboard-only second-floor running, six viewport sizes, absent virtual-control DOM, proportional bottom-aligned rendering, bottom floor pixels, Shift boost, jumps, all eight physical answer lanes, witch chase, cooperation, comics and other floors. Exact-production checkpoint smoke verifies correct, wrong and timeout results at three viewport sizes. Mobile viewports use keyboard input on the second floor; other floors retain their touch controls. Physical gamepad hardware is not claimed.",
   "features": [
-    "single centered original play icon on the blurred pause screen",
-    "only more and fullscreen controls in the top-right toolbar",
-    "restored existing physical three-lane quiz and natural merges",
-    "entrance-aligned biscuit answer signs and three-second circular countdown",
-    "real runner judgment, single settlement and idle timeout",
-    "original questions, maps, art, physics, collision sizes and cooperation retained"
+    "second-floor virtual controls and their container are removed from the DOM",
+    "other floors reuse the original control nodes",
+    "proportional FIT canvas aligned to the bottom only on the active second-floor checkpoint",
+    "existing floor tiles repeat to the bottom during camera zoom",
+    "keyboard movement, Shift, jumps, chase, physics, collisions, maps, questions and cooperative mechanisms retained",
+    "existing centered pause play icon and two-icon toolbar retained"
   ],
   "files": [
     {
@@ -435,14 +434,14 @@
       "sha256": "5123ba479e63c9e6478cf8418e6bc4edbea0c61dee1cb034d86eabba1a7804d0"
     },
     {
-      "file": "assets/index-C2KaLf21.js",
-      "bytes": 228945,
-      "sha256": "2cecfea89cb352fb7d1a1e3a27312016902b5b6ebe4b885bd95426f9e93c8127"
+      "file": "assets/index-BIZQofoA.js",
+      "bytes": 229242,
+      "sha256": "bb2d1618720cc1b400b2d1b839e9034fac6da4ffd406e47751ed97d591cf1ae9"
     },
     {
-      "file": "assets/index-DnywXXI7.css",
-      "bytes": 90878,
-      "sha256": "02d2bdb707fef316fe12633cc26ae1a38b2aeb4e0a3039592f48caa7dadfa1df"
+      "file": "assets/index-DLENk10P.css",
+      "bytes": 91019,
+      "sha256": "17cfdbb587ca8bef9fc616578d9b5d0aa09a4dc629b7764061a4737bd97917e2"
     },
     {
       "file": "assets/login-Dzsqkk25.webp",
@@ -557,7 +556,7 @@
     {
       "file": "index.html",
       "bytes": 2181,
-      "sha256": "4972cdf7bd111b62a29d732bbf5055b510b3c5af8cf7481b9aec92c736224478"
+      "sha256": "87dfe409762f08f3bc62c44b5177219beaadae0f5e0e7da21a0594ed336dbbe1"
     }
   ]
 }
