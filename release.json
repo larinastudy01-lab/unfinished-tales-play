@@ -1,22 +1,21 @@
 {
-  "version": "0.17.0",
-  "sourceCommit": "59df0911d479c306b4fef68f54aaab2abaf86a71",
-  "builtAt": "2026-11-26T18:41:56.235377+00:00",
+  "version": "0.18.0",
+  "sourceCommit": "15d76788aa8021e37a2f85f79f67f76338c44a0d",
+  "builtAt": "2026-11-26T19:28:15.608020+00:00",
   "validation": {
-    "corePassed": 238,
-    "browserPassed": 39,
-    "productionCheckpointsPassedLocally": 3,
-    "originalImageFilesVerifiedLocally": 57,
-    "compiledAssetsMatchTestedDist": true
+    "model": 285,
+    "browser": 38,
+    "anonymousProductionLocal": 2,
+    "originalAudioByteChecks": 12,
+    "unchangedVisualFiles": 156
   },
-  "validationScope": "Both selected siblings complete all three floors and the original ending with real controls locally. Independent visual audits verify all47 formal artwork categories and57 unchanged originals. New natural-damage test verifies the original three-heart rule. Anonymous exact-production checkpoints solve the original two-layer kitchen and storage puzzle, collect one reward and survive an actual reload. Public post-deployment checks are recorded in source deployment documentation. Performance comparison samples14 scenes per version,3360 real RAF total, and does not claim network, GPU or universal-device FPS.",
+  "validationScope": "285 models from exact source; 29 original adventure/physical-lane browser regressions, 5 art/MP3 cases, 3 focused audio lifecycle/full live-input route cases, 1 real Web Audio PCM output case. Two anonymous built checkpoints and twelve original MP3 byte checks passed locally before publication. Public verification is recorded separately in the source repository. Near-EOF seek verifies native ended, not a complete-duration listening test.",
   "features": [
-    "Connected kitchen machine, lever, gears, pipes, outlet, conveyor, receiving tray and packaging follow original causal states",
-    "Original match-three gameplay uses16 measured formal board recesses",
-    "Original6x6 sliding puzzle uses supplied red target, measured grid, exit and physical gate/bridge states",
-    "Storage controller, supported bridge, rising heavy gate and one-interaction reward chest",
-    "Original health rules with image hearts, state-driven gold locks and candy arrow artwork",
-    "All previous28 categories, start selection and nickname, physical three-lane quiz, Shift, Enter, single-player sibling cooperation and original comics retained"
+    "Nine provided streamed BGM tracks with group-aware continuity and crossfades",
+    "Three reusable MP3 SFX voices triggered only by accepted player jump, actual witch release and formal stage/badge/final completion",
+    "Independent quiz and completion ducking; pause/resume offsets, hidden-tab cleanup, retry restart and mute controls",
+    "One-shot opening and full ending sequences; parked hallway progress; handled autoplay rejection",
+    "All previous artwork, controls, physics, three physical lanes, puzzle rules, sibling cooperation and original story preserved"
   ],
   "files": [
     {
@@ -298,6 +297,46 @@
       "file": "assets/badge_slot-B8lrg85a.webp",
       "bytes": 2470459,
       "sha256": "938360e3bb308bb8bcb88abadb2b71c2d9633b83c7bc7d2074fad6182ec3c5db"
+    },
+    {
+      "file": "assets/bgm_attic_runner-RxcE_wJl.mp3",
+      "bytes": 1156255,
+      "sha256": "0b1f010f088dff49eab3789f169d05891224443a62953e2c70a0ba918bf7f62b"
+    },
+    {
+      "file": "assets/bgm_ending_escape-B5De3Uvr.mp3",
+      "bytes": 1690227,
+      "sha256": "35e62a99b46814d5b9adb34d5fe06df127c7c578d2eea69f93f1ceb971a74efd"
+    },
+    {
+      "file": "assets/bgm_hallway_exploration-zW5JqCQX.mp3",
+      "bytes": 1599309,
+      "sha256": "387961d724de2d8c95c349a7f167bc817822e49063ab3fc819700a9adcbdefb0"
+    },
+    {
+      "file": "assets/bgm_kitchen_puzzle-DLUrg8Mv.mp3",
+      "bytes": 1210838,
+      "sha256": "549b63b5f7f26132ed9b29f7599b80a07859fcd73b9e020d27ff54f5b9424a48"
+    },
+    {
+      "file": "assets/bgm_living_room-DHYQO1c2.mp3",
+      "bytes": 1579058,
+      "sha256": "3cbfd029aea0e130358f5b4c564f622bc3828de2e46a862f2377bda100195953"
+    },
+    {
+      "file": "assets/bgm_opening_story-BFxFqMmk.mp3",
+      "bytes": 1303721,
+      "sha256": "7d11629f677a50e6d2d7ee26c98452cb4f71f7b791cb9ffe74339a59f42390fb"
+    },
+    {
+      "file": "assets/bgm_storage_puzzle-BjGPNQnb.mp3",
+      "bytes": 1234759,
+      "sha256": "a515bf68be8d13c85a3351bac92add46a37e362df5518c718d271d102a62ff31"
+    },
+    {
+      "file": "assets/bgm_witch_chase-CA00D2KA.mp3",
+      "bytes": 1093344,
+      "sha256": "e48175497202cd8c229e0e6dcb0656bf54e65eba8e3b52c9983df48ae779653d"
     },
     {
       "file": "assets/biscuit_shield-BrKivIqx.webp",
@@ -610,9 +649,9 @@
       "sha256": "b468d6f4a5e5601abcab465815e815f5a6e9875e44d2d5dc9c6c4935bce2e51e"
     },
     {
-      "file": "assets/index-CfuwTMUH.js",
-      "bytes": 250437,
-      "sha256": "63e9cb9bf1f8208f129d3c456d4388fe0132b7bb580f857ebe75fe37b6ac5b42"
+      "file": "assets/index-BcuE6ZfI.js",
+      "bytes": 263407,
+      "sha256": "6ff5e5f6770e3f49a8b4295605f4fa81a0de12ba57a60b2e46ae89da79da956a"
     },
     {
       "file": "assets/index-kdmsYnas.css",
@@ -830,6 +869,26 @@
       "sha256": "7dde0628537570f19fa2f503449877e078e66f12ffa464c6b6a78bc3bb080cd6"
     },
     {
+      "file": "assets/主題曲-CGMUVSHq.mp3",
+      "bytes": 2277642,
+      "sha256": "b765537c61b47bc68ea87866840f24d2be54650d5036f31f72bbd49ccc138a1d"
+    },
+    {
+      "file": "assets/攻擊-DqspC8fS.mp3",
+      "bytes": 257280,
+      "sha256": "d4ce77f8ab9ac2a0205627b0bc90aa9ebb009706cb2430787387d09d59869287"
+    },
+    {
+      "file": "assets/跳躍-BLp-MqeS.mp3",
+      "bytes": 35520,
+      "sha256": "3d542f91232b31cd1d9f45c50eb22c8c2f9184eb342c00c0548317b332f2913e"
+    },
+    {
+      "file": "assets/通關-CLfKBMPx.mp3",
+      "bytes": 59136,
+      "sha256": "f0a73d1b6550d6a140a63fa91ec906f89dcbc2fdece317dbaa81e5093a319629"
+    },
+    {
       "file": "favicon.svg",
       "bytes": 251,
       "sha256": "3591ca351f070f6cd64d4b61abd56771f74c8470487713057e97280860a66f55"
@@ -842,7 +901,7 @@
     {
       "file": "index.html",
       "bytes": 2181,
-      "sha256": "c7a44b2e37107a7c7aece7df25d663441fec66067ab372192c169d72c3c59610"
+      "sha256": "2f1b824b74b38052ef84f3647a2a5429a4830e7aaebf5fce39cc58c205e498f0"
     }
   ]
 }
