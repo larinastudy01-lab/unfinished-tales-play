@@ -1,28 +1,16 @@
 {
-  "version": "0.22.1",
-  "sourceCommit": "755c6ff8bb551d95c7182865677342d6a646620f",
-  "builtAt": "2026-11-27T05:39:09.521Z",
+  "version": "0.22.2",
+  "sourceCommit": "9664a29e24e3e4951124717e11562ed1e00c5e8d",
+  "builtAt": "2026-11-27T15:47:23.997Z",
   "validation": {
-    "model": 333,
-    "browserCases": 38,
+    "model": 346,
+    "browserCases": 5,
     "formalCategories": 55,
-    "sourceGitBlobsVerified": 1665,
     "exactBuildFiles": 194,
-    "exactBuildBytes": 30389522,
-    "webArtKeys": 182,
-    "webArtUniqueFiles": 165,
-    "webArtBytes": 14123168,
-    "previousDerivativeBytes": 211615296,
-    "publicRuntimeResourceHashes": 188,
-    "publicTitleProfiles": 3,
-    "publicRoomEntries": 3,
-    "publicSceneSamples": 120,
-    "publicSceneFailures": 0,
-    "atlasComparisons": 84,
-    "canvasWarnings": 0,
-    "learningLivePassed": false
+    "exactBuildBytes": 30396410,
+    "unchangedStaticFiles": 191
   },
-  "validationScope": "Anonymous public GitHub Pages new-game to original ending with ordinary keys and puzzle clicks; browser RAF clock accelerated, read-only DevTools JSON observation. 20 actual gameplay events read back as exact Google Sheets rows (1 player, 8 answers, 11 stage, 1 summary), all test=true. Eight correct answers; original three floors, three rooms, badges, key and ending. Replay dedup, real lost-ack reload, formal stats exclusion, three delayed-GET profiles and six delayed-GET/POST scene entries passed. 333 model tests. Apps Script was not changed or redeployed. The prior v0.22.0 performance/art/audio files are unchanged.",
+  "validationScope": "Bounded non-blocking API retries, full-response deadlines, durable original-ID replay and semantic event deduplication. Five local Chrome cases include offline original-input complete adventure and a real 20-second stalled POST. Unchanged Apps Script executed against in-memory sheets: committed response lost, replay inserted zero; no production Sheets writes. Public performance and product verification are recorded after this deployment. The reported 17.65% Apps Script error rate remains unattributed without execution logs.",
   "features": [
     "Right-sized transparent WebP and padded actor atlases; all source originals and original animation timing retained",
     "Shared URL/Promise/decode cache with foreground priority, adaptive concurrency, scene references, warm LRU and finite load/decode/scene deadlines",
@@ -888,9 +876,9 @@
       "sha256": "fd1798afde7a7157eb6191d80309733629442474339115ba173ade5193fb52b3"
     },
     {
-      "file": "assets/index-DGqEXIGX.js",
+      "file": "assets/index-CbWQWQyJ.js",
       "bytes": 31564,
-      "sha256": "ec21d8d5e5b4a693a20ba3b1c7f2c7503e46685020ee7a20087de200e381dc82"
+      "sha256": "13de60818a8cd58e6c88796c0ba43d615094e91263f7c4043b793960f81aa1e9"
     },
     {
       "file": "assets/kitchen_puzzle-DkA1XWiK.mp3",
@@ -918,9 +906,9 @@
       "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
     },
     {
-      "file": "assets/runtime-Bt6Wce4R.js",
-      "bytes": 340970,
-      "sha256": "0cf26ab0ec5ea6d92331e06bd633358fc97fa62691ccfca5d7689348678b5f02"
+      "file": "assets/runtime-AtiEMGGc.js",
+      "bytes": 347858,
+      "sha256": "f9f4ff5e42df240cb76e275152b80f276887470cc7cd853f044464e6fd9368b4"
     },
     {
       "file": "assets/storage_puzzle-uFt88fap.mp3",
@@ -1000,79 +988,7 @@
     {
       "file": "index.html",
       "bytes": 2134,
-      "sha256": "a3729afe8b9c2fe598d36634850bf35798af631240854e18b6a686f741be4c91"
+      "sha256": "ed1524a11665b9ba5d462e9db749b09b0465b12e231780f268b3b4aa64eda852"
     }
-  ],
-  "verifiedAt": "2026-11-27T05:12:59.620Z",
-  "publicPerformance": {
-    "coldNativeTitlePaintMs": {
-      "desktop": 1144,
-      "ipad": 1064,
-      "phone": 880
-    },
-    "warmDiskCacheTitlePaintMs": {
-      "desktop": 276,
-      "ipad": 208,
-      "phone": 224
-    },
-    "gameCanvasFPSRange": [
-      57.6,
-      60.6
-    ],
-    "slowColdScenesStillOver2Seconds": true,
-    "method": "Windows installed Chrome; iPad and phone viewport/touch emulation; actual public URL. Full raw methods and 120 paired rows in source FULL_GAME_PERFORMANCE.md."
-  },
-  "acceptance": {
-    "at": "2026-11-27T06:00:41.920Z",
-    "version": "0.22.1",
-    "source": "755c6ff8bb551d95c7182865677342d6a646620f",
-    "publicProductCommit": "33883359b65a25d1471b112fb569a101b8313c1b",
-    "successfulPagesRun": 45947082399,
-    "appsScriptRedeployed": false,
-    "publicPlayer": "WEBmwykagej",
-    "sessionId": "eb6f50f2-b725-497b-ad77-d2ad530c53b4",
-    "modelTests": 333,
-    "publicGameplayEvents": 20,
-    "actualSheetRows": [
-      {
-        "name": "玩家紀錄",
-        "rows": 1
-      },
-      {
-        "name": "知識題庫",
-        "rows": 8
-      },
-      {
-        "name": "答題紀錄",
-        "rows": 8
-      },
-      {
-        "name": "關卡紀錄",
-        "rows": 11
-      },
-      {
-        "name": "學習成效",
-        "rows": 1
-      }
-    ],
-    "questionVersion": "081c06064fd9996c",
-    "formalStats": {
-      "ok": true,
-      "sessions": 0,
-      "answers": 0,
-      "correct": 0,
-      "accuracy": null,
-      "clears": 0,
-      "perQuestion": {}
-    },
-    "anonymous": true,
-    "duplicateReplaysInserted": 0,
-    "lostAckRecovery": true,
-    "delayedAPIProfiles": 3,
-    "delayedAPIScenes": 6,
-    "unchangedArtAudioAndOtherFiles": 191,
-    "pdfPages": 4,
-    "allPassed": true,
-    "qaSourceCommit": "25a29ce11f1f021d3fdda785170303f888d95a5e"
-  }
+  ]
 }
