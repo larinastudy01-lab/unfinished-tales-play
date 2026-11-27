@@ -4,7 +4,7 @@
   "builtAt": "2026-11-27T04:37:30.179Z",
   "validation": {
     "model": 331,
-    "browserCases": 24,
+    "browserCases": 38,
     "formalCategories": 55,
     "sourceGitBlobsVerified": 1665,
     "exactBuildFiles": 194,
@@ -12,9 +12,17 @@
     "webArtKeys": 182,
     "webArtUniqueFiles": 165,
     "webArtBytes": 14123168,
-    "previousDerivativeBytes": 211615296
+    "previousDerivativeBytes": 211615296,
+    "publicRuntimeResourceHashes": 188,
+    "publicTitleProfiles": 3,
+    "publicRoomEntries": 3,
+    "publicSceneSamples": 120,
+    "publicSceneFailures": 0,
+    "atlasComparisons": 84,
+    "canvasWarnings": 0,
+    "learningLivePassed": false
   },
-  "validationScope": "331 model tests repeated in the exact source archive. 14 focused loading/title cases, 9 original-input full-game/audio/mechanism cases and one actual-art observation case passed locally. iPad/phone are Chrome viewport/touch emulation. Public cold/warm performance and anonymous smoke are recorded separately after this deployment. GAS still returns missing doGet/doPost; no live write success is claimed.",
+  "validationScope": "331 exact-source model tests, 38 local browser cases, 84 atlas sampling comparisons. Public 188 resource hashes, 3 native title/opening/third-floor profiles and 3 room art entries passed. 120 public scene rows paired cold/warm normal/slow with zero load failures. No physical iPad claim. GAS still has missing doGet/doPost; live reads/writes not passed.",
   "features": [
     "Right-sized transparent WebP and padded actor atlases; all source originals and original animation timing retained",
     "Shared URL/Promise/decode cache with foreground priority, adaptive concurrency, scene references, warm LRU and finite load/decode/scene deadlines",
@@ -994,5 +1002,24 @@
       "bytes": 2134,
       "sha256": "3a8a9a0484e52a388873619153b0b1d15c4cd4925f6736c4f3cda52e0130db7e"
     }
-  ]
+  ],
+  "verifiedAt": "2026-11-27T05:12:59.620Z",
+  "publicPerformance": {
+    "coldNativeTitlePaintMs": {
+      "desktop": 1144,
+      "ipad": 1064,
+      "phone": 880
+    },
+    "warmDiskCacheTitlePaintMs": {
+      "desktop": 276,
+      "ipad": 208,
+      "phone": 224
+    },
+    "gameCanvasFPSRange": [
+      57.6,
+      60.6
+    ],
+    "slowColdScenesStillOver2Seconds": true,
+    "method": "Windows installed Chrome; iPad and phone viewport/touch emulation; actual public URL. Full raw methods and 120 paired rows in source FULL_GAME_PERFORMANCE.md."
+  }
 }
