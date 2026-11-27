@@ -1,24 +1,32 @@
 {
-  "version": "0.20.0",
-  "sourceCommit": "ef4dc30b0998d6f875b905636ae93f31a39f0b62",
-  "builtAt": "2026-11-26T22:24:49.961299+00:00",
+  "version": "0.21.0",
+  "sourceCommit": "6e50a5e87d741c24141296ad6f4f67ea3049b0cd",
+  "builtAt": "2026-11-27T00:50:07.121382+00:00",
   "validation": {
-    "model": 306,
-    "browserCases": 6,
-    "preparedHashes": 478,
+    "model": 315,
+    "browserCases": 20,
     "formalCategories": 55,
     "formalOriginalImages": 65,
-    "originalImagesUnchanged": 149,
-    "priorPreparedFilesUnchanged": 300,
-    "originalAudioUnchanged": 12,
-    "newImagesDecoded": 8,
-    "anonymousLocalRooms": 3,
-    "anonymousLocalHashes": 12,
-    "earlyElevatorRideUpdates": 100,
-    "treadChecks": 4248
+    "originalImagesUnchanged": 157,
+    "priorPreparedImagesUnchanged": 316,
+    "priorPublishedMediaUnchanged": 330,
+    "sourceGitBlobsVerified": 1471,
+    "exactBuildFiles": 346,
+    "exactBuildBytes": 227878234,
+    "anonymousLocalTitleProfiles": 3,
+    "anonymousLocalRuntimeTitleHashes": 11,
+    "anonymousLocalRoomEntries": 3,
+    "anonymousLocalFormalArtHashes": 11,
+    "anonymousLocalNewRoomImagesDecoded": 8
   },
-  "validationScope": "Six Chrome cases: complete real-input desktop/phone adventures, desktop/iPad-viewport touch upper-floor routes, full-scene debug-geometry audit and complete eight-new-image mechanism route. Table/lid/shelf/lift treads align with unchanged colliders; original clocks drive sliding cabinet and independently rising oven panel. All eight images enter view. Anonymous exact build verifies three room entries, eight decoded caches and twelve HTTP hashes; conditional rising steps/lift activation are covered by local natural-input route. No physical iPad claim.",
+  "validationScope": "Chrome native-input full adventure regression covers all floors, three physical answer lanes, three rooms, both cakes, badges, key, ending, formal 1-55 art and original audio. Additional title cases hold the engine, inject image failures and delayed comics. Tablet/phone are viewport/touch emulation; no physical iPad claim. Anonymous exact-build smoke is recorded separately.",
   "features": [
+    "Native HTML/CSS title with the original layout, nickname and character selection; deferred engine module does not gate title interaction",
+    "Responsive high-quality WebP title backgrounds: desktop 393168 B, tablet 300664 B, phone 222784 B; all original artwork retained",
+    "Only four title images; original two unnecessary title-blocking image requests removed",
+    "Shared in-flight image/cache/decode work, 8-second image load deadline, 2.5-second decode deadline, one retry and scene cancellation",
+    "Current-comic readiness with non-blocking next-frame preload; original scene-specific loading and game clocks preserved",
+    "Existing AudioManager and playing theme are handed to the engine without restarting music",
     "Formal art categories 48-55 integrated from eight supplied unchanged originals. Independent cabinet/oven panels, collision-aligned table/lids/shelves/lift, existing helper-cookie steps and physical lift rails. Eight small runtime WebP derivatives total 1,804,934 bytes; title adds zero new room-image downloads. Prior 174 mappings and 300 prepared image files preserved.",
     "Removed temporary connector lines, underlays, shadows, bounds and reference marks across every floor; retained model geometry and original formal mechanism/door artwork. Actual ramps use existing floor textures. Puzzle cells and bridge sockets retain transparent containers.",
     "Offline sprite trimming, white-edge removal, frame/feet alignment and seven lossless WebP atlases; no application pixel readback on startup",
@@ -30,21 +38,6 @@
     "Both upper-floor exits reuse the original paired room-door artwork, with existing 0.24s crossfade and unchanged clear conditions; only the first-floor final exit uses exit-door artwork."
   ],
   "files": [
-    {
-      "file": "favicon.svg",
-      "bytes": 251,
-      "sha256": "3591ca351f070f6cd64d4b61abd56771f74c8470487713057e97280860a66f55"
-    },
-    {
-      "file": "game-icon.png",
-      "bytes": 1770132,
-      "sha256": "59d0ec3ce977c16d94cda9816f7878c5224bcd884cc0b5b524d3c847f32fc976"
-    },
-    {
-      "file": "index.html",
-      "bytes": 2210,
-      "sha256": "1885c4353798bed1c60bbf2c2d578d36569e965449f9588be672505c6fdd08fa"
-    },
     {
       "file": "assets/006a8d5c13a29b0a4d4e9c28-BaLU1Y6c.jpg",
       "bytes": 114796,
@@ -1106,6 +1099,11 @@
       "sha256": "aeb478d1dc8c71a6325810921b043d27beab91c77749792158ebbbce9d1a3c32"
     },
     {
+      "file": "assets/audio/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "file": "assets/b0614679334355d8d1112043-m1rvZQoj.webp",
       "bytes": 477854,
       "sha256": "b0614679334355d8d1112043c5627d193d3d965592cc04b3810723016dfd53ab"
@@ -1159,6 +1157,11 @@
       "file": "assets/ba73b0bb7921a89684a24e08-CigcwnTq.webp",
       "bytes": 1406146,
       "sha256": "ba73b0bb7921a89684a24e081f4eea5655b211c3a5239e7b3949d75f7dac7ebf"
+    },
+    {
+      "file": "assets/backgrounds/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "file": "assets/bf8c1017c2ee1126fed0ccb0-CWsmxkWK.webp",
@@ -1304,6 +1307,11 @@
       "file": "assets/cfe4e87cd8cf7148da6a929c-_xhNj05F.webp",
       "bytes": 1659692,
       "sha256": "cfe4e87cd8cf7148da6a929c078988492299b776f515896bf00374c1137e5eca"
+    },
+    {
+      "file": "assets/characters/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "file": "assets/d059f670803d88f9641c87b3-BpMhpTdj.webp",
@@ -1511,6 +1519,11 @@
       "sha256": "8ae91e97b33e5d449c8bc99503a9e21ff0a991b25d1de07119f8999a46d73009"
     },
     {
+      "file": "assets/enemies/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
       "file": "assets/f003da482c18da091bc80285-CD5Wuhks.webp",
       "bytes": 28954,
       "sha256": "f003da482c18da091bc8028560da7cee874f841a360b52d6cf410d3c9250e227"
@@ -1641,14 +1654,14 @@
       "sha256": "9bfef6c3925ee5ac84dbd4d411a43be7ea4d6b296bd5773fd0536c30069b3981"
     },
     {
-      "file": "assets/index-C8EJ45sg.css",
-      "bytes": 101161,
-      "sha256": "a02e218bb9b6dd93d45c71357ee9962cf0b192bee77c3f826711809d8253a84f"
+      "file": "assets/index-BVlsZOok.js",
+      "bytes": 31551,
+      "sha256": "0eee496421ef73d395af612c505132d0ce312e2b31e998cf96006412ddaf6478"
     },
     {
-      "file": "assets/index-Cn3Ak_3j.js",
-      "bytes": 341250,
-      "sha256": "d2907ebbb51e240c7a041e293ce5567fdc0e0cb8a7f572005f103e68a776593f"
+      "file": "assets/index-UgOVtlQY.css",
+      "bytes": 101233,
+      "sha256": "e17f8a1d37be91dd4f459bb7e0b9d6613879dcad63f4fa25c9a259f8ad5014a0"
     },
     {
       "file": "assets/kitchen_puzzle-DkA1XWiK.mp3",
@@ -1676,6 +1689,11 @@
       "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
     },
     {
+      "file": "assets/runtime-pMw99ZEm.js",
+      "bytes": 323586,
+      "sha256": "59d2724c5827ab6d808aae2c46985eaf90c169b011f9ed597e1d54e25596fd4e"
+    },
+    {
       "file": "assets/storage_puzzle-uFt88fap.mp3",
       "bytes": 1281088,
       "sha256": "bc41ff36922f6fb2de24e502032ae20fb224df034fb8e96ba29cc29eb15d660d"
@@ -1684,6 +1702,36 @@
       "file": "assets/theme-C-L37ZZF.mp3",
       "bytes": 1518381,
       "sha256": "a9d65200ca57afea0a0ed7eb03349cd9e4f98b8c41450cac9631e24bcef358e2"
+    },
+    {
+      "file": "assets/title-background-desktop-efbca4a87cfde9981acfd0ac-DXWYGgpl.webp",
+      "bytes": 393168,
+      "sha256": "efbca4a87cfde9981acfd0acf7f6f61fea1949ec364a7e216798e36d66b07e62"
+    },
+    {
+      "file": "assets/title-background-mobile-ce3cfb132c7aeb5088377f11-ctHUnDKQ.webp",
+      "bytes": 222784,
+      "sha256": "ce3cfb132c7aeb5088377f112cda4530af369613a86ab55b3b0688fd46209b80"
+    },
+    {
+      "file": "assets/title-background-tablet-131ad2295cc7be2280dcd0f8-VxHqWl4k.webp",
+      "bytes": 300664,
+      "sha256": "131ad2295cc7be2280dcd0f892c1794ee5bb46aa6c03a15107e019824a2851b1"
+    },
+    {
+      "file": "assets/title-gretel-570b119486973dc985c8a7db-uPLx5QQB.webp",
+      "bytes": 142496,
+      "sha256": "570b119486973dc985c8a7db05b37a23036a09ff211e585322022adf8a10c811"
+    },
+    {
+      "file": "assets/title-start-944c5af5a5fceff313b37800-DYuZDpoN.webp",
+      "bytes": 72746,
+      "sha256": "944c5af5a5fceff313b37800c75a5483fd59be6300766613319ff11118a1131c"
+    },
+    {
+      "file": "assets/ui/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
       "file": "assets/witch_chase-DjBCCj-V.mp3",
@@ -1706,32 +1754,52 @@
       "sha256": "f0a73d1b6550d6a140a63fa91ec906f89dcbc2fdece317dbaa81e5093a319629"
     },
     {
-      "file": "assets/audio/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "file": "favicon.svg",
+      "bytes": 251,
+      "sha256": "3591ca351f070f6cd64d4b61abd56771f74c8470487713057e97280860a66f55"
     },
     {
-      "file": "assets/backgrounds/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "file": "game-icon.png",
+      "bytes": 1770132,
+      "sha256": "59d0ec3ce977c16d94cda9816f7878c5224bcd884cc0b5b524d3c847f32fc976"
     },
     {
-      "file": "assets/characters/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "file": "assets/enemies/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "file": "assets/ui/.gitkeep",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "file": "index.html",
+      "bytes": 2134,
+      "sha256": "d4516290f9e7bddea521f9ee86d54c60d8a5b4736bbad898ab72347b516212bc"
     }
   ],
   "performance": {
+    "comparison": "v0.20.0 versus v0.21.0",
+    "report": "https://github.com/larinastudy01-lab/unfinished-tales/blob/main/STARTUP_PERFORMANCE.md",
+    "artifacts": [
+      "startup-before-0200-final.json",
+      "startup-after-0210.json",
+      "startup-before-0200-ipad13.json",
+      "startup-after-0210-ipad13.json"
+    ],
+    "scope": "One cold/true-disk-cache warm pair per exact production build and emulated viewport. Unthrottled local network; public CDN measurements are recorded separately after deployment. Native Element Timing for actual background render, rAF readiness and trusted input verification for interactivity. Explicit decode waits are not native decoder CPU. Engine CPU/GPU work is deferred, not removed.",
+    "fourImageFileBytes": {
+      "before": 5167418,
+      "desktop": 617076,
+      "tablet": 524572,
+      "phone": 446692
+    },
+    "fullTitleGraphFileBytes": {
+      "before": 7391375,
+      "desktop": 761208,
+      "tablet": 668704,
+      "phone": 590824
+    },
+    "beforeInteractiveAfter": {
+      "explicitDecodeCalls": 0,
+      "canvasCreations": 0,
+      "pixelReadbacks": 0,
+      "longTaskBlockingMs": 0
+    }
+  },
+  "historicalPerformance0190": {
+    "note": "Historical v0.19.0 optimization measurements only; not a measurement of this v0.21.0 release.",
     "scope": "One controlled local cold/warm sample per viewport and build. CDP20MiB/s/40ms, desktop Chrome. Separate real attic FPS samples without trace/throttling. iPad is emulation, not hardware. Full report in source repository PERFORMANCE_REPORT.md.",
     "comparisonArtifact": "artifacts/loading-performance-comparison.json",
     "summary": [
@@ -2261,5 +2329,6 @@
     "historicalMeasurementSource": "f28f44442d4b917e518d4da646bf722247461d3e",
     "notRemeasuredForThisRelease": true
   },
-  "unchangedFilesFrom0192": 322
+  "unchangedFilesFrom0200": 337,
+  "cachePolicy": "Content-hashed asset URLs change with new bytes; old hashed assets remain deployed for cached HTML. GitHub Pages headers are measured, not overridden. No service worker."
 }
