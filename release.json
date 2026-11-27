@@ -3,7 +3,7 @@
   "sourceCommit": "755c6ff8bb551d95c7182865677342d6a646620f",
   "builtAt": "2026-11-27T05:39:09.521Z",
   "validation": {
-    "model": 332,
+    "model": 333,
     "browserCases": 38,
     "formalCategories": 55,
     "sourceGitBlobsVerified": 1665,
@@ -22,7 +22,7 @@
     "canvasWarnings": 0,
     "learningLivePassed": false
   },
-  "validationScope": "Minimal native Window.fetch receiver fix. 332 model tests, typecheck and exact build passed. Actual Chrome complete original gameplay route reached the ending with live Apps Script writes; actual Google Sheets test rows and replay dedup verified. Public end-to-end confirmation follows this deployment. Previous v0.22.0 art, scene loading, cache, audio and gameplay are unchanged.",
+  "validationScope": "Anonymous public GitHub Pages new-game to original ending with ordinary keys and puzzle clicks; browser RAF clock accelerated, read-only DevTools JSON observation. 20 actual gameplay events read back as exact Google Sheets rows (1 player, 8 answers, 11 stage, 1 summary), all test=true. Eight correct answers; original three floors, three rooms, badges, key and ending. Replay dedup, real lost-ack reload, formal stats exclusion, three delayed-GET profiles and six delayed-GET/POST scene entries passed. 333 model tests. Apps Script was not changed or redeployed. The prior v0.22.0 performance/art/audio files are unchanged.",
   "features": [
     "Right-sized transparent WebP and padded actor atlases; all source originals and original animation timing retained",
     "Shared URL/Promise/decode cache with foreground priority, adaptive concurrency, scene references, warm LRU and finite load/decode/scene deadlines",
@@ -1021,5 +1021,58 @@
     ],
     "slowColdScenesStillOver2Seconds": true,
     "method": "Windows installed Chrome; iPad and phone viewport/touch emulation; actual public URL. Full raw methods and 120 paired rows in source FULL_GAME_PERFORMANCE.md."
+  },
+  "acceptance": {
+    "at": "2026-11-27T06:00:41.920Z",
+    "version": "0.22.1",
+    "source": "755c6ff8bb551d95c7182865677342d6a646620f",
+    "publicProductCommit": "33883359b65a25d1471b112fb569a101b8313c1b",
+    "successfulPagesRun": 45947082399,
+    "appsScriptRedeployed": false,
+    "publicPlayer": "WEBmwykagej",
+    "sessionId": "eb6f50f2-b725-497b-ad77-d2ad530c53b4",
+    "modelTests": 333,
+    "publicGameplayEvents": 20,
+    "actualSheetRows": [
+      {
+        "name": "玩家紀錄",
+        "rows": 1
+      },
+      {
+        "name": "知識題庫",
+        "rows": 8
+      },
+      {
+        "name": "答題紀錄",
+        "rows": 8
+      },
+      {
+        "name": "關卡紀錄",
+        "rows": 11
+      },
+      {
+        "name": "學習成效",
+        "rows": 1
+      }
+    ],
+    "questionVersion": "081c06064fd9996c",
+    "formalStats": {
+      "ok": true,
+      "sessions": 0,
+      "answers": 0,
+      "correct": 0,
+      "accuracy": null,
+      "clears": 0,
+      "perQuestion": {}
+    },
+    "anonymous": true,
+    "duplicateReplaysInserted": 0,
+    "lostAckRecovery": true,
+    "delayedAPIProfiles": 3,
+    "delayedAPIScenes": 6,
+    "unchangedArtAudioAndOtherFiles": 191,
+    "pdfPages": 4,
+    "allPassed": true,
+    "qaSourceCommit": "25a29ce11f1f021d3fdda785170303f888d95a5e"
   }
 }
