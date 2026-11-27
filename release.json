@@ -4,13 +4,15 @@
   "builtAt": "2026-11-27T15:47:23.997Z",
   "validation": {
     "model": 346,
-    "browserCases": 5,
+    "browserCases": 6,
     "formalCategories": 55,
     "exactBuildFiles": 194,
     "exactBuildBytes": 30396410,
-    "unchangedStaticFiles": 191
+    "unchangedStaticFiles": 191,
+    "publicSceneMeasurements": 132,
+    "publicAudioSamples": 24
   },
-  "validationScope": "Bounded non-blocking API retries, full-response deadlines, durable original-ID replay and semantic event deduplication. Five local Chrome cases include offline original-input complete adventure and a real 20-second stalled POST. Unchanged Apps Script executed against in-memory sheets: committed response lost, replay inserted zero; no production Sheets writes. Public performance and product verification are recorded after this deployment. The reported 17.65% Apps Script error rate remains unattributed without execution logs.",
+  "validationScope": "346 model/contract tests; typecheck and exact committed build. Six local Chrome fault/recovery cases include actual browser offline, full offline gameplay, real 20-second POST deadline and committed response loss; replay inserted zero in unchanged Code.gs in-memory sheets. Anonymous public artifact completed the original full adventure with 20 unique test events sent only to the local VM; no formal Sheets writes. Public Windows Chrome desktop/tablet/phone emulation: 132 before/after cold/warm scene measurements, zero load failures; 24 MP3 readiness probes. Some cold scene entries still exceed 2 seconds. 191 art/audio/CSS/Phaser files unchanged. Apps Script/API URL/schema unchanged. The reported 17.65% error rate remains unattributed without failed execution logs.",
   "features": [
     "Right-sized transparent WebP and padded actor atlases; all source originals and original animation timing retained",
     "Shared URL/Promise/decode cache with foreground priority, adaptive concurrency, scene references, warm LRU and finite load/decode/scene deadlines",
@@ -990,5 +992,25 @@
       "bytes": 2134,
       "sha256": "ed1524a11665b9ba5d462e9db749b09b0465b12e231780f268b3b4aa64eda852"
     }
-  ]
+  ],
+  "acceptance": {
+    "at": "2026-11-27T16:00:44.531Z",
+    "passed": true,
+    "version": "0.22.2",
+    "sourceCommit": "9664a29e24e3e4951124717e11562ed1e00c5e8d",
+    "publicCommit": "dfa181b611f17a963a93490b466894f162eabd44",
+    "pagesRun": 46028166532,
+    "modelTests": 346,
+    "localChromeCases": 6,
+    "publicMeasuredScenes": 132,
+    "publicOriginalInputEvents": 20,
+    "publicAudioSamples": 24,
+    "actualBrowserOffline": true,
+    "unchangedStaticFiles": 191,
+    "committedLostResponseReplayInserted": 0,
+    "appsScriptModified": false,
+    "productionSheetsWrites": 0,
+    "errorRate1765Resolved": false,
+    "qaSourceCommit": "3e07165d0af2462c88f35540245f6d1e4eb7ebdf"
+  }
 }
