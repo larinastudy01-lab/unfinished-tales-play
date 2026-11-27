@@ -1,6 +1,10 @@
 # Unfinished Tales — 糖果屋冒險
 
-[正式試玩](https://larinastudy01-lab.github.io/unfinished-tales-play/)
+## 0.22.1：Google Sheets 串接修正
+
+修正瀏覽器原生 fetch 的 Window 綁定，讓既有題庫讀取與遊玩紀錄真正送至原 Apps Script API。保留 v0.22.0 所有畫面、55 類美術、音效、玩法與載入最佳化。Google Apps Script 第 2 版及原部署 URL 不變。
+
+專用測試玩家的實際試算表列、去重與正式統計排除已驗證，正式站完整路線驗收文件接續更新。
 
 ## 0.22.0：全場景載入與控制列清理
 

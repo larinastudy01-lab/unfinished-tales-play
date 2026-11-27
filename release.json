@@ -1,14 +1,14 @@
 {
-  "version": "0.22.0",
-  "sourceCommit": "60454deb3cc8a53655e3757203c029573e9bb22a",
-  "builtAt": "2026-11-27T04:37:30.179Z",
+  "version": "0.22.1",
+  "sourceCommit": "755c6ff8bb551d95c7182865677342d6a646620f",
+  "builtAt": "2026-11-27T05:39:09.521Z",
   "validation": {
-    "model": 331,
+    "model": 332,
     "browserCases": 38,
     "formalCategories": 55,
     "sourceGitBlobsVerified": 1665,
     "exactBuildFiles": 194,
-    "exactBuildBytes": 30389494,
+    "exactBuildBytes": 30389522,
     "webArtKeys": 182,
     "webArtUniqueFiles": 165,
     "webArtBytes": 14123168,
@@ -22,7 +22,7 @@
     "canvasWarnings": 0,
     "learningLivePassed": false
   },
-  "validationScope": "331 exact-source model tests, 38 local browser cases, 84 atlas sampling comparisons. Public 188 resource hashes, 3 native title/opening/third-floor profiles and 3 room art entries passed. 120 public scene rows paired cold/warm normal/slow with zero load failures. No physical iPad claim. GAS still has missing doGet/doPost; live reads/writes not passed.",
+  "validationScope": "Minimal native Window.fetch receiver fix. 332 model tests, typecheck and exact build passed. Actual Chrome complete original gameplay route reached the ending with live Apps Script writes; actual Google Sheets test rows and replay dedup verified. Public end-to-end confirmation follows this deployment. Previous v0.22.0 art, scene loading, cache, audio and gameplay are unchanged.",
   "features": [
     "Right-sized transparent WebP and padded actor atlases; all source originals and original animation timing retained",
     "Shared URL/Promise/decode cache with foreground priority, adaptive concurrency, scene references, warm LRU and finite load/decode/scene deadlines",
@@ -888,9 +888,9 @@
       "sha256": "fd1798afde7a7157eb6191d80309733629442474339115ba173ade5193fb52b3"
     },
     {
-      "file": "assets/index-CiwChj1O.js",
+      "file": "assets/index-DGqEXIGX.js",
       "bytes": 31564,
-      "sha256": "36803018403d6443e230e30cc3e9d908f79ac74a99bf486236021008b3994cb1"
+      "sha256": "ec21d8d5e5b4a693a20ba3b1c7f2c7503e46685020ee7a20087de200e381dc82"
     },
     {
       "file": "assets/kitchen_puzzle-DkA1XWiK.mp3",
@@ -918,9 +918,9 @@
       "sha256": "e1a69f3b80431bb175d76bc906dabd85cea55b826506185220181b00d8d05359"
     },
     {
-      "file": "assets/runtime-BgDefDs8.js",
-      "bytes": 340942,
-      "sha256": "3ca1cf91b03c84572a7c52a6e58bdd2d2f42b6d35707f975cf9b2d9938727215"
+      "file": "assets/runtime-Bt6Wce4R.js",
+      "bytes": 340970,
+      "sha256": "0cf26ab0ec5ea6d92331e06bd633358fc97fa62691ccfca5d7689348678b5f02"
     },
     {
       "file": "assets/storage_puzzle-uFt88fap.mp3",
@@ -1000,7 +1000,7 @@
     {
       "file": "index.html",
       "bytes": 2134,
-      "sha256": "3a8a9a0484e52a388873619153b0b1d15c4cd4925f6736c4f3cda52e0130db7e"
+      "sha256": "a3729afe8b9c2fe598d36634850bf35798af631240854e18b6a686f741be4c91"
     }
   ],
   "verifiedAt": "2026-11-27T05:12:59.620Z",
